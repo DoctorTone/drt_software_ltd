@@ -1,0 +1,14 @@
+body {
+  background-color: #252525;
+  color: #fff;
+}
+.rounded {
+  border-radius: 50%;
+  width: 190px;
+}
+.plus-jakarta-sans-main {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
