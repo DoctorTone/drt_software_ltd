@@ -37,7 +37,7 @@ const NavBar = () => {
           sx={{
             backgroundColor: "#252525",
             borderRadius: "10px",
-            color: "white",
+            color: "#fff",
             width: { xs: "90%", sm: "70%", md: "90%", lg: "75%" },
             left: { xs: "5%", sm: "17.5%", md: "5%", lg: "12.5%" },
             marginTop: "10px",
@@ -62,6 +62,7 @@ const NavBar = () => {
                 anchorEl={anchorEl}
                 open={open}
                 onClose={handleClose}
+                color="white"
               >
                 <MenuItem
                   component="a"
@@ -117,15 +118,15 @@ const NavBar = () => {
                 variant="h6"
                 component="a"
                 href="#demos_page"
-                sx={{ textDecoration: "none", color: "orange" }}
+                sx={{ textDecoration: "none", color: "white" }}
               >
-                Examples
+                Projects
               </Typography>
               <Typography
                 variant="h6"
                 component="a"
                 href="#services_page"
-                sx={{ textDecoration: "none", color: "orange" }}
+                sx={{ textDecoration: "none", color: "white" }}
               >
                 Services
               </Typography>
@@ -133,7 +134,7 @@ const NavBar = () => {
                 variant="h6"
                 component="a"
                 href="#about_page"
-                sx={{ textDecoration: "none", color: "orange" }}
+                sx={{ textDecoration: "none", color: "white" }}
               >
                 About
               </Typography>
@@ -141,29 +142,16 @@ const NavBar = () => {
                 variant="h6"
                 component="a"
                 href="#contact_page"
-                sx={{ textDecoration: "none", color: "orange" }}
+                sx={{
+                  textDecoration: "none",
+                  color: "white",
+                  border: "2px solid purple",
+                  borderRadius: "10px",
+                  padding: "5px 7px",
+                }}
               >
-                Contact
+                Work With Me
               </Typography>
-              <Typography
-                variant="h6"
-                component="a"
-                href="https://drt-software.com/Portfolio/"
-                target="_blank"
-                sx={{ textDecoration: "none", color: "orange" }}
-              >
-                Portfolio
-              </Typography>
-            </Box>
-            <Box component="div" sx={{ display: "flex", ml: "auto" }}>
-              <Button
-                component="a"
-                href="https://calendly.com/tony-mdjh/30min"
-                target="_blank"
-                variant="contained"
-              >
-                Schedule a call
-              </Button>
             </Box>
           </Toolbar>
         </AppBar>
