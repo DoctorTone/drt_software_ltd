@@ -5,10 +5,8 @@ import Grid from "@mui/material/Grid2";
 
 const Img = styled("img")({
   display: "block",
-  border: "2px solid #e0e0e0",
   borderRadius: "20px",
-  width: "95%",
-  padding: "10px",
+  width: "100%",
 });
 
 const Projects = () => {
@@ -16,7 +14,9 @@ const Projects = () => {
     <Container>
       <Grid container spacing={2}>
         <Grid size={6}>
-          <Img src="./images/effects.jpg" alt="projects" />
+          <div className="bordered">
+            <Img src="./images/effects.jpg" alt="projects" />
+          </div>
         </Grid>
         <Grid size={6}>
           <Img src="./images/effects.jpg" alt="projects" />
