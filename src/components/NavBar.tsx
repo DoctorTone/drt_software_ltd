@@ -108,50 +108,61 @@ const NavBar = () => {
                 paddingTop: "5px",
                 paddingBottom: "5px",
                 display: { xs: "none", md: "flex" },
-                justifyContent: "flex-start",
+                flexGrow: 1,
                 alignItems: "center",
                 gap: "50px",
               }}
             >
               <Img src="./images/drtLogo.png" />
-              <Typography
-                variant="h6"
-                component="a"
-                href="#demos_page"
-                sx={{ textDecoration: "none", color: "white" }}
-              >
-                Projects
-              </Typography>
-              <Typography
-                variant="h6"
-                component="a"
-                href="#services_page"
-                sx={{ textDecoration: "none", color: "white" }}
-              >
-                Services
-              </Typography>
-              <Typography
-                variant="h6"
-                component="a"
-                href="#about_page"
-                sx={{ textDecoration: "none", color: "white" }}
-              >
-                About
-              </Typography>
-              <Typography
-                variant="h6"
-                component="a"
-                href="#contact_page"
+              <Box
+                component="div"
                 sx={{
-                  textDecoration: "none",
-                  color: "white",
-                  border: "2px solid purple",
-                  borderRadius: "10px",
-                  padding: "5px 7px",
+                  display: "flex",
+                  gap: "50px",
+                  flexGrow: 1,
+                  justifyContent: "flex-end",
+                  alignItems: "center",
                 }}
               >
-                Work With Me
-              </Typography>
+                <Typography
+                  variant="h6"
+                  component="a"
+                  href="#demos_page"
+                  sx={{ textDecoration: "none", color: "white" }}
+                >
+                  Projects
+                </Typography>
+                <Typography
+                  variant="h6"
+                  component="a"
+                  href="#services_page"
+                  sx={{ textDecoration: "none", color: "white" }}
+                >
+                  Services
+                </Typography>
+                <Typography
+                  variant="h6"
+                  component="a"
+                  href="#about_page"
+                  sx={{ textDecoration: "none", color: "white" }}
+                >
+                  About
+                </Typography>
+                <Typography
+                  variant="h6"
+                  component="a"
+                  href="#contact_page"
+                  sx={{
+                    textDecoration: "none",
+                    color: "white",
+                    border: "2px solid purple",
+                    borderRadius: "10px",
+                    padding: "5px 7px",
+                  }}
+                >
+                  Work With Me
+                </Typography>
+              </Box>
             </Box>
           </Toolbar>
         </AppBar>
