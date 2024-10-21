@@ -69,7 +69,7 @@ const NavBar = () => {
                   href="#demos_page"
                   onClick={handleClose}
                 >
-                  Examples
+                  Projects
                 </MenuItem>
                 <MenuItem
                   component="a"
@@ -80,25 +80,24 @@ const NavBar = () => {
                 </MenuItem>
                 <MenuItem
                   component="a"
-                  href="#about_page"
+                  href="#services_page"
                   onClick={handleClose}
                 >
                   About
                 </MenuItem>
                 <MenuItem
                   component="a"
-                  href="#contact_page"
+                  href="#about_page"
                   onClick={handleClose}
+                  sx={{
+                    textDecoration: "none",
+                    color: "white",
+                    border: "2px solid purple",
+                    borderRadius: "10px",
+                    padding: "5px 7px",
+                  }}
                 >
-                  Contact
-                </MenuItem>
-                <MenuItem
-                  component="a"
-                  href="https://drt-software.com/Portfolio/"
-                  target="_blank"
-                  onClick={handleClose}
-                >
-                  Portfolio
+                  Work With Me
                 </MenuItem>
               </Menu>
             </Box>
