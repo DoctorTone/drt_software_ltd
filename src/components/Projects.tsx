@@ -13,6 +13,9 @@ const Img = styled("img")({
 const Projects = () => {
   return (
     <Container>
+      <Typography variant="h4" sx={{ mt: 3 }}>
+        Recent Projects
+      </Typography>
       <Grid container spacing={2}>
         <Grid size={6}>
           <div className="bordered">

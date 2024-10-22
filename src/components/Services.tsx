@@ -8,6 +8,7 @@ const Img = styled("img")({
   borderRadius: "20px",
   width: "100%",
   border: "2px solid #00ff00",
+  padding: "16px",
 });
 
 const Services = () => {
@@ -16,18 +17,18 @@ const Services = () => {
       <Typography variant="h4" sx={{ mt: 3 }}>
         Services
       </Typography>
-      <Grid container spacing={2}>
+      <Grid container spacing={2} sx={{ mt: 3 }}>
         <Grid size={6}>
           <Img src="./images/portfolio.jpg" alt="projects" />
         </Grid>
         <Grid size={6} sx={{ textAlign: "center" }}>
-          <Typography variant="h4">3D Websites</Typography>
+          <Typography variant="h3">3D Websites</Typography>
           <Typography variant="body1">
             I build websites that are responsive, fast and secure.
           </Typography>
         </Grid>
       </Grid>
-      <Grid container spacing={2}>
+      <Grid container spacing={2} sx={{ mt: 3 }}>
         <Grid size={6} sx={{ textAlign: "center" }}>
           <Typography variant="h4">3D Websites</Typography>
           <Typography variant="body1">
