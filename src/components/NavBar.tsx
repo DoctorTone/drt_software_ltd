@@ -64,6 +64,14 @@ const NavBar = () => {
                 onClose={handleClose}
                 color="white"
               >
+                <Typography
+                  variant="h6"
+                  component="a"
+                  href="#demos_page"
+                  sx={{ textDecoration: "none", color: "orange" }}
+                >
+                  enquiries@drt-software.com
+                </Typography>
                 <MenuItem
                   component="a"
                   href="#demos_page"
