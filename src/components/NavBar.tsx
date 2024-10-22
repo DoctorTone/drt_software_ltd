@@ -97,7 +97,7 @@ const NavBar = () => {
                     padding: "5px 7px",
                   }}
                 >
-                  Work With Me
+                  Contact
                 </MenuItem>
               </Menu>
             </Box>
@@ -123,6 +123,14 @@ const NavBar = () => {
                   alignItems: "center",
                 }}
               >
+                <Typography
+                  variant="h6"
+                  component="a"
+                  href="#demos_page"
+                  sx={{ textDecoration: "none", color: "orange" }}
+                >
+                  enquiries@drt-software.com
+                </Typography>
                 <Typography
                   variant="h6"
                   component="a"
@@ -159,7 +167,7 @@ const NavBar = () => {
                     padding: "5px 7px",
                   }}
                 >
-                  Work With Me
+                  Message
                 </Typography>
               </Box>
             </Box>
