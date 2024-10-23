@@ -1,10 +1,12 @@
 body {
-  background-color: #252525;
+  background-color: #2b2b2c;
   color: #fff;
 }
 .rounded {
   border-radius: 50%;
+  border: 10px solid rgb(231, 145, 15);
   width: 190px;
+  box-shadow: 0px 0px 0px 0.75rem #505050;
 }
 .roundedSmall {
   border-radius: 50%;
