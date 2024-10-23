@@ -95,6 +95,13 @@ const NavBar = () => {
                 </MenuItem>
                 <MenuItem
                   component="a"
+                  href="#services_page"
+                  onClick={handleClose}
+                >
+                  Testimonials
+                </MenuItem>
+                <MenuItem
+                  component="a"
                   href="#about_page"
                   onClick={handleClose}
                   sx={{
@@ -154,6 +161,14 @@ const NavBar = () => {
                   sx={{ textDecoration: "none", color: "white" }}
                 >
                   Services
+                </Typography>
+                <Typography
+                  variant="h6"
+                  component="a"
+                  href="#about_page"
+                  sx={{ textDecoration: "none", color: "white" }}
+                >
+                  Testimonials
                 </Typography>
                 <Typography
                   variant="h6"

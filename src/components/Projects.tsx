@@ -1,4 +1,3 @@
-import React from "react";
 import Container from "@mui/material/Container";
 import { styled } from "@mui/material/styles";
 import Grid from "@mui/material/Grid2";
@@ -13,8 +12,8 @@ const Img = styled("img")({
 const Projects = () => {
   return (
     <Container>
-      <Typography variant="h4" sx={{ mt: 3 }}>
-        Recent Projects
+      <Typography variant="h4" sx={{ mt: 3, mb: 2, color: "#386fc7" }}>
+        Projects
       </Typography>
       <Grid container spacing={2}>
         <Grid size={6}>

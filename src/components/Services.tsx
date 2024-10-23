@@ -14,7 +14,7 @@ const Img = styled("img")({
 const Services = () => {
   return (
     <Container>
-      <Typography variant="h4" sx={{ mt: 3 }}>
+      <Typography variant="h4" sx={{ mt: 5, color: "#386fc7" }}>
         Services
       </Typography>
       <Grid container spacing={2} sx={{ mt: 3 }}>
