@@ -1,4 +1,3 @@
-import React from "react";
 import { Box, Container, Typography } from "@mui/material";
 import { styled } from "@mui/material/styles";
 import Grid from "@mui/material/Grid2";
@@ -17,7 +16,7 @@ const Services = () => {
       <Box sx={{ mt: 5, background: "#404040", borderRadius: "20px" }}>
         <Grid container spacing={2} sx={{ mt: 3, padding: "30px" }}>
           <Grid size={6}>
-            <Img src="./images/portfolio.jpg" alt="projects" />
+            <Img src="./images/portfolio2.jpg" alt="projects" />
           </Grid>
           <Grid size={6} sx={{ textAlign: "center" }}>
             <Typography variant="h5" color="#386fc7">

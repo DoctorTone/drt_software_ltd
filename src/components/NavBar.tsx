@@ -3,7 +3,6 @@ import AppBar from "@mui/material/AppBar";
 import { styled } from "@mui/material/styles";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
-import Button from "@mui/material/Button";
 import { Box, Container } from "@mui/material";
 import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
@@ -35,12 +34,11 @@ const NavBar = () => {
           className="sticky"
           elevation={0}
           sx={{
-            backgroundColor: "#252525",
+            backgroundColor: "#2b2b2b",
             borderRadius: "10px",
             color: "#fff",
             width: { xs: "90%", sm: "70%", md: "90%", lg: "75%" },
             left: { xs: "5%", sm: "17.5%", md: "5%", lg: "12.5%" },
-            marginTop: "10px",
           }}
         >
           <Toolbar>
