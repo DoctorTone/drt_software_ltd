@@ -6,6 +6,10 @@ body {
   border-radius: 50%;
   width: 190px;
 }
+.roundedSmall {
+  border-radius: 50%;
+  width: 100px;
+}
 .plus-jakarta-sans-main {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-optical-sizing: auto;
