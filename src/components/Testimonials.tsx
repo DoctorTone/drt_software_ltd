@@ -12,8 +12,11 @@ const Testimonials = () => {
   const fadeOutNextTestimonial = () => {
     const elem = document.getElementById("testimonial-text");
     elem!.classList.add("fade");
+    const reviewer = document.getElementById("testimonial-reviewer");
+    reviewer!.classList.add("fade");
     setTimeout(() => {
       elem!.classList.remove("fade");
+      reviewer!.classList.remove("fade");
       if (currentTestimonial === testimonials.length - 1) {
         setCurrentTestimonial(0);
       } else {
@@ -25,8 +28,11 @@ const Testimonials = () => {
   const fadeOutPreviousTestimonial = () => {
     const elem = document.getElementById("testimonial-text");
     elem!.classList.add("fade");
+    const reviewer = document.getElementById("testimonial-reviewer");
+    reviewer!.classList.add("fade");
     setTimeout(() => {
       elem!.classList.remove("fade");
+      reviewer!.classList.remove("fade");
       if (currentTestimonial === 0) {
         setCurrentTestimonial(testimonials.length - 1);
       } else {
@@ -44,17 +50,20 @@ const Testimonials = () => {
   };
 
   return (
-    <Container sx={{ mt: 5, mb: 5 }}>
+    <Container sx={{ mt: 15, mb: 15 }}>
       <Grid container>
         <Grid size={2} sx={{ textAlign: "center" }}>
           <ArrowBackIosIcon onClick={previousTestimonial} />
         </Grid>
         <Grid size={8} sx={{ textAlign: "center" }}>
-          <Typography variant="h5" color="#386fc7">
+          <Typography variant="h5" color="#386fc7" sx={{ mb: 3 }}>
             Testimonials
           </Typography>
           <Typography variant="h5" id="testimonial-text">
             {testimonials[currentTestimonial].text}
+          </Typography>
+          <Typography variant="h5" color="orange" id="testimonial-reviewer">
+            {testimonials[currentTestimonial].reviewer}
           </Typography>
         </Grid>
         <Grid size={2} sx={{ textAlign: "center" }}>

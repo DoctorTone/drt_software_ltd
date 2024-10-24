@@ -12,14 +12,14 @@ const Img = styled("img")({
 
 const Services = () => {
   return (
-    <Container>
+    <Container sx={{ mt: 15 }}>
       <Box sx={{ mt: 5, background: "#404040", borderRadius: "20px" }}>
         <Grid container spacing={2} sx={{ mt: 3, padding: "30px" }}>
           <Grid size={6}>
             <Img src="./images/portfolio2.jpg" alt="projects" />
           </Grid>
           <Grid size={6} sx={{ textAlign: "center" }}>
-            <Typography variant="h5" color="#386fc7">
+            <Typography variant="h5" color="orange">
               Services
             </Typography>
             <Typography variant="h3">3D Websites</Typography>
