@@ -42,27 +42,41 @@ const ContactModal = ({ open, handleClose }: ContactModalProps) => {
           <Typography id="modal-modal-title" variant="h5" sx={{ mb: 2 }}>
             Please get in touch
           </Typography>
-          <TextField label="Name" variant="outlined" fullWidth sx={{ mb: 2 }} />
+          <TextField
+            label="Name"
+            name="userName"
+            variant="outlined"
+            fullWidth
+            sx={{ mb: 2 }}
+            required
+          />
           <TextField
             label="Email"
+            name="userEmail"
             variant="outlined"
             fullWidth
             type="email"
             sx={{ mb: 2 }}
+            required
           />
           <TextField
             label="Phone"
             variant="outlined"
             fullWidth
             type="tel"
+            name="userPhone"
             sx={{ mb: 2 }}
+            required
           />
           <TextField
             label="Message"
             variant="outlined"
             fullWidth
             multiline
+            maxRows={3}
+            name="userText"
             sx={{ mb: 2 }}
+            required
           />
           <Button type="submit" variant="contained" sx={{ mb: 2 }}>
             Submit
