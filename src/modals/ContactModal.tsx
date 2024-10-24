@@ -3,6 +3,7 @@ import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import Modal from "@mui/material/Modal";
+import TextField from "@mui/material/TextField";
 
 const style = {
   position: "absolute",
@@ -12,7 +13,8 @@ const style = {
   color: "black",
   width: 400,
   bgcolor: "background.paper",
-  border: "2px solid #000",
+  border: "6px solid blue",
+  borderRadius: "20px",
   boxShadow: 24,
   p: 4,
 };
@@ -31,12 +33,46 @@ const ContactModal = ({ open, handleClose }: ContactModalProps) => {
         aria-describedby="modal-modal-description"
         onClose={handleClose}
       >
-        <Box sx={style}>
-          <Typography id="modal-modal-title" variant="h6" component="h2">
-            Text in a modal
+        <Box
+          sx={style}
+          component="form"
+          action="https://usebasin.com/f/da50ea670849"
+          method="POST"
+        >
+          <Typography id="modal-modal-title" variant="h5" sx={{ mb: 2 }}>
+            Please get in touch
           </Typography>
-          <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-            Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
+          <TextField label="Name" variant="outlined" fullWidth sx={{ mb: 2 }} />
+          <TextField
+            label="Email"
+            variant="outlined"
+            fullWidth
+            type="email"
+            sx={{ mb: 2 }}
+          />
+          <TextField
+            label="Phone"
+            variant="outlined"
+            fullWidth
+            type="tel"
+            sx={{ mb: 2 }}
+          />
+          <TextField
+            label="Message"
+            variant="outlined"
+            fullWidth
+            multiline
+            sx={{ mb: 2 }}
+          />
+          <Button type="submit" variant="contained" sx={{ mb: 2 }}>
+            Submit
+          </Button>
+          <Typography
+            id="modal-modal-title"
+            variant="h6"
+            sx={{ mb: 2, textAlign: "center" }}
+          >
+            I aim to respond within one working day
           </Typography>
         </Box>
       </Modal>
