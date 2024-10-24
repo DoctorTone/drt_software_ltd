@@ -17,7 +17,13 @@ const Projects = () => {
         <Grid container spacing={2} sx={{ mt: 3, padding: "30px" }}>
           <Grid size={{ xs: 12, md: 6 }}>
             <div className="bordered">
-              <Img src="./images/museum.jpg" alt="projects" />
+              <a
+                href="https://www.youtube.com/watch?v=iM7GL6MC7M4&t=2s"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <Img src="./images/museum.jpg" alt="projects" />
+              </a>
               <Typography className="hoverText" variant="h4">
                 Virtual Art Gallery
               </Typography>
@@ -31,18 +37,24 @@ const Projects = () => {
               Virtual Art Gallery
             </Typography>
             <Typography variant="body1">
-              You can view realistic art pieces, such as a single painting or a
-              gallery where collections are situated in adjoining rooms,
-              potentially allowing the gallery to go on forever! The artefacts
-              looked stunning as they were 3D scans of the originals. This
-              allowed artists to display and potentially sell their artwork from
-              anywhere in the world. Alternatively, it allows famous pieces of
-              art to be put on display so that you can get a chance to view the
-              Mona Lisa or a Constable up close! For the ultimate sense of
-              realism, you can view the pieces in VR - seeing the pieces through
-              a headset takes the experience to another level! The project is
-              still ongoing and has already recruited artists to exhibit on the
-              platform. You can get a sense of the experience below:
+              Imagine a virtual gallery where you can experience the art as if
+              you were relly there. You can view a single piece in a room or
+              view multiple pieces in a gallery and even extend the structure to
+              as many rooms as you like.
+            </Typography>
+            <Typography variant="body1">
+              The pieces look stunning as they are 3D scans of the originals.
+              This opens up the possibility of artists being able to display and
+              sell their work from anywhere in the world. We can even create
+              copies of famous pieces, so that you could get a chance to see a
+              Da Vinci, a Goya or a Constable up close! For the ultimate sense
+              of realism, you can view the pieces in VR - seeing the pieces
+              through a headset takes the experience to another level!
+            </Typography>
+            <Typography variant="body1">
+              The ArtXR technology has now been used in real world art galleries
+              to showcase work like never before. Click on the image for a video
+              of the technlogy in action.
             </Typography>
           </Grid>
         </Grid>
@@ -57,16 +69,26 @@ const Projects = () => {
               3D Data Visualisation
             </Typography>
             <Typography variant="body1">
-              Data visualisation does not have to be confined to two dimensions,
-              we can use the additional space of 3D to express the information
-              more effectively. I have visualised data from many fields
-              including climate, sports, finance, medical, financial and many
-              others.
+              Data visualisation is commonly associated with bar charts, pie
+              charts and dashboards in a two-dimensional setting, but this does
+              not have to be the case. We can use the additional space of 3D to
+              arrange the data more effectively. I have visualised data from
+              many fields including climate, sports, finance, medical, financial
+              and many others.
+            </Typography>
+            <Typography variant="body1">
+              Click on the image to interact with a demo.
             </Typography>
           </Grid>
           <Grid size={{ xs: 12, md: 6 }}>
             <div className="bordered">
-              <Img src="./images/dataViz.jpg" alt="projects" />
+              <a
+                href="https://www.drt-software.com/SleepViz/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <Img src="./images/dataViz.jpg" alt="projects" />
+              </a>
               <Typography className="hoverText" variant="h4">
                 3D Data Visualisation
               </Typography>
