@@ -60,16 +60,15 @@ const NavBar = () => {
                 anchorEl={anchorEl}
                 open={open}
                 onClose={handleClose}
-                color="white"
               >
-                <Typography
-                  variant="h6"
+                <MenuItem
                   component="a"
-                  href="#demos_page"
-                  sx={{ textDecoration: "none", color: "orange" }}
+                  href="mailto:enquiries@drt-software.com"
+                  onClick={handleClose}
+                  sx={{ color: "orange" }}
                 >
                   enquiries@drt-software.com
-                </Typography>
+                </MenuItem>
                 <MenuItem
                   component="a"
                   href="#demos_page"
@@ -104,13 +103,12 @@ const NavBar = () => {
                   onClick={handleClose}
                   sx={{
                     textDecoration: "none",
-                    color: "white",
                     border: "2px solid purple",
                     borderRadius: "10px",
                     padding: "5px 7px",
                   }}
                 >
-                  Contact
+                  Message
                 </MenuItem>
               </Menu>
             </Box>

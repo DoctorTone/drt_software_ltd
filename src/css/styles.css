@@ -65,3 +65,7 @@ body {
   animation: fadeOut 1s;
   opacity: 0;
 }
+.MuiMenu-list {
+  background-color: #2b2b2b;
+  color: #fff;
+}
