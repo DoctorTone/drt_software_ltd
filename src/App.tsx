@@ -12,6 +12,7 @@ function App() {
       <NavBar />
       <TopSection />
       <Projects />
+      <div id="services_page"></div>
       <Services />
       <Testimonials />
       <About />

@@ -71,7 +71,7 @@ const NavBar = () => {
                 </MenuItem>
                 <MenuItem
                   component="a"
-                  href="#demos_page"
+                  href="#projects_page"
                   onClick={handleClose}
                 >
                   Projects
@@ -145,7 +145,7 @@ const NavBar = () => {
                 <Typography
                   variant="h6"
                   component="a"
-                  href="#demos_page"
+                  href="#projects_page"
                   sx={{ textDecoration: "none", color: "white" }}
                 >
                   Projects
@@ -161,7 +161,7 @@ const NavBar = () => {
                 <Typography
                   variant="h6"
                   component="a"
-                  href="#about_page"
+                  href="#testimonials_page"
                   sx={{ textDecoration: "none", color: "white" }}
                 >
                   Testimonials

@@ -50,7 +50,7 @@ const Testimonials = () => {
   };
 
   return (
-    <Container sx={{ mt: 15, mb: 15 }}>
+    <Container sx={{ mt: 15, mb: 15 }} id="testimonials_page">
       <Grid container>
         <Grid size={2} sx={{ textAlign: "center" }}>
           <ArrowBackIosIcon onClick={previousTestimonial} />

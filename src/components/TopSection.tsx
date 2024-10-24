@@ -1,4 +1,3 @@
-import React from "react";
 import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
 
@@ -17,7 +16,7 @@ const TopSection = () => {
         light, with the latest cutting-edge technology. Your customers will love
         it, your competitors will be jealous!
       </Typography>
-      <Typography variant="h6" sx={{ mt: 3 }}>
+      <Typography variant="h6" sx={{ mt: 3 }} id="projects_page">
         Here are a collection of projects that showcase some of my work.
       </Typography>
     </Container>
