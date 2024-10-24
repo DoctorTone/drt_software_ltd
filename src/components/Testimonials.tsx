@@ -59,7 +59,7 @@ const Testimonials = () => {
           <Typography variant="h5" color="#386fc7" sx={{ mb: 3 }}>
             Testimonials
           </Typography>
-          <Typography variant="h5" id="testimonial-text">
+          <Typography variant="h5" id="testimonial-text" sx={{ mb: 2 }}>
             {testimonials[currentTestimonial].text}
           </Typography>
           <Typography variant="h5" color="orange" id="testimonial-reviewer">

@@ -31,7 +31,7 @@ const About = () => {
               academic institutions. I am passionate about all things 3D and
               have built applications in virtual reality, data visualisation, 3D
               graphical tools, simulation and many more. Let's create something
-              fantastic!
+              fantastic together!
             </Typography>
           </Grid>
         </Grid>

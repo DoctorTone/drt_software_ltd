@@ -14,6 +14,7 @@ function App() {
       <Projects />
       <div id="services_page"></div>
       <Services />
+      <div id="testimonials_page"></div>
       <Testimonials />
       <About />
       <Footer />
