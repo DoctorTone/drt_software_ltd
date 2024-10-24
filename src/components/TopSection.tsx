@@ -13,8 +13,9 @@ const TopSection = () => {
         technology can do for you and your business. I don't just build
         pretty-looking websites and applications, I help accelerate your
         business impact and recognition by showing off your products in a new
-        light, with the latest cutting-edge technology. Your customers will love
-        it, your competitors will be jealous!
+        light, with the latest cutting-edge technology. You will be nearer to
+        your business goals, your customers will love it and your competitors
+        will be jealous!
       </Typography>
       <Typography variant="h6" sx={{ mt: 3 }} id="projects_page">
         Here are a collection of projects that showcase some of my work.

@@ -5,6 +5,7 @@ import Services from "./components/Services";
 import Testimonials from "./components/Testimonials";
 import About from "./components/About";
 import Footer from "./components/Footer";
+import Social from "./components/Social";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <div id="testimonials_page"></div>
       <Testimonials />
       <About />
+      <Social />
       <Footer />
     </>
   );
