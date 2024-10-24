@@ -8,6 +8,7 @@ import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
 import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
+import ContactModal from "../modals/ContactModal";
 
 const Img = styled("img")({
   display: "block",
@@ -17,6 +18,7 @@ const Img = styled("img")({
 
 const NavBar = () => {
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
+  const [openModal, setOpenModal] = useState(false);
 
   const handleOpenNavMenu = (event: React.MouseEvent<HTMLButtonElement>) => {
     setAnchorEl(event.currentTarget);
@@ -26,6 +28,14 @@ const NavBar = () => {
     setAnchorEl(null);
   };
   const open = Boolean(anchorEl);
+
+  const handleOpenModal = () => {
+    setOpenModal(true);
+  };
+
+  const handleCloseModal = () => {
+    setOpenModal(false);
+  };
 
   return (
     <Container>
@@ -177,7 +187,8 @@ const NavBar = () => {
                 <Typography
                   variant="h6"
                   component="a"
-                  href="#contact_page"
+                  href="#"
+                  onClick={handleOpenModal}
                   sx={{
                     textDecoration: "none",
                     color: "white",
@@ -193,6 +204,7 @@ const NavBar = () => {
           </Toolbar>
         </AppBar>
       </Box>
+      <ContactModal open={openModal} handleClose={handleCloseModal} />
     </Container>
   );
 };
