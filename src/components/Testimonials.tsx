@@ -9,20 +9,38 @@ import testimonials from "../data/testimonials";
 const Testimonials = () => {
   const [currentTestimonial, setCurrentTestimonial] = useState(0);
 
+  const fadeOutNextTestimonial = () => {
+    const elem = document.getElementById("testimonial-text");
+    elem!.classList.add("fade");
+    setTimeout(() => {
+      elem!.classList.remove("fade");
+      if (currentTestimonial === testimonials.length - 1) {
+        setCurrentTestimonial(0);
+      } else {
+        setCurrentTestimonial(currentTestimonial + 1);
+      }
+    }, 1200);
+  };
+
+  const fadeOutPreviousTestimonial = () => {
+    const elem = document.getElementById("testimonial-text");
+    elem!.classList.add("fade");
+    setTimeout(() => {
+      elem!.classList.remove("fade");
+      if (currentTestimonial === 0) {
+        setCurrentTestimonial(testimonials.length - 1);
+      } else {
+        setCurrentTestimonial(currentTestimonial - 1);
+      }
+    }, 1200);
+  };
+
   const previousTestimonial = () => {
-    if (currentTestimonial === 0) {
-      setCurrentTestimonial(testimonials.length - 1);
-    } else {
-      setCurrentTestimonial(currentTestimonial - 1);
-    }
+    fadeOutPreviousTestimonial();
   };
 
   const nextTestimonial = () => {
-    if (currentTestimonial === testimonials.length - 1) {
-      setCurrentTestimonial(0);
-    } else {
-      setCurrentTestimonial(currentTestimonial + 1);
-    }
+    fadeOutNextTestimonial();
   };
 
   return (
@@ -32,7 +50,10 @@ const Testimonials = () => {
           <ArrowBackIosIcon onClick={previousTestimonial} />
         </Grid>
         <Grid size={8} sx={{ textAlign: "center" }}>
-          <Typography variant="h5">
+          <Typography variant="h5" color="#386fc7">
+            Testimonials
+          </Typography>
+          <Typography variant="h5" id="testimonial-text">
             {testimonials[currentTestimonial].text}
           </Typography>
         </Grid>
