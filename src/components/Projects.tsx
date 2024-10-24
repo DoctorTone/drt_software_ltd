@@ -209,9 +209,9 @@ const Projects = () => {
         <Grid container spacing={2} sx={{ mt: 3, padding: "30px" }}>
           <Grid size={{ xs: 12, md: 6 }}>
             <div className="bordered">
-              <Img src="./images/spline.jpg" alt="projects" />
+              <Img src="./images/medical.jpg" alt="projects" />
               <Typography className="hoverText" variant="h4">
-                Spline Components
+                3D Medical Visualisation
               </Typography>
             </div>
           </Grid>
@@ -219,7 +219,7 @@ const Projects = () => {
             <Typography variant="h5" color="#386fc7">
               Projects
             </Typography>
-            <Typography variant="h3">Spline Components</Typography>
+            <Typography variant="h3">3D Medical Visualisation</Typography>
             <Typography variant="body1">
               You can view realistic art pieces, such as a single painting or a
               gallery where collections are situated in adjoining rooms,
