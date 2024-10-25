@@ -20,7 +20,10 @@ const Projects = () => {
     <Container>
       <Box sx={{ mt: 5, background: "#404040", borderRadius: "20px" }}>
         <Grid container spacing={2} sx={{ mt: 3, padding: "30px" }}>
-          <Grid size={{ xs: 12, md: 6 }}>
+          <Grid
+            size={{ xs: 12, md: 6 }}
+            sx={{ display: "flex", alignItems: "center" }}
+          >
             <div className="bordered">
               <a
                 href="https://www.youtube.com/watch?v=iM7GL6MC7M4&t=2s"
