@@ -3,6 +3,11 @@ import { styled } from "@mui/material/styles";
 import Grid from "@mui/material/Grid2";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
+import List from "@mui/material/List";
+import ListItem from "@mui/material/ListItem";
+import ListItemIcon from "@mui/material/ListItemIcon";
+import ListItemText from "@mui/material/ListItemText";
+import AutoAwesomeIcon from "@mui/icons-material/AutoAwesome";
 
 const Img = styled("img")({
   display: "block",
@@ -115,18 +120,46 @@ const Projects = () => {
             </Typography>
             <Typography variant="body1">
               Websites built with 3D technology can open up a whole new world of
-              possibilities right in your browser: ✨Enhanced engagement -
-              interact with 3D models, feel more involved. ✨Improved
-              visualisation - see realistic products from any angle.
-              ✨Innovative branding - 3D websites tell your story differently.
-              ✨Increased visitors - engaging and interactive sites encourage
-              visitors, who are more tempted to stay. ✨Compelling experiences -
-              highly interactive sites provide increased depth and context.
-              ✨Competitive edge - your site will have an edge over your
-              competitors. The enhanced look and feel of your website will make
-              you stand out from the crowd, reinforcing your message whilst
-              looking pretty impressive!
+              possibilities right in your browser:
             </Typography>
+            <List>
+              <ListItem>
+                <ListItemIcon>
+                  <AutoAwesomeIcon color="primary" />
+                </ListItemIcon>
+                <ListItemText primary="Enhanced engagement - interact with 3D models, feel more involved." />
+              </ListItem>
+              <ListItem>
+                <ListItemIcon>
+                  <AutoAwesomeIcon color="primary" />
+                </ListItemIcon>
+                <ListItemText primary="Improved visualisation - see realistic products from any angle." />
+              </ListItem>
+              <ListItem>
+                <ListItemIcon>
+                  <AutoAwesomeIcon color="primary" />
+                </ListItemIcon>
+                <ListItemText primary="Innovative branding - 3D websites tell your story differently." />
+              </ListItem>
+              <ListItem>
+                <ListItemIcon>
+                  <AutoAwesomeIcon color="primary" />
+                </ListItemIcon>
+                <ListItemText primary="Increased visitors - engaging and interactive sites encourage visitors, who are more tempted to stay." />
+              </ListItem>
+              <ListItem>
+                <ListItemIcon>
+                  <AutoAwesomeIcon color="primary" />
+                </ListItemIcon>
+                <ListItemText primary="Compelling experiences - highly interactive sites provide increased depth and context." />
+              </ListItem>
+              <ListItem>
+                <ListItemIcon>
+                  <AutoAwesomeIcon color="primary" />
+                </ListItemIcon>
+                <ListItemText primary="Competitive edge - your site will have an edge over your competitors." />
+              </ListItem>
+            </List>
           </Grid>
         </Grid>
       </Box>
