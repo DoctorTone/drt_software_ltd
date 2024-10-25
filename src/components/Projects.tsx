@@ -105,7 +105,13 @@ const Projects = () => {
         <Grid container spacing={2} sx={{ mt: 3, padding: "30px" }}>
           <Grid size={{ xs: 12, md: 6 }}>
             <div className="bordered">
-              <Img src="./images/portfolio.jpg" alt="projects" />
+              <a
+                href="https://drt-software.com/Portfolio/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <Img src="./images/portfolio.jpg" alt="projects" />
+              </a>
               <Typography className="hoverText" variant="h4">
                 3D Websites
               </Typography>
@@ -181,7 +187,13 @@ const Projects = () => {
           </Grid>
           <Grid size={{ xs: 12, md: 6 }}>
             <div className="bordered">
-              <Img src="./images/configurator.jpg" alt="projects" />
+              <a
+                href="https://drt-software.com/Demos/Configurator/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <Img src="./images/configurator.jpg" alt="projects" />
+              </a>
               <Typography className="hoverText" variant="h4">
                 3D Configurators
               </Typography>
@@ -193,7 +205,13 @@ const Projects = () => {
         <Grid container spacing={2} sx={{ mt: 3, padding: "30px" }}>
           <Grid size={{ xs: 12, md: 6 }}>
             <div className="bordered">
-              <Img src="./images/space.jpg" alt="projects" />
+              <a
+                href="https://www.drt-software.com/Solar/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <Img src="./images/space.jpg" alt="projects" />
+              </a>
               <Typography className="hoverText" variant="h4">
                 Physics and Simulation
               </Typography>
@@ -234,7 +252,13 @@ const Projects = () => {
           </Grid>
           <Grid size={{ xs: 12, md: 6 }}>
             <div className="bordered">
-              <Img src="./images/spline.jpg" alt="projects" />
+              <a
+                href="https://my.spline.design/textdemo-61df54446b5ffc181ac8ed02b55444fe/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <Img src="./images/spline.jpg" alt="projects" />
+              </a>
               <Typography className="hoverText" variant="h4">
                 Spline Components
               </Typography>
@@ -246,7 +270,13 @@ const Projects = () => {
         <Grid container spacing={2} sx={{ mt: 3, padding: "30px" }}>
           <Grid size={{ xs: 12, md: 6 }}>
             <div className="bordered">
-              <Img src="./images/medical.jpg" alt="projects" />
+              <a
+                href="https://www.drt-software.com/MedicalViz/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <Img src="./images/medical.jpg" alt="projects" />
+              </a>
               <Typography className="hoverText" variant="h4">
                 3D Medical Visualisation
               </Typography>
