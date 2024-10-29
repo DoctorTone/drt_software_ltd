@@ -23,7 +23,6 @@ const Services = () => {
             size={6}
             sx={{
               textAlign: "center",
-              padding: "0px 20px 0px 30px",
             }}
           >
             <Typography variant="h5" color="orange">
@@ -34,7 +33,7 @@ const Services = () => {
             </Typography>
             <Typography
               variant="body1"
-              sx={{ textAlign: "justify", padding: "0px 20px 0px 30px" }}
+              sx={{ textAlign: "justify", padding: "0px 20px 0px 40px" }}
             >
               <p>
                 3D technology can create a website that looks amazing, or an
@@ -55,10 +54,7 @@ const Services = () => {
       </Box>
       <Box sx={{ mt: 5, background: "#404040", borderRadius: "20px" }}>
         <Grid container spacing={2} sx={{ mt: 3, padding: "30px" }}>
-          <Grid
-            size={6}
-            sx={{ textAlign: "center", padding: "0px 20px 0px 30px" }}
-          >
+          <Grid size={6} sx={{ textAlign: "center" }}>
             <Typography variant="h5" color="orange">
               Services
             </Typography>
@@ -67,7 +63,7 @@ const Services = () => {
             </Typography>
             <Typography
               variant="body1"
-              sx={{ textAlign: "justify", padding: "0px 20px 0px 30px" }}
+              sx={{ textAlign: "justify", padding: "0px 30px 0px 20px" }}
             >
               <p>
                 Imagine being able to guide your visitors through a virtual
@@ -97,10 +93,7 @@ const Services = () => {
           <Grid size={6}>
             <Img src="./images/covid.jpg" alt="projects" />
           </Grid>
-          <Grid
-            size={6}
-            sx={{ textAlign: "center", padding: "0px 20px 0px 30px" }}
-          >
+          <Grid size={6} sx={{ textAlign: "center" }}>
             <Typography variant="h5" color="orange">
               Services
             </Typography>
@@ -109,7 +102,7 @@ const Services = () => {
             </Typography>
             <Typography
               variant="body1"
-              sx={{ textAlign: "justify", padding: "0px 20px 0px 30px" }}
+              sx={{ textAlign: "justify", padding: "0px 20px 0px 40px" }}
             >
               <p>
                 Visualising data in three dimensions can make it a lot easier to
@@ -142,7 +135,7 @@ const Services = () => {
             </Typography>
             <Typography
               variant="body1"
-              sx={{ textAlign: "justify", padding: "0px 20px 0px 30px" }}
+              sx={{ textAlign: "justify", padding: "0px 30px 0px 20px" }}
             >
               <p>
                 Spline is a web application that allows you to create
@@ -165,10 +158,7 @@ const Services = () => {
           <Grid size={6}>
             <Img src="./images/consult.jpg" alt="projects" />
           </Grid>
-          <Grid
-            size={6}
-            sx={{ textAlign: "center", padding: "0px 20px 0px 30px" }}
-          >
+          <Grid size={6} sx={{ textAlign: "center" }}>
             <Typography variant="h5" color="orange">
               Services
             </Typography>
@@ -177,7 +167,7 @@ const Services = () => {
             </Typography>
             <Typography
               variant="body1"
-              sx={{ textAlign: "justify", padding: "0px 20px 0px 30px" }}
+              sx={{ textAlign: "justify", padding: "0px 20px 0px 40px" }}
             >
               <p>
                 If you are stuck on what direction to take with your project, or
