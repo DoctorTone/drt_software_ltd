@@ -15,6 +15,26 @@ const Img = styled("img")({
   width: "100%",
 });
 
+const items = [
+  "Enhanced engagement - interact with 3D models, feel more involved.",
+  "Improved visualisation - see realistic products from any angle.",
+  "Innovative branding - 3D websites tell your story differently.",
+  "Increased visitors - engaging and interactive sites encourage visitors, who are more tempted to stay.",
+  "Compelling experiences - highly interactive sites provide increased depth and context.",
+  "Competitive edge - your site will have an edge over your competitors.",
+];
+
+const generateListItems = (items: string[]) => {
+  return items.map((item, index) => (
+    <ListItem key={index}>
+      <ListItemIcon>
+        <AutoAwesomeIcon color="warning" />
+      </ListItemIcon>
+      <ListItemText primary={item} />
+    </ListItem>
+  ));
+};
+
 const Projects = () => {
   return (
     <Container>
@@ -44,25 +64,33 @@ const Projects = () => {
             <Typography variant="h3" sx={{ mb: 3 }}>
               Virtual Art Gallery
             </Typography>
-            <Typography variant="body1">
-              Imagine a virtual gallery where you can experience the art as if
-              you were relly there. You can view a single piece in a room or
-              view multiple pieces in a gallery and even extend the structure to
-              as many rooms as you like.
-            </Typography>
-            <Typography variant="body1">
-              The pieces look stunning as they are 3D scans of the originals.
-              This opens up the possibility of artists being able to display and
-              sell their work from anywhere in the world. We can even create
-              copies of famous pieces, so that you could get a chance to see a
-              Da Vinci, a Goya or a Constable up close! For the ultimate sense
-              of realism, you can view the pieces in VR - seeing the pieces
-              through a headset takes the experience to another level!
-            </Typography>
-            <Typography variant="body1">
-              The ArtXR technology has now been used in real world art galleries
-              to showcase work like never before. Click on the image for a video
-              of the technlogy in action.
+            <Typography
+              variant="body1"
+              sx={{ textAlign: "justify", padding: "0px 20px 0px 30px" }}
+            >
+              <p>
+                Imagine a virtual gallery where you can experience the art as if
+                you were relly there. You can view a single piece in a room or
+                view multiple pieces in a gallery and even extend the structure
+                to as many rooms as you like.
+              </p>
+              <p>
+                The pieces look stunning as they are 3D scans of the originals.
+                This opens up the possibility of artists being able to display
+                and sell their work from anywhere in the world. We can even
+                create copies of famous pieces, so that you could get a chance
+                to see a Da Vinci, a Goya or a Constable up close!
+              </p>
+              <p>
+                For the ultimate sense of realism, you can view the pieces in VR
+                - seeing the pieces through a headset takes the experience to
+                another level!
+              </p>
+              <p>
+                The ArtXR technology has now been used in real world art
+                galleries to showcase work like never before. Click on the image
+                for a video of the technlogy in action.
+              </p>
             </Typography>
           </Grid>
         </Grid>
@@ -76,13 +104,20 @@ const Projects = () => {
             <Typography variant="h3" sx={{ mb: 3 }}>
               3D Data Visualisation
             </Typography>
-            <Typography variant="body1">
-              Data visualisation is commonly associated with bar charts, pie
-              charts and dashboards in a two-dimensional setting, but this does
-              not have to be the case. We can use the additional space of 3D to
-              arrange the data more effectively. I have visualised data from
-              many fields including climate, sports, finance, medical, financial
-              and many others.
+            <Typography
+              variant="body1"
+              sx={{ textAlign: "justify", padding: "0px 20px 0px 30px" }}
+            >
+              <p>
+                Data visualisation is commonly associated with bar charts, pie
+                charts and dashboards in a two-dimensional setting, but this
+                does not have to be the case.
+              </p>{" "}
+              <p>
+                We can use the additional space of 3D to arrange the data more
+                effectively. I have visualised data from many fields including
+                climate, sports, finance, medical, financial and many others.
+              </p>
             </Typography>
             <Typography variant="body1">
               Click on the image to interact with a demo.
@@ -137,44 +172,7 @@ const Projects = () => {
               Websites built with 3D technology can open up a whole new world of
               possibilities right in your browser:
             </Typography>
-            <List>
-              <ListItem>
-                <ListItemIcon>
-                  <AutoAwesomeIcon color="primary" />
-                </ListItemIcon>
-                <ListItemText primary="Enhanced engagement - interact with 3D models, feel more involved." />
-              </ListItem>
-              <ListItem>
-                <ListItemIcon>
-                  <AutoAwesomeIcon color="primary" />
-                </ListItemIcon>
-                <ListItemText primary="Improved visualisation - see realistic products from any angle." />
-              </ListItem>
-              <ListItem>
-                <ListItemIcon>
-                  <AutoAwesomeIcon color="primary" />
-                </ListItemIcon>
-                <ListItemText primary="Innovative branding - 3D websites tell your story differently." />
-              </ListItem>
-              <ListItem>
-                <ListItemIcon>
-                  <AutoAwesomeIcon color="primary" />
-                </ListItemIcon>
-                <ListItemText primary="Increased visitors - engaging and interactive sites encourage visitors, who are more tempted to stay." />
-              </ListItem>
-              <ListItem>
-                <ListItemIcon>
-                  <AutoAwesomeIcon color="primary" />
-                </ListItemIcon>
-                <ListItemText primary="Compelling experiences - highly interactive sites provide increased depth and context." />
-              </ListItem>
-              <ListItem>
-                <ListItemIcon>
-                  <AutoAwesomeIcon color="primary" />
-                </ListItemIcon>
-                <ListItemText primary="Competitive edge - your site will have an edge over your competitors." />
-              </ListItem>
-            </List>
+            <List>{generateListItems(items)}</List>
           </Grid>
         </Grid>
       </Box>
@@ -187,7 +185,7 @@ const Projects = () => {
             <Typography variant="h3" sx={{ mb: 3 }}>
               3D Configurators
             </Typography>
-            <Typography variant="body1">
+            <Typography variant="body1" sx={{ padding: "0px 20px 0px 30px" }}>
               I have built a range of product configurators for several sectors
               such as the bathroom, furniture and construction industries; each
               one allowing customers to preview products before they make a
@@ -239,7 +237,7 @@ const Projects = () => {
             <Typography variant="h3" sx={{ mb: 3 }}>
               Physics and Simulation
             </Typography>
-            <Typography variant="body1">
+            <Typography variant="body1" sx={{ padding: "0px 20px 0px 30px" }}>
               The web isn't just confined to visualisations, it's also capable
               of the realistic simulation of many things from solar systems to
               atomic structures. Here are a couple of examples: ### The Solar
@@ -259,7 +257,7 @@ const Projects = () => {
             <Typography variant="h3" sx={{ mb: 3 }}>
               Spline Components
             </Typography>
-            <Typography variant="body1">
+            <Typography variant="body1" sx={{ padding: "0px 20px 0px 30px" }}>
               While building several websites in Spline, I created a set of
               reusable components. This component shows a collection of animated
               text effects and materials.
@@ -307,7 +305,7 @@ const Projects = () => {
             <Typography variant="h3" sx={{ mb: 3 }}>
               3D Medical Visualisation
             </Typography>
-            <Typography variant="body1">
+            <Typography variant="body1" sx={{ padding: "0px 20px 0px 30px" }}>
               Medical imaging software can be very complex and expensive, with a
               steep learning curve. We wanted to create an application that
               could be used to measure and monitor tumour lesions that was
