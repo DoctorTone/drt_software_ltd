@@ -147,7 +147,7 @@ const NavBar = () => {
                 <Typography
                   variant="h6"
                   component="a"
-                  href="#demos_page"
+                  href="mailto:enquiries@drt-software.com"
                   sx={{ textDecoration: "none", color: "orange" }}
                 >
                   enquiries@drt-software.com

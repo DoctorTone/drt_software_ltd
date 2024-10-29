@@ -18,7 +18,10 @@ const Services = () => {
           <Grid size={6}>
             <Img src="./images/portfolio2.jpg" alt="projects" />
           </Grid>
-          <Grid size={6} sx={{ textAlign: "center" }}>
+          <Grid
+            size={6}
+            sx={{ textAlign: "center", padding: "0px 20px 0px 30px" }}
+          >
             <Typography variant="h5" color="orange">
               Services
             </Typography>
@@ -26,7 +29,19 @@ const Services = () => {
               3D Web Applications
             </Typography>
             <Typography variant="body1">
-              I build websites that are responsive, fast and secure.
+              <p>
+                3D technology can create a website that looks amazing, or an
+                application that allows real-time interaction right in your
+                browser.
+              </p>{" "}
+              <p>
+                But it's not just about looking good. The increased interaction
+                makes the site more engaging and compelling, it will leave a
+                lasting impression. Your site can become more of an experience
+                or story as opposed to a collection of static images.
+              </p>{" "}
+              Think what this can do for your business. You now have a method
+              for accelerating your impact and recognition.
             </Typography>
           </Grid>
         </Grid>
@@ -40,9 +55,7 @@ const Services = () => {
             <Typography variant="h3" sx={{ mb: 2 }}>
               Virtual Reality Development
             </Typography>
-            <Typography variant="body1">
-              I build websites that are responsive, fast and secure.
-            </Typography>
+            <Typography variant="body1"></Typography>
           </Grid>
           <Grid size={6}>
             <Img src="./images/VRDev.jpg" alt="projects" />
