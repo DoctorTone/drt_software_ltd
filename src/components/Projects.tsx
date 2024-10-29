@@ -173,6 +173,9 @@ const Projects = () => {
               possibilities right in your browser:
             </Typography>
             <List>{generateListItems(items)}</List>
+            <Typography variant="body1">
+              Click on the image to see a demo.
+            </Typography>
           </Grid>
         </Grid>
       </Box>
@@ -185,11 +188,19 @@ const Projects = () => {
             <Typography variant="h3" sx={{ mb: 3 }}>
               3D Configurators
             </Typography>
-            <Typography variant="body1" sx={{ padding: "0px 20px 0px 30px" }}>
-              I have built a range of product configurators for several sectors
-              such as the bathroom, furniture and construction industries; each
-              one allowing customers to preview products before they make a
-              purchase.
+            <Typography
+              variant="body1"
+              sx={{ textAlign: "justify", padding: "0px 20px 0px 30px" }}
+            >
+              <p>
+                I have built a range of product configurators for several
+                sectors such as the bathroom, furniture and construction
+                industries. Each configurator allowed customers to preview
+                realistic products before they make a purchase.
+              </p>
+            </Typography>
+            <Typography variant="body1">
+              <p>Click on the image to interact with a demo.</p>
             </Typography>
           </Grid>
           <Grid
@@ -237,13 +248,23 @@ const Projects = () => {
             <Typography variant="h3" sx={{ mb: 3 }}>
               Physics and Simulation
             </Typography>
-            <Typography variant="body1" sx={{ padding: "0px 20px 0px 30px" }}>
-              The web isn't just confined to visualisations, it's also capable
-              of the realistic simulation of many things from solar systems to
-              atomic structures. Here are a couple of examples: ### The Solar
-              System This demo was built for schools to help visualise the solar
-              system - to get a sense of how far away everything is and how big
-              the planets are, especially in relation to the Earth.
+            <Typography
+              variant="body1"
+              sx={{ textAlign: "justify", padding: "0px 20px 0px 30px" }}
+            >
+              <p>
+                The web isn't just confined to visualisations, it's also capable
+                of the realistic simulation of many things from solar systems to
+                atomic structures.
+              </p>
+              <p>
+                This demo was built for schools to help visualise the solar
+                system - to get a sense of how far away everything is and how
+                big the planets are, especially in relation to the Earth.
+              </p>
+            </Typography>
+            <Typography variant="body1">
+              <p>Click on the image to see a demo.</p>
             </Typography>
           </Grid>
         </Grid>
@@ -257,10 +278,17 @@ const Projects = () => {
             <Typography variant="h3" sx={{ mb: 3 }}>
               Spline Components
             </Typography>
-            <Typography variant="body1" sx={{ padding: "0px 20px 0px 30px" }}>
-              While building several websites in Spline, I created a set of
-              reusable components. This component shows a collection of animated
-              text effects and materials.
+            <Typography
+              variant="body1"
+              sx={{ textAlign: "justify", padding: "0px 20px 0px 30px" }}
+            >
+              Whilst building several websites in Spline, I created a set of
+              reusable components ranging from physics simulations to online
+              games. This component shows a collection of animated text effects
+              and materials.
+            </Typography>
+            <Typography variant="body1">
+              <p>Click on the image to see a demo.</p>
             </Typography>
           </Grid>
           <Grid size={{ xs: 12, md: 6 }}>
@@ -305,18 +333,32 @@ const Projects = () => {
             <Typography variant="h3" sx={{ mb: 3 }}>
               3D Medical Visualisation
             </Typography>
-            <Typography variant="body1" sx={{ padding: "0px 20px 0px 30px" }}>
-              Medical imaging software can be very complex and expensive, with a
-              steep learning curve. We wanted to create an application that
-              could be used to measure and monitor tumour lesions that was
-              simple to use and gave accurate results. In conjunction with a
-              neurosurgeon, I built an application that took a collection of 2D
-              medical images and created a 3D volume. This can then be used to
-              visualise anatomic structures and identify areas of interest. The
-              software allowed specified areas to be isolated, and the
-              corresponding data could then be analysed and any cancerous
-              lesions were identified and measured. This then allowed monitoring
-              of the tumour to determine the effectiveness of any treatments.
+            <Typography
+              variant="body1"
+              sx={{ textAlign: "justify", padding: "0px 20px 0px 30px" }}
+            >
+              <p>
+                Medical imaging software can be very complex and expensive, with
+                a steep learning curve. We wanted to create an application that
+                could be used to measure and monitor tumour lesions that was
+                simple to use and gave accurate results.
+              </p>{" "}
+              <p>
+                In conjunction with a neurosurgeon, I built an application that
+                took a collection of 2D medical images and created a 3D volume.
+                This can then be used to visualise anatomic structures and
+                identify areas of interest.
+              </p>{" "}
+              <p>
+                The software allowed specified areas to be isolated, and the
+                corresponding data could then be analysed and any cancerous
+                lesions were identified and measured. This then allowed
+                monitoring of the tumour to determine the effectiveness of any
+                treatments.
+              </p>
+            </Typography>
+            <Typography variant="body1">
+              <p>Click on the image to see a demo.</p>
             </Typography>
           </Grid>
         </Grid>
