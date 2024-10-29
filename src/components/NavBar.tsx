@@ -186,15 +186,15 @@ const NavBar = () => {
                 </Typography>
                 <Typography
                   variant="h6"
-                  component="a"
-                  href="#"
+                  component="button"
                   onClick={handleOpenModal}
                   sx={{
-                    textDecoration: "none",
                     color: "white",
                     border: "2px solid purple",
                     borderRadius: "10px",
                     padding: "5px 7px",
+                    background: "#2b2b2b",
+                    cursor: "pointer",
                   }}
                 >
                   Message

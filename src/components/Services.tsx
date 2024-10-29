@@ -1,6 +1,7 @@
 import { Box, Container, Typography } from "@mui/material";
 import { styled } from "@mui/material/styles";
 import Grid from "@mui/material/Grid2";
+import { Button } from "@mui/material";
 
 const Img = styled("img")({
   display: "block",
@@ -20,7 +21,10 @@ const Services = () => {
           </Grid>
           <Grid
             size={6}
-            sx={{ textAlign: "center", padding: "0px 20px 0px 30px" }}
+            sx={{
+              textAlign: "center",
+              padding: "0px 20px 0px 30px",
+            }}
           >
             <Typography variant="h5" color="orange">
               Services
@@ -87,7 +91,10 @@ const Services = () => {
           <Grid size={6}>
             <Img src="./images/covid.jpg" alt="projects" />
           </Grid>
-          <Grid size={6} sx={{ textAlign: "center" }}>
+          <Grid
+            size={6}
+            sx={{ textAlign: "center", padding: "0px 20px 0px 30px" }}
+          >
             <Typography variant="h5" color="orange">
               Services
             </Typography>
@@ -95,14 +102,29 @@ const Services = () => {
               3D Data Visualisation
             </Typography>
             <Typography variant="body1">
-              I build websites that are responsive, fast and secure.
+              <p>
+                Visualising data in three dimensions can make it a lot easier to
+                understand. The extra space allows the associated attributes to
+                be configured and arranged more effectively than a 2D design.
+              </p>{" "}
+              <p>
+                Having the data inside a web application also makes it highly
+                interactive and easier to spot trends and patterns.
+              </p>{" "}
+              <p>
+                I have visualised data from lots of fields including financial,
+                medical, health, architecture, sports and many more.
+              </p>
             </Typography>
           </Grid>
         </Grid>
       </Box>
       <Box sx={{ mt: 5, background: "#404040", borderRadius: "20px" }}>
         <Grid container spacing={2} sx={{ mt: 3, padding: "30px" }}>
-          <Grid size={6} sx={{ textAlign: "center" }}>
+          <Grid
+            size={6}
+            sx={{ textAlign: "center", padding: "0px 20px 0px 30px" }}
+          >
             <Typography variant="h5" color="orange">
               Services
             </Typography>
@@ -110,7 +132,15 @@ const Services = () => {
               3D Spline Websites
             </Typography>
             <Typography variant="body1">
-              I build websites that are responsive, fast and secure.
+              <p>
+                Spline is a web application that allows you to create
+                interactive 3D scenes. It is great for making 3D mockups or
+                testing out 3D effects, etc.
+              </p>
+              <p>
+                Through my development work in Spline I have created a number of
+                components that can be used to enhance your website.
+              </p>
             </Typography>
           </Grid>
           <Grid size={6}>
@@ -123,7 +153,10 @@ const Services = () => {
           <Grid size={6}>
             <Img src="./images/consult.jpg" alt="projects" />
           </Grid>
-          <Grid size={6} sx={{ textAlign: "center" }}>
+          <Grid
+            size={6}
+            sx={{ textAlign: "center", padding: "0px 20px 0px 30px" }}
+          >
             <Typography variant="h5" color="orange">
               Services
             </Typography>
@@ -131,7 +164,24 @@ const Services = () => {
               Consultancy
             </Typography>
             <Typography variant="body1">
-              I build websites that are responsive, fast and secure.
+              <p>
+                If you are stuck on what direction to take with your project, or
+                need help with all the technical details surrounding 3D graphics
+                at the moment, then please get in touch.
+              </p>
+              <p>
+                You can book a free 30 minute call below, completely free and
+                with no pressure to hire me or work with me.
+              </p>
+              <Button
+                href="https://calendly.com/tony-mdjh/30min"
+                variant="contained"
+                color="primary"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                Book a call
+              </Button>
             </Typography>
           </Grid>
         </Grid>

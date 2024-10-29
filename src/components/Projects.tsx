@@ -88,7 +88,10 @@ const Projects = () => {
               Click on the image to interact with a demo.
             </Typography>
           </Grid>
-          <Grid size={{ xs: 12, md: 6 }}>
+          <Grid
+            size={{ xs: 12, md: 6 }}
+            sx={{ display: "flex", alignItems: "center" }}
+          >
             <div className="bordered">
               <a
                 href="https://www.drt-software.com/SleepViz/"
@@ -106,7 +109,10 @@ const Projects = () => {
       </Box>
       <Box sx={{ mt: 5, background: "#404040", borderRadius: "20px" }}>
         <Grid container spacing={2} sx={{ mt: 3, padding: "30px" }}>
-          <Grid size={{ xs: 12, md: 6 }}>
+          <Grid
+            size={{ xs: 12, md: 6 }}
+            sx={{ display: "flex", alignItems: "center" }}
+          >
             <div className="bordered">
               <a
                 href="https://drt-software.com/Portfolio/"
@@ -188,7 +194,10 @@ const Projects = () => {
               purchase.
             </Typography>
           </Grid>
-          <Grid size={{ xs: 12, md: 6 }}>
+          <Grid
+            size={{ xs: 12, md: 6 }}
+            sx={{ display: "flex", alignItems: "center" }}
+          >
             <div className="bordered">
               <a
                 href="https://drt-software.com/Demos/Configurator/"
@@ -206,7 +215,10 @@ const Projects = () => {
       </Box>
       <Box sx={{ mt: 5, background: "#404040", borderRadius: "20px" }}>
         <Grid container spacing={2} sx={{ mt: 3, padding: "30px" }}>
-          <Grid size={{ xs: 12, md: 6 }}>
+          <Grid
+            size={{ xs: 12, md: 6 }}
+            sx={{ display: "flex", alignItems: "center" }}
+          >
             <div className="bordered">
               <a
                 href="https://www.drt-software.com/Solar/"
@@ -271,7 +283,10 @@ const Projects = () => {
       </Box>
       <Box sx={{ mt: 5, background: "#404040", borderRadius: "20px" }}>
         <Grid container spacing={2} sx={{ mt: 3, padding: "30px" }}>
-          <Grid size={{ xs: 12, md: 6 }}>
+          <Grid
+            size={{ xs: 12, md: 6 }}
+            sx={{ display: "flex", alignItems: "center" }}
+          >
             <div className="bordered">
               <a
                 href="https://www.drt-software.com/MedicalViz/"
