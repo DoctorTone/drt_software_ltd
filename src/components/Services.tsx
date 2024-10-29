@@ -32,7 +32,10 @@ const Services = () => {
             <Typography variant="h3" sx={{ mb: 2 }}>
               3D Web Applications
             </Typography>
-            <Typography variant="body1">
+            <Typography
+              variant="body1"
+              sx={{ textAlign: "justify", padding: "0px 20px 0px 30px" }}
+            >
               <p>
                 3D technology can create a website that looks amazing, or an
                 application that allows real-time interaction right in your
@@ -62,7 +65,10 @@ const Services = () => {
             <Typography variant="h3" sx={{ mb: 2 }}>
               Virtual Reality Development
             </Typography>
-            <Typography variant="body1">
+            <Typography
+              variant="body1"
+              sx={{ textAlign: "justify", padding: "0px 20px 0px 30px" }}
+            >
               <p>
                 Imagine being able to guide your visitors through a virtual
                 experience of your business, or being able to showcase your
@@ -101,7 +107,10 @@ const Services = () => {
             <Typography variant="h3" sx={{ mb: 2 }}>
               3D Data Visualisation
             </Typography>
-            <Typography variant="body1">
+            <Typography
+              variant="body1"
+              sx={{ textAlign: "justify", padding: "0px 20px 0px 30px" }}
+            >
               <p>
                 Visualising data in three dimensions can make it a lot easier to
                 understand. The extra space allows the associated attributes to
@@ -131,7 +140,10 @@ const Services = () => {
             <Typography variant="h3" sx={{ mb: 2 }}>
               3D Spline Websites
             </Typography>
-            <Typography variant="body1">
+            <Typography
+              variant="body1"
+              sx={{ textAlign: "justify", padding: "0px 20px 0px 30px" }}
+            >
               <p>
                 Spline is a web application that allows you to create
                 interactive 3D scenes. It is great for making 3D mockups or
@@ -163,7 +175,10 @@ const Services = () => {
             <Typography variant="h3" sx={{ mb: 2 }}>
               Consultancy
             </Typography>
-            <Typography variant="body1">
+            <Typography
+              variant="body1"
+              sx={{ textAlign: "justify", padding: "0px 20px 0px 30px" }}
+            >
               <p>
                 If you are stuck on what direction to take with your project, or
                 need help with all the technical details surrounding 3D graphics
@@ -173,16 +188,16 @@ const Services = () => {
                 You can book a free 30 minute call below, completely free and
                 with no pressure to hire me or work with me.
               </p>
-              <Button
-                href="https://calendly.com/tony-mdjh/30min"
-                variant="contained"
-                color="primary"
-                target="_blank"
-                rel="noreferrer noopener"
-              >
-                Book a call
-              </Button>
             </Typography>
+            <Button
+              href="https://calendly.com/tony-mdjh/30min"
+              variant="contained"
+              color="primary"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              Book a call
+            </Button>
           </Grid>
         </Grid>
       </Box>
