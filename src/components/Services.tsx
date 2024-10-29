@@ -48,14 +48,34 @@ const Services = () => {
       </Box>
       <Box sx={{ mt: 5, background: "#404040", borderRadius: "20px" }}>
         <Grid container spacing={2} sx={{ mt: 3, padding: "30px" }}>
-          <Grid size={6} sx={{ textAlign: "center" }}>
+          <Grid
+            size={6}
+            sx={{ textAlign: "center", padding: "0px 20px 0px 30px" }}
+          >
             <Typography variant="h5" color="orange">
               Services
             </Typography>
             <Typography variant="h3" sx={{ mb: 2 }}>
               Virtual Reality Development
             </Typography>
-            <Typography variant="body1"></Typography>
+            <Typography variant="body1">
+              <p>
+                Imagine being able to guide your visitors through a virtual
+                experience of your business, or being able to showcase your
+                products as if they were right in front of you.
+              </p>{" "}
+              <p>
+                Experiencing a world in virtual reality takes the feeling of
+                immersion to another level. Once you have walked around a
+                virtual space or interacted with objects by reaching out and
+                touching them, you will not believe the level of engagement.
+              </p>
+              <p>
+                {" "}
+                Our virtual art gallery is a great example - you can see and
+                experience beautiful art in a way that you never could before.
+              </p>
+            </Typography>
           </Grid>
           <Grid size={6}>
             <Img src="./images/VRDev.jpg" alt="projects" />
