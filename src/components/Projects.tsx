@@ -183,7 +183,7 @@ const Projects = () => {
               Websites built with 3D technology can open up a whole new world of
               possibilities right in your browser:
             </Typography>
-            <List>{generateListItems(items)}</List>
+            <List sx={{ pl: 1 }}>{generateListItems(items)}</List>
             <Typography variant="body1">
               Click on the image to see a demo.
             </Typography>

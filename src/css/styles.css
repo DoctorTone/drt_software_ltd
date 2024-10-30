@@ -82,11 +82,22 @@ body {
   transform: translate(-50%, -50%);
   color: black;
   width: 75%;
+  height: 80%;
   background-color: white;
   border: 6px solid blue;
   border-radius: 20px;
   box-shadow: 24;
   padding: 8px;
+}
+@media (min-width: 600px) {
+  .testimonialsHeight {
+    height: 350px;
+  }
+}
+@media (min-width: 600px) and (orientation: portrait) {
+  .messageModal {
+    height: 60%;
+  }
 }
 @media (min-width: 900px) {
   .paddingProjects {
