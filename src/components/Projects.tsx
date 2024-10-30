@@ -26,7 +26,7 @@ const items = [
 
 const generateListItems = (items: string[]) => {
   return items.map((item, index) => (
-    <ListItem key={index}>
+    <ListItem disablePadding key={index}>
       <ListItemIcon>
         <AutoAwesomeIcon color="warning" />
       </ListItemIcon>
@@ -65,8 +65,9 @@ const Projects = () => {
               Virtual Art Gallery
             </Typography>
             <Typography
+              className="paddingProjects"
               variant="body1"
-              sx={{ textAlign: "justify", padding: "0px 20px 0px 30px" }}
+              sx={{ textAlign: "justify" }}
             >
               <p>
                 Imagine a virtual gallery where you can experience the art as if
@@ -105,8 +106,9 @@ const Projects = () => {
               3D Data Visualisation
             </Typography>
             <Typography
+              className="paddingProjects"
               variant="body1"
-              sx={{ textAlign: "justify", padding: "0px 20px 0px 30px" }}
+              sx={{ textAlign: "justify" }}
             >
               <p>
                 Data visualisation is commonly associated with bar charts, pie
@@ -168,7 +170,7 @@ const Projects = () => {
             <Typography variant="h3" sx={{ mb: 3 }}>
               3D Websites
             </Typography>
-            <Typography variant="body1">
+            <Typography variant="body1" className="paddingProjects">
               Websites built with 3D technology can open up a whole new world of
               possibilities right in your browser:
             </Typography>
@@ -186,11 +188,12 @@ const Projects = () => {
               Projects
             </Typography>
             <Typography variant="h3" sx={{ mb: 3 }}>
-              3D Configurators
+              3D Configurator
             </Typography>
             <Typography
+              className="paddingProjects"
               variant="body1"
-              sx={{ textAlign: "justify", padding: "0px 20px 0px 30px" }}
+              sx={{ textAlign: "justify" }}
             >
               <p>
                 I have built a range of product configurators for several
@@ -216,7 +219,7 @@ const Projects = () => {
                 <Img src="./images/configurator.jpg" alt="projects" />
               </a>
               <Typography className="hoverText" variant="h4">
-                3D Configurators
+                3D Configurator
               </Typography>
             </div>
           </Grid>
@@ -249,8 +252,9 @@ const Projects = () => {
               Physics and Simulation
             </Typography>
             <Typography
+              className="paddingProjects"
               variant="body1"
-              sx={{ textAlign: "justify", padding: "0px 20px 0px 30px" }}
+              sx={{ textAlign: "justify" }}
             >
               <p>
                 The web isn't just confined to visualisations, it's also capable
@@ -279,8 +283,9 @@ const Projects = () => {
               Spline Components
             </Typography>
             <Typography
+              className="paddingProjects"
               variant="body1"
-              sx={{ textAlign: "justify", padding: "0px 20px 0px 30px" }}
+              sx={{ textAlign: "justify" }}
             >
               Whilst building several websites in Spline, I created a set of
               reusable components ranging from physics simulations to online
@@ -334,8 +339,9 @@ const Projects = () => {
               3D Medical Visualisation
             </Typography>
             <Typography
+              className="paddingProjects"
               variant="body1"
-              sx={{ textAlign: "justify", padding: "0px 20px 0px 30px" }}
+              sx={{ textAlign: "justify" }}
             >
               <p>
                 Medical imaging software can be very complex and expensive, with

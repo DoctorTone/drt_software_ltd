@@ -33,7 +33,7 @@ const Services = () => {
             </Typography>
             <Typography
               variant="body1"
-              sx={{ textAlign: "justify", padding: "0px 20px 0px 40px" }}
+              sx={{ textAlign: "justify", padding: "0px 20px 0px 40px", mb: 2 }}
             >
               <p>
                 3D technology can create a website that looks amazing, or an
@@ -49,6 +49,9 @@ const Services = () => {
               Think what this can do for your business. You now have a method
               for accelerating your impact and recognition.
             </Typography>
+            <Button variant="contained" color="primary">
+              Contact me
+            </Button>
           </Grid>
         </Grid>
       </Box>
@@ -82,6 +85,9 @@ const Services = () => {
                 experience beautiful art in a way that you never could before.
               </p>
             </Typography>
+            <Button variant="contained" color="primary">
+              Contact me
+            </Button>
           </Grid>
           <Grid size={6}>
             <Img src="./images/VRDev.jpg" alt="projects" />
@@ -118,6 +124,9 @@ const Services = () => {
                 medical, health, architecture, sports and many more.
               </p>
             </Typography>
+            <Button variant="contained" color="primary">
+              Contact me
+            </Button>
           </Grid>
         </Grid>
       </Box>
@@ -147,6 +156,9 @@ const Services = () => {
                 components that can be used to enhance your website.
               </p>
             </Typography>
+            <Button variant="contained" color="primary">
+              Contact me
+            </Button>
           </Grid>
           <Grid size={6}>
             <Img src="./images/spline2.jpg" alt="projects" />
