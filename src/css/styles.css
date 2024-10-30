@@ -103,4 +103,13 @@ body {
   .paddingProjects {
     padding: 0px 20px;
   }
+  .messageModal {
+    width: 40%;
+    height: 60%;
+  }
+}
+@media (min-width: 1200px) {
+  .messageModal {
+    height: 50%;
+  }
 }
