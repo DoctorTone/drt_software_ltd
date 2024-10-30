@@ -170,8 +170,8 @@ const Services = () => {
             >
               <p>
                 Spline is a web application that allows you to create
-                interactive 3D scenes. It is great for making 3D mockups or
-                testing out 3D effects, etc.
+                interactive 3D content. It is great for making 3D scenes,
+                animations, effects and interactive 3D elements.
               </p>
               <p>
                 Through my development work in Spline I have created a number of

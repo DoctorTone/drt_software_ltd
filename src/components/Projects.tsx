@@ -76,9 +76,9 @@ const Projects = () => {
             >
               <p>
                 Imagine a virtual gallery where you can experience the art as if
-                you were relly there. You can view a single piece in a room or
-                view multiple pieces in a gallery and even extend the structure
-                to as many rooms as you like.
+                you were relly there. Walk up to a painting to see the brush
+                strokes or wander around the many rooms of a gallery or
+                exhibition.
               </p>
               <p>
                 The pieces look stunning as they are 3D scans of the originals.
@@ -117,13 +117,15 @@ const Projects = () => {
             >
               <p>
                 Data visualisation is commonly associated with bar charts, pie
-                charts and dashboards in a two-dimensional setting, but this
-                does not have to be the case.
+                charts and dashboards in a two-dimensional setting. There is
+                absolutely nothing wrong with this but there are other ways to
+                display your data.
               </p>{" "}
               <p>
-                We can use the additional space of 3D to arrange the data more
-                effectively. I have visualised data from many fields including
-                climate, sports, finance, medical, financial and many others.
+                We can use the additional space of three dimensions to arrange
+                the data more effectively. I have visualised data from many
+                fields including climate, sports, finance, medical, financial
+                and many others.
               </p>
             </Typography>
             <Typography variant="body1">
@@ -207,8 +209,9 @@ const Projects = () => {
               <p>
                 I have built a range of product configurators for several
                 sectors such as the bathroom, furniture and construction
-                industries. Each configurator allowed customers to preview
-                realistic products before they make a purchase.
+                industries. Each application allowed customers to configure a
+                range of details for each product and see the outcome as a
+                highly realistic visualisation before they made a purchase.
               </p>
             </Typography>
             <Typography variant="body1">
@@ -369,7 +372,7 @@ const Projects = () => {
               <p>
                 In conjunction with a neurosurgeon, I built an application that
                 took a collection of 2D medical images and created a 3D volume.
-                This can then be used to visualise anatomic structures and
+                This could then be used to visualise anatomic structures and
                 identify areas of interest.
               </p>{" "}
               <p>
@@ -377,7 +380,7 @@ const Projects = () => {
                 corresponding data could then be analysed and any cancerous
                 lesions were identified and measured. This then allowed
                 monitoring of the tumour to determine the effectiveness of any
-                treatments.
+                treatment.
               </p>
             </Typography>
             <Typography variant="body1">
