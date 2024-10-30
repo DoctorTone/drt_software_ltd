@@ -50,12 +50,16 @@ const Testimonials = () => {
   };
 
   return (
-    <Container sx={{ mt: 15, mb: 15, height: "300px" }} id="testimonials_page">
+    <Container
+      className="testimonialsHeight"
+      sx={{ mt: 15, mb: 15 }}
+      id="testimonials_page"
+    >
       <Grid container>
-        <Grid size={2} sx={{ textAlign: "center" }}>
+        <Grid size={1} sx={{ textAlign: "center" }}>
           <ArrowBackIosIcon onClick={previousTestimonial} />
         </Grid>
-        <Grid size={8} sx={{ textAlign: "center" }}>
+        <Grid size={10} sx={{ textAlign: "center" }}>
           <Typography variant="h5" color="#386fc7" sx={{ mb: 3 }}>
             Testimonials
           </Typography>
@@ -66,7 +70,7 @@ const Testimonials = () => {
             {testimonials[currentTestimonial].reviewer}
           </Typography>
         </Grid>
-        <Grid size={2} sx={{ textAlign: "center" }}>
+        <Grid size={1} sx={{ textAlign: "center" }}>
           <ArrowForwardIosIcon onClick={nextTestimonial} />
         </Grid>
       </Grid>
