@@ -16,11 +16,14 @@ const Services = () => {
     <Container sx={{ mt: 15 }}>
       <Box sx={{ mt: 5, background: "#404040", borderRadius: "20px" }}>
         <Grid container spacing={2} sx={{ mt: 3, padding: "30px" }}>
-          <Grid size={6}>
+          <Grid
+            size={{ xs: 12, md: 6 }}
+            sx={{ display: "flex", alignItems: "center" }}
+          >
             <Img src="./images/portfolio2.jpg" alt="projects" />
           </Grid>
           <Grid
-            size={6}
+            size={{ xs: 12, md: 6 }}
             sx={{
               textAlign: "center",
             }}
@@ -32,8 +35,9 @@ const Services = () => {
               3D Web Applications
             </Typography>
             <Typography
+              className="paddingProjects"
               variant="body1"
-              sx={{ textAlign: "justify", padding: "0px 20px 0px 40px", mb: 2 }}
+              sx={{ textAlign: "justify", mb: 2 }}
             >
               <p>
                 3D technology can create a website that looks amazing, or an
@@ -57,7 +61,7 @@ const Services = () => {
       </Box>
       <Box sx={{ mt: 5, background: "#404040", borderRadius: "20px" }}>
         <Grid container spacing={2} sx={{ mt: 3, padding: "30px" }}>
-          <Grid size={6} sx={{ textAlign: "center" }}>
+          <Grid size={{ xs: 12, md: 6 }} sx={{ textAlign: "center" }}>
             <Typography variant="h5" color="orange">
               Services
             </Typography>
@@ -65,8 +69,9 @@ const Services = () => {
               Virtual Reality Development
             </Typography>
             <Typography
+              className="paddingProjects"
               variant="body1"
-              sx={{ textAlign: "justify", padding: "0px 30px 0px 20px" }}
+              sx={{ textAlign: "justify" }}
             >
               <p>
                 Imagine being able to guide your visitors through a virtual
@@ -89,17 +94,17 @@ const Services = () => {
               Contact me
             </Button>
           </Grid>
-          <Grid size={6}>
+          <Grid size={{ xs: 12, md: 6 }}>
             <Img src="./images/VRDev.jpg" alt="projects" />
           </Grid>
         </Grid>
       </Box>
       <Box sx={{ mt: 5, background: "#404040", borderRadius: "20px" }}>
         <Grid container spacing={2} sx={{ mt: 3, padding: "30px" }}>
-          <Grid size={6}>
+          <Grid size={{ xs: 12, md: 6 }}>
             <Img src="./images/covid.jpg" alt="projects" />
           </Grid>
-          <Grid size={6} sx={{ textAlign: "center" }}>
+          <Grid size={{ xs: 12, md: 6 }} sx={{ textAlign: "center" }}>
             <Typography variant="h5" color="orange">
               Services
             </Typography>
@@ -107,8 +112,9 @@ const Services = () => {
               3D Data Visualisation
             </Typography>
             <Typography
+              className="paddingProjects"
               variant="body1"
-              sx={{ textAlign: "justify", padding: "0px 20px 0px 40px" }}
+              sx={{ textAlign: "justify" }}
             >
               <p>
                 Visualising data in three dimensions can make it a lot easier to
@@ -133,7 +139,7 @@ const Services = () => {
       <Box sx={{ mt: 5, background: "#404040", borderRadius: "20px" }}>
         <Grid container spacing={2} sx={{ mt: 3, padding: "30px" }}>
           <Grid
-            size={6}
+            size={{ xs: 12, md: 6 }}
             sx={{ textAlign: "center", padding: "0px 20px 0px 30px" }}
           >
             <Typography variant="h5" color="orange">
@@ -143,8 +149,9 @@ const Services = () => {
               3D Spline Websites
             </Typography>
             <Typography
+              className="paddingProjects"
               variant="body1"
-              sx={{ textAlign: "justify", padding: "0px 30px 0px 20px" }}
+              sx={{ textAlign: "justify" }}
             >
               <p>
                 Spline is a web application that allows you to create
@@ -160,17 +167,17 @@ const Services = () => {
               Contact me
             </Button>
           </Grid>
-          <Grid size={6}>
+          <Grid size={{ xs: 12, md: 6 }}>
             <Img src="./images/spline2.jpg" alt="projects" />
           </Grid>
         </Grid>
       </Box>
       <Box sx={{ mt: 5, background: "#404040", borderRadius: "20px" }}>
         <Grid container spacing={2} sx={{ mt: 3, padding: "30px" }}>
-          <Grid size={6}>
+          <Grid size={{ xs: 12, md: 6 }}>
             <Img src="./images/consult.jpg" alt="projects" />
           </Grid>
-          <Grid size={6} sx={{ textAlign: "center" }}>
+          <Grid size={{ xs: 12, md: 6 }} sx={{ textAlign: "center" }}>
             <Typography variant="h5" color="orange">
               Services
             </Typography>
@@ -178,8 +185,9 @@ const Services = () => {
               Consultancy
             </Typography>
             <Typography
+              className="paddingProjects"
               variant="body1"
-              sx={{ textAlign: "justify", padding: "0px 20px 0px 40px" }}
+              sx={{ textAlign: "justify" }}
             >
               <p>
                 If you are stuck on what direction to take with your project, or
