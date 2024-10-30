@@ -11,7 +11,7 @@ const style = {
   left: "50%",
   transform: "translate(-50%, -50%)",
   color: "black",
-  width: 400,
+  width: 340,
   bgcolor: "background.paper",
   border: "6px solid blue",
   borderRadius: "20px",
@@ -34,7 +34,7 @@ const ContactModal = ({ open, handleClose }: ContactModalProps) => {
         onClose={handleClose}
       >
         <Box
-          sx={style}
+          className="messageModal"
           component="form"
           action="https://usebasin.com/f/da50ea670849"
           method="POST"

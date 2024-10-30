@@ -75,3 +75,21 @@ body {
 .testimonialsHeight {
   height: 750px;
 }
+.messageModal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  width: 75%;
+  background-color: white;
+  border: 6px solid blue;
+  border-radius: 20px;
+  box-shadow: 24;
+  padding: 8px;
+}
+@media (min-width: 900px) {
+  .paddingProjects {
+    padding: 0px 20px;
+  }
+}

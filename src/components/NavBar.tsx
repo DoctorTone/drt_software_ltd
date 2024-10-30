@@ -44,6 +44,7 @@ const NavBar = () => {
           className="sticky"
           elevation={0}
           sx={{
+            padding: "5px",
             backgroundColor: "#2b2b2b",
             borderRadius: "10px",
             color: "#fff",
@@ -95,22 +96,21 @@ const NavBar = () => {
                 </MenuItem>
                 <MenuItem
                   component="a"
-                  href="#services_page"
+                  href="#about_page"
                   onClick={handleClose}
                 >
                   About
                 </MenuItem>
                 <MenuItem
                   component="a"
-                  href="#services_page"
+                  href="#testimonials_page"
                   onClick={handleClose}
                 >
                   Testimonials
                 </MenuItem>
                 <MenuItem
-                  component="a"
-                  href="#about_page"
-                  onClick={handleClose}
+                  component="button"
+                  onClick={handleOpenModal}
                   sx={{
                     textDecoration: "none",
                     border: "2px solid purple",

@@ -300,10 +300,10 @@ const Projects = () => {
               variant="body1"
               sx={{ textAlign: "justify" }}
             >
-              Whilst building several websites in Spline, I created a set of
-              reusable components ranging from physics simulations to online
-              games. This component shows a collection of animated text effects
-              and materials.
+              Whilst building several websites in the Spline application, I
+              created a set of reusable components ranging from physics
+              simulations to online games. This component shows a collection of
+              animated text effects and materials.
             </Typography>
             <Typography variant="body1">
               <p>Click on the image to see a demo.</p>

@@ -53,7 +53,11 @@ const Services = () => {
               Think what this can do for your business. You now have a method
               for accelerating your impact and recognition.
             </Typography>
-            <Button variant="contained" color="primary">
+            <Button
+              variant="contained"
+              color="primary"
+              href="mailto:enquiries@drt-software.com"
+            >
               Contact me
             </Button>
           </Grid>
@@ -90,7 +94,11 @@ const Services = () => {
                 experience beautiful art in a way that you never could before.
               </p>
             </Typography>
-            <Button variant="contained" color="primary">
+            <Button
+              variant="contained"
+              color="primary"
+              href="mailto:enquiries@drt-software.com"
+            >
               Contact me
             </Button>
           </Grid>
@@ -130,7 +138,11 @@ const Services = () => {
                 medical, health, architecture, sports and many more.
               </p>
             </Typography>
-            <Button variant="contained" color="primary">
+            <Button
+              variant="contained"
+              color="primary"
+              href="mailto:enquiries@drt-software.com"
+            >
               Contact me
             </Button>
           </Grid>
@@ -160,7 +172,11 @@ const Services = () => {
                 components that can be used to enhance your website.
               </p>
             </Typography>
-            <Button variant="contained" color="primary">
+            <Button
+              variant="contained"
+              color="primary"
+              href="mailto:enquiries@drt-software.com"
+            >
               Contact me
             </Button>
           </Grid>
