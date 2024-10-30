@@ -23,7 +23,7 @@ const About = () => {
           <img src="./images/tony.png" alt="profile" className="roundedSmall" />
         </Box>
         <Grid container sx={{ textAlign: "center" }}>
-          <Grid size={8} offset={2}>
+          <Grid size={10} offset={1}>
             <Typography variant="h6">
               As a seasoned software developer with over 25 years of experience,
               I excel in creating highly interactive 3D graphical applications.

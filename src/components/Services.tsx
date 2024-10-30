@@ -6,7 +6,7 @@ import { Button } from "@mui/material";
 const Img = styled("img")({
   display: "block",
   borderRadius: "20px",
-  width: "100%",
+  width: "92%",
   border: "10px solid orange",
   boxShadow: "0px 0px 0px 0.75rem #606060",
 });
@@ -138,10 +138,7 @@ const Services = () => {
       </Box>
       <Box sx={{ mt: 5, background: "#404040", borderRadius: "20px" }}>
         <Grid container spacing={2} sx={{ mt: 3, padding: "30px" }}>
-          <Grid
-            size={{ xs: 12, md: 6 }}
-            sx={{ textAlign: "center", padding: "0px 20px 0px 30px" }}
-          >
+          <Grid size={{ xs: 12, md: 6 }} sx={{ textAlign: "center" }}>
             <Typography variant="h5" color="orange">
               Services
             </Typography>

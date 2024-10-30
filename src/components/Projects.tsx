@@ -8,6 +8,7 @@ import ListItem from "@mui/material/ListItem";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import AutoAwesomeIcon from "@mui/icons-material/AutoAwesome";
+import { isMobileDevice } from "../utils/Utils";
 
 const Img = styled("img")({
   display: "block",
@@ -36,6 +37,8 @@ const generateListItems = (items: string[]) => {
 };
 
 const Projects = () => {
+  const isMobile = isMobileDevice();
+
   return (
     <Container>
       <Box sx={{ mt: 5, background: "#404040", borderRadius: "20px" }}>
@@ -52,9 +55,11 @@ const Projects = () => {
               >
                 <Img src="./images/museum.jpg" alt="projects" />
               </a>
-              <Typography className="hoverText" variant="h4">
-                Virtual Art Gallery
-              </Typography>
+              {!isMobile && (
+                <Typography className="hoverText" variant="h4">
+                  Virtual Art Gallery
+                </Typography>
+              )}
             </div>
           </Grid>
           <Grid size={{ xs: 12, md: 6 }} sx={{ textAlign: "center" }}>
@@ -137,9 +142,11 @@ const Projects = () => {
               >
                 <Img src="./images/dataViz.jpg" alt="projects" />
               </a>
-              <Typography className="hoverText" variant="h4">
-                3D Data Visualisation
-              </Typography>
+              {!isMobile && (
+                <Typography className="hoverText" variant="h4">
+                  3D Data Visualisation
+                </Typography>
+              )}
             </div>
           </Grid>
         </Grid>
@@ -158,9 +165,11 @@ const Projects = () => {
               >
                 <Img src="./images/portfolio.jpg" alt="projects" />
               </a>
-              <Typography className="hoverText" variant="h4">
-                3D Websites
-              </Typography>
+              {!isMobile && (
+                <Typography className="hoverText" variant="h4">
+                  3D Websites
+                </Typography>
+              )}
             </div>
           </Grid>
           <Grid size={{ xs: 12, md: 6 }} sx={{ textAlign: "center" }}>
@@ -218,9 +227,11 @@ const Projects = () => {
               >
                 <Img src="./images/configurator.jpg" alt="projects" />
               </a>
-              <Typography className="hoverText" variant="h4">
-                3D Configurator
-              </Typography>
+              {!isMobile && (
+                <Typography className="hoverText" variant="h4">
+                  3D Configurator
+                </Typography>
+              )}
             </div>
           </Grid>
         </Grid>
@@ -239,9 +250,11 @@ const Projects = () => {
               >
                 <Img src="./images/space.jpg" alt="projects" />
               </a>
-              <Typography className="hoverText" variant="h4">
-                Physics and Simulation
-              </Typography>
+              {!isMobile && (
+                <Typography className="hoverText" variant="h4">
+                  Physics and Simulation
+                </Typography>
+              )}
             </div>
           </Grid>
           <Grid size={{ xs: 12, md: 6 }} sx={{ textAlign: "center" }}>
@@ -305,9 +318,11 @@ const Projects = () => {
               >
                 <Img src="./images/spline.jpg" alt="projects" />
               </a>
-              <Typography className="hoverText" variant="h4">
-                Spline Components
-              </Typography>
+              {!isMobile && (
+                <Typography className="hoverText" variant="h4">
+                  Spline Components
+                </Typography>
+              )}
             </div>
           </Grid>
         </Grid>
@@ -326,9 +341,11 @@ const Projects = () => {
               >
                 <Img src="./images/medical.jpg" alt="projects" />
               </a>
-              <Typography className="hoverText" variant="h4">
-                3D Medical Visualisation
-              </Typography>
+              {!isMobile && (
+                <Typography className="hoverText" variant="h4">
+                  3D Medical Visualisation
+                </Typography>
+              )}
             </div>
           </Grid>
           <Grid size={{ xs: 12, md: 6 }} sx={{ textAlign: "center" }}>
