@@ -96,7 +96,7 @@ body {
 }
 @media (min-width: 600px) and (orientation: portrait) {
   .messageModal {
-    height: 60%;
+    height: 47.5%;
   }
 }
 @media (min-width: 900px) {
@@ -109,6 +109,11 @@ body {
   }
 }
 @media (min-width: 1200px) {
+  .messageModal {
+    height: 70%;
+  }
+}
+@media (min-width: 1536px) {
   .messageModal {
     height: 50%;
   }
