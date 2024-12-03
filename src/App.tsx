@@ -13,9 +13,7 @@ function App() {
       <NavBar />
       <TopSection />
       <Projects />
-      <div id="services_page"></div>
       <Services />
-      <div id="testimonials_page"></div>
       <Testimonials />
       <About />
       <Social />

@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import AppBar from "@mui/material/AppBar";
 import { styled } from "@mui/material/styles";
 import Toolbar from "@mui/material/Toolbar";
@@ -9,6 +9,9 @@ import MenuIcon from "@mui/icons-material/Menu";
 import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
 import ContactModal from "../modals/ContactModal";
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
+import ScrollToPlugin from "gsap/ScrollToPlugin";
 
 const Img = styled("img")({
   display: "block",
@@ -17,6 +20,7 @@ const Img = styled("img")({
 });
 
 const NavBar = () => {
+  gsap.registerPlugin(ScrollToPlugin);
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
   const [openModal, setOpenModal] = useState(false);
 
@@ -24,8 +28,12 @@ const NavBar = () => {
     setAnchorEl(event.currentTarget);
   };
 
-  const handleClose = () => {
+  const handleClose = (section: number) => {
     setAnchorEl(null);
+    gsap.to(window, {
+      duration: 2,
+      scrollTo: { y: "#section" + section, offsetY: 100 },
+    });
   };
   const open = Boolean(anchorEl);
 
@@ -36,6 +44,17 @@ const NavBar = () => {
   const handleCloseModal = () => {
     setOpenModal(false);
   };
+
+  useGSAP(() => {
+    document.querySelectorAll(".section").forEach((link, index) => {
+      link.addEventListener("click", () => {
+        gsap.to(window, {
+          duration: 2,
+          scrollTo: { y: "#section" + (index + 1), offsetY: 100 },
+        });
+      });
+    });
+  }, []);
 
   return (
     <Container>
@@ -75,38 +94,29 @@ const NavBar = () => {
                 <MenuItem
                   component="a"
                   href="mailto:enquiries@drt-software.com"
-                  onClick={handleClose}
+                  onClick={() => handleClose(0)}
                   sx={{ color: "orange" }}
                 >
                   enquiries@drt-software.com
                 </MenuItem>
+                <MenuItem onClick={() => handleClose(1)}>Projects</MenuItem>
                 <MenuItem
-                  component="a"
-                  href="#projects_page"
-                  onClick={handleClose}
-                >
-                  Projects
-                </MenuItem>
-                <MenuItem
-                  component="a"
-                  href="#services_page"
-                  onClick={handleClose}
+                  className="sectionMobile"
+                  onClick={() => handleClose(2)}
                 >
                   Services
                 </MenuItem>
                 <MenuItem
-                  component="a"
-                  href="#about_page"
-                  onClick={handleClose}
-                >
-                  About
-                </MenuItem>
-                <MenuItem
-                  component="a"
-                  href="#testimonials_page"
-                  onClick={handleClose}
+                  className="sectionMobile"
+                  onClick={() => handleClose(3)}
                 >
                   Testimonials
+                </MenuItem>
+                <MenuItem
+                  className="sectionMobile"
+                  onClick={() => handleClose(4)}
+                >
+                  About
                 </MenuItem>
                 <MenuItem
                   component="button"
@@ -154,33 +164,45 @@ const NavBar = () => {
                 </Typography>
                 <Typography
                   variant="h6"
-                  component="a"
-                  href="#projects_page"
-                  sx={{ textDecoration: "none", color: "white" }}
+                  className="section"
+                  sx={{
+                    textDecoration: "none",
+                    color: "white",
+                    cursor: "pointer",
+                  }}
                 >
                   Projects
                 </Typography>
                 <Typography
                   variant="h6"
-                  component="a"
-                  href="#services_page"
-                  sx={{ textDecoration: "none", color: "white" }}
+                  className="section"
+                  sx={{
+                    textDecoration: "none",
+                    color: "white",
+                    cursor: "pointer",
+                  }}
                 >
                   Services
                 </Typography>
                 <Typography
                   variant="h6"
-                  component="a"
-                  href="#testimonials_page"
-                  sx={{ textDecoration: "none", color: "white" }}
+                  className="section"
+                  sx={{
+                    textDecoration: "none",
+                    color: "white",
+                    cursor: "pointer",
+                  }}
                 >
                   Testimonials
                 </Typography>
                 <Typography
                   variant="h6"
-                  component="a"
-                  href="#about_page"
-                  sx={{ textDecoration: "none", color: "white" }}
+                  className="section"
+                  sx={{
+                    textDecoration: "none",
+                    color: "white",
+                    cursor: "pointer",
+                  }}
                 >
                   About
                 </Typography>

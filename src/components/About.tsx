@@ -4,7 +4,7 @@ import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid2";
 const About = () => {
   return (
-    <Container id="about_page" sx={{ mb: 3 }}>
+    <Container id="section4" sx={{ mb: 3 }}>
       <Box
         sx={{
           mt: 3,

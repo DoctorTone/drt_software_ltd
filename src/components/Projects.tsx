@@ -9,6 +9,7 @@ import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import AutoAwesomeIcon from "@mui/icons-material/AutoAwesome";
 import { isMobileDevice } from "../utils/Utils";
+import { Button } from "@mui/material";
 
 const Img = styled("img")({
   display: "block",
@@ -40,7 +41,7 @@ const Projects = () => {
   const isMobile = isMobileDevice();
 
   return (
-    <Container>
+    <Container id="section1">
       <Box sx={{ mt: 5, background: "#404040", borderRadius: "20px" }}>
         <Grid container spacing={2} sx={{ mt: 3, padding: "30px" }}>
           <Grid
@@ -94,9 +95,18 @@ const Projects = () => {
               </p>
               <p>
                 The ArtXR technology has now been used in real world art
-                galleries to showcase work like never before. Click on the image
-                for a video of the technlogy in action.
+                galleries to showcase work like never before.
               </p>
+              <Box sx={{ textAlign: "center" }}>
+                <Button
+                  href="https://www.youtube.com/watch?v=iM7GL6MC7M4&t=2s"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  variant="contained"
+                >
+                  Show Video
+                </Button>
+              </Box>
             </Typography>
           </Grid>
         </Grid>
@@ -128,9 +138,16 @@ const Projects = () => {
                 and many others.
               </p>
             </Typography>
-            <Typography variant="body1">
-              Click on the image to interact with a demo.
-            </Typography>
+            <Box sx={{ textAlign: "center" }}>
+              <Button
+                href="https://www.drt-software.com/SleepViz/"
+                target="_blank"
+                rel="noreferrer noopener"
+                variant="contained"
+              >
+                Go to Demo
+              </Button>
+            </Box>
           </Grid>
           <Grid
             size={{ xs: 12, md: 6 }}
@@ -186,9 +203,16 @@ const Projects = () => {
               possibilities right in your browser:
             </Typography>
             <List sx={{ pl: 1 }}>{generateListItems(items)}</List>
-            <Typography variant="body1">
-              Click on the image to see a demo.
-            </Typography>
+            <Box sx={{ textAlign: "center" }}>
+              <Button
+                href="https://drt-software.com/Portfolio/"
+                target="_blank"
+                rel="noreferrer noopener"
+                variant="contained"
+              >
+                Go to Demo
+              </Button>
+            </Box>
           </Grid>
         </Grid>
       </Box>
@@ -214,9 +238,16 @@ const Projects = () => {
                 highly realistic visualisation before they made a purchase.
               </p>
             </Typography>
-            <Typography variant="body1">
-              <p>Click on the image to interact with a demo.</p>
-            </Typography>
+            <Box sx={{ textAlign: "center" }}>
+              <Button
+                href="https://drt-software.com/Demos/Configurator/"
+                target="_blank"
+                rel="noreferrer noopener"
+                variant="contained"
+              >
+                Go to Demo
+              </Button>
+            </Box>
           </Grid>
           <Grid
             size={{ xs: 12, md: 6 }}
@@ -283,9 +314,16 @@ const Projects = () => {
                 big the planets are, especially in relation to the Earth.
               </p>
             </Typography>
-            <Typography variant="body1">
-              <p>Click on the image to see a demo.</p>
-            </Typography>
+            <Box sx={{ textAlign: "center" }}>
+              <Button
+                href="https://www.drt-software.com/Solar/"
+                target="_blank"
+                rel="noreferrer noopener"
+                variant="contained"
+              >
+                Go to Demo
+              </Button>
+            </Box>
           </Grid>
         </Grid>
       </Box>
@@ -308,9 +346,16 @@ const Projects = () => {
               simulations to online games. This component shows a collection of
               animated text effects and materials.
             </Typography>
-            <Typography variant="body1">
-              <p>Click on the image to see a demo.</p>
-            </Typography>
+            <Box sx={{ textAlign: "center" }}>
+              <Button
+                href="https://my.spline.design/textdemo-61df54446b5ffc181ac8ed02b55444fe/"
+                target="_blank"
+                rel="noreferrer noopener"
+                variant="contained"
+              >
+                Go to Demo
+              </Button>
+            </Box>
           </Grid>
           <Grid size={{ xs: 12, md: 6 }}>
             <div className="bordered">
@@ -383,9 +428,16 @@ const Projects = () => {
                 treatment.
               </p>
             </Typography>
-            <Typography variant="body1">
-              <p>Click on the image to see a demo.</p>
-            </Typography>
+            <Box sx={{ textAlign: "center" }}>
+              <Button
+                href="https://www.drt-software.com/MedicalViz/"
+                target="_blank"
+                rel="noreferrer noopener"
+                variant="contained"
+              >
+                Go to Demo
+              </Button>
+            </Box>
           </Grid>
         </Grid>
       </Box>

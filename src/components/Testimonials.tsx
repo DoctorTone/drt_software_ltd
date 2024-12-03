@@ -53,7 +53,7 @@ const Testimonials = () => {
     <Container
       className="testimonialsHeight"
       sx={{ mt: 15, mb: 15 }}
-      id="testimonials_page"
+      id="section3"
     >
       <Grid container>
         <Grid size={1} sx={{ textAlign: "center" }}>

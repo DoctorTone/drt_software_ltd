@@ -13,7 +13,7 @@ const Img = styled("img")({
 
 const Services = () => {
   return (
-    <Container sx={{ mt: 15 }}>
+    <Container id="section2" sx={{ mt: 15 }}>
       <Box sx={{ mt: 5, background: "#404040", borderRadius: "20px" }}>
         <Grid container spacing={2} sx={{ mt: 3, padding: "30px" }}>
           <Grid
