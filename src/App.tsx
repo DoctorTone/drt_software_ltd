@@ -1,24 +1,13 @@
-import TopSection from "./components/TopSection";
-import NavBar from "./components/NavBar";
-import Projects from "./components/Projects";
-import Services from "./components/Services";
-import Testimonials from "./components/Testimonials";
-import About from "./components/About";
-import Footer from "./components/Footer";
-import Social from "./components/Social";
+import { Routes, Route } from "react-router-dom";
+import MainPage from "./pages/MainPage";
+import DataViz from "./pages/DataViz";
 
 function App() {
   return (
-    <>
-      <NavBar />
-      <TopSection />
-      <Projects />
-      <Services />
-      <Testimonials />
-      <About />
-      <Social />
-      <Footer />
-    </>
+    <Routes>
+      <Route path="/*" element={<MainPage />} />
+      <Route path="/dataviz" element={<DataViz />} />
+    </Routes>
   );
 }
 

@@ -139,12 +139,7 @@ const Projects = () => {
               </p>
             </Typography>
             <Box sx={{ textAlign: "center" }}>
-              <Button
-                href="https://www.drt-software.com/SleepViz/"
-                target="_blank"
-                rel="noreferrer noopener"
-                variant="contained"
-              >
+              <Button href="/#dataviz" variant="contained">
                 Go to Demo
               </Button>
             </Box>
@@ -213,6 +208,63 @@ const Projects = () => {
                 Go to Demo
               </Button>
             </Box>
+          </Grid>
+        </Grid>
+      </Box>
+      <Box sx={{ mt: 5, background: "#404040", borderRadius: "20px" }}>
+        <Grid container spacing={2} sx={{ mt: 3, padding: "30px" }}>
+          <Grid size={{ xs: 12, md: 6 }} sx={{ textAlign: "center" }}>
+            <Typography variant="h5" color="#386fc7">
+              Projects
+            </Typography>
+            <Typography variant="h3" sx={{ mb: 3 }}>
+              3D Landing Pages
+            </Typography>
+            <Typography
+              className="paddingProjects"
+              variant="body1"
+              sx={{ textAlign: "justify" }}
+            >
+              <p>
+                You need to create a good first impression of your company and
+                one of the best ways to do this is to create a great looking
+                landing page.
+              </p>
+              <p>
+                3D landing pages are ideal for creating content that looks good
+                and is also informative. The innovative technology can show a
+                lot about your company and its aims.
+              </p>
+            </Typography>
+            <Box sx={{ textAlign: "center" }}>
+              <Button
+                href="https://drt-software.com/landing3D/"
+                target="_blank"
+                rel="noreferrer noopener"
+                variant="contained"
+              >
+                Go to Demo
+              </Button>
+            </Box>
+          </Grid>
+          <Grid
+            size={{ xs: 12, md: 6 }}
+            sx={{ display: "flex", alignItems: "center" }}
+          >
+            <div className="bordered">
+              <a
+                href="https://drt-software.com/landing3D/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <Img src="./images/landing.jpg" alt="projects" />
+              </a>
+              {!isMobile && (
+                <Typography className="hoverText" variant="h4">
+                  3D Landing Pages
+                </Typography>
+              )}
+            </div>
           </Grid>
         </Grid>
       </Box>
