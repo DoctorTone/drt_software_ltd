@@ -1,7 +1,11 @@
-import React from "react";
+import SubNavBar from "../components/SubNavBar";
 
 const DataViz = () => {
-  return <div>DataViz</div>;
+  return (
+    <>
+      <SubNavBar />
+    </>
+  );
 };
 
 export default DataViz;
