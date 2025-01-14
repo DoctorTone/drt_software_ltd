@@ -13,7 +13,7 @@ const DataProjects = () => {
   const isMobile = isMobileDevice();
 
   return (
-    <Container>
+    <Container sx={{ mt: 15, mb: 5 }}>
       <Box sx={{ mt: 5, background: "#404040", borderRadius: "20px" }}>
         <Grid container spacing={2} sx={{ mt: 3, padding: "30px" }}>
           <Grid size={{ xs: 12, md: 6 }} sx={{ textAlign: "center" }}>
@@ -29,16 +29,123 @@ const DataProjects = () => {
               sx={{ textAlign: "justify" }}
             >
               <p>
-                Data visualisation is commonly associated with bar charts, pie
-                charts and dashboards in a two-dimensional setting. There is
-                absolutely nothing wrong with this but there are other ways to
-                display your data.
-              </p>{" "}
+                This example depicts sleep patterns for a subject over a number
+                of months, illustrating all the associated attributes. The
+                application is fully interactive allowing individual attribute
+                selection, scaling and highlighting of any relevant trends.
+              </p>
               <p>
-                We can use the additional space of three dimensions to arrange
-                the data more effectively. I have visualised data from many
-                fields including climate, sports, finance, medical, financial
-                and many others.
+                The extra space allows all the attributes to be separated,
+                allowing for much more effective visualisation.
+              </p>
+            </Typography>
+            <Box sx={{ textAlign: "center" }}>
+              <Button href="/#dataviz" variant="contained">
+                Go to Demo
+              </Button>
+            </Box>
+          </Grid>
+          <Grid
+            size={{ xs: 12, md: 6 }}
+            sx={{ display: "flex", alignItems: "center" }}
+          >
+            <div className="bordered">
+              <a
+                href="https://www.drt-software.com/SleepViz/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <Img src="./images/dataViz.jpg" alt="projects" />
+              </a>
+              {!isMobile && (
+                <Typography className="hoverText" variant="h4">
+                  3D Data Visualisation
+                </Typography>
+              )}
+            </div>
+          </Grid>
+        </Grid>
+      </Box>
+      <Box sx={{ mt: 5, background: "#404040", borderRadius: "20px" }}>
+        <Grid container spacing={2} sx={{ mt: 3, padding: "30px" }}>
+          <Grid
+            size={{ xs: 12, md: 6 }}
+            sx={{ display: "flex", alignItems: "center" }}
+          >
+            <div className="bordered">
+              <a
+                href="https://drt-software.com/Portfolio/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <Img src="./images/portfolio.jpg" alt="projects" />
+              </a>
+              {!isMobile && (
+                <Typography className="hoverText" variant="h4">
+                  3D Data Visualisation
+                </Typography>
+              )}
+            </div>
+          </Grid>
+          <Grid size={{ xs: 12, md: 6 }} sx={{ textAlign: "center" }}>
+            <Typography variant="h5" color="#386fc7">
+              Data Visualisation
+            </Typography>
+            <Typography variant="h3" sx={{ mb: 3 }}>
+              Financial Data
+            </Typography>
+            <Typography
+              variant="body1"
+              className="paddingProjects"
+              sx={{ textAlign: "justify" }}
+            >
+              <p>
+                The application visualises the FTSE-100 index for the whole of a
+                year. It illustrates the share price trends on a daily, weekly
+                and monthly basis. The height of each bar also corresponds to
+                the share price trend throughout the year.
+              </p>
+              <p>
+                This amplifies how novel 3D data visualisation can be, showing
+                multiple aspects of the data at the same time.
+              </p>
+            </Typography>
+            <Box sx={{ textAlign: "center" }}>
+              <Button
+                href="https://drt-software.com/Portfolio/"
+                target="_blank"
+                rel="noreferrer noopener"
+                variant="contained"
+              >
+                Go to Demo
+              </Button>
+            </Box>
+          </Grid>
+        </Grid>
+      </Box>
+      <Box sx={{ mt: 5, background: "#404040", borderRadius: "20px" }}>
+        <Grid container spacing={2} sx={{ mt: 3, padding: "30px" }}>
+          <Grid size={{ xs: 12, md: 6 }} sx={{ textAlign: "center" }}>
+            <Typography variant="h5" color="#386fc7">
+              Data Visualisation
+            </Typography>
+            <Typography variant="h3" sx={{ mb: 3 }}>
+              Pandemic Data
+            </Typography>
+            <Typography
+              className="paddingProjects"
+              variant="body1"
+              sx={{ textAlign: "justify" }}
+            >
+              <p>
+                This example depicts sleep patterns for a subject over a number
+                of months, illustrating all the associated attributes. The
+                application is fully interactive allowing individual attribute
+                selection, scaling and highlighting of any relevant trends.
+              </p>
+              <p>
+                The extra space allows all the attributes to be separated,
+                allowing for much more effective visualisation.
               </p>
             </Typography>
             <Box sx={{ textAlign: "center" }}>

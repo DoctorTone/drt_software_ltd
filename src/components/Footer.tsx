@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <Container sx={{ mt: 5, mb: 5, textAlign: "center" }}>
       <Typography variant="h6">
-        Copyright &copy; 2024 DRT Software. All rights reserved.
+        Copyright &copy; 2025 DRT Software. All rights reserved.
       </Typography>
     </Container>
   );
