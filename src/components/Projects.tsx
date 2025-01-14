@@ -140,7 +140,7 @@ const Projects = () => {
             </Typography>
             <Box sx={{ textAlign: "center" }}>
               <Button href="/#dataviz" variant="contained">
-                Go to Demo
+                Data Viz Demos
               </Button>
             </Box>
           </Grid>
@@ -149,11 +149,7 @@ const Projects = () => {
             sx={{ display: "flex", alignItems: "center" }}
           >
             <div className="bordered">
-              <a
-                href="https://www.drt-software.com/SleepViz/"
-                target="_blank"
-                rel="noreferrer noopener"
-              >
+              <a href="/#dataviz">
                 <Img src="./images/dataViz.jpg" alt="projects" />
               </a>
               {!isMobile && (
@@ -243,7 +239,7 @@ const Projects = () => {
                 rel="noreferrer noopener"
                 variant="contained"
               >
-                Go to Demo
+                Show Pages
               </Button>
             </Box>
           </Grid>
@@ -399,23 +395,14 @@ const Projects = () => {
               animated text effects and materials.
             </Typography>
             <Box sx={{ textAlign: "center" }}>
-              <Button
-                href="https://my.spline.design/textdemo-61df54446b5ffc181ac8ed02b55444fe/"
-                target="_blank"
-                rel="noreferrer noopener"
-                variant="contained"
-              >
-                Go to Demo
+              <Button href="/#spline" variant="contained">
+                Go to Components
               </Button>
             </Box>
           </Grid>
           <Grid size={{ xs: 12, md: 6 }}>
             <div className="bordered">
-              <a
-                href="https://my.spline.design/textdemo-61df54446b5ffc181ac8ed02b55444fe/"
-                target="_blank"
-                rel="noreferrer noopener"
-              >
+              <a href="/#spline">
                 <Img src="./images/spline.jpg" alt="projects" />
               </a>
               {!isMobile && (

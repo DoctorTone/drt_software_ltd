@@ -33,8 +33,7 @@ const SubNavBar = () => {
               sx={{
                 paddingTop: "5px",
                 paddingBottom: "5px",
-                display: { xs: "none", md: "flex" },
-                flexGrow: 1,
+                display: { xs: "flex", md: "flex" },
                 alignItems: "center",
                 gap: "50px",
               }}
@@ -45,7 +44,6 @@ const SubNavBar = () => {
                 sx={{
                   display: "flex",
                   gap: "50px",
-                  flexGrow: 1,
                   justifyContent: "flex-end",
                   alignItems: "center",
                 }}
@@ -53,7 +51,7 @@ const SubNavBar = () => {
                 <Typography
                   variant="h6"
                   component="a"
-                  href="mailto:enquiries@drt-software.com"
+                  href="/#"
                   sx={{ textDecoration: "none", color: "white" }}
                 >
                   Home
@@ -64,7 +62,6 @@ const SubNavBar = () => {
                 sx={{
                   display: "flex",
                   gap: "50px",
-                  flexGrow: 1,
                   justifyContent: "flex-end",
                   alignItems: "center",
                 }}
