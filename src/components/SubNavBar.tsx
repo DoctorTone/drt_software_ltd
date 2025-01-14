@@ -54,6 +54,25 @@ const SubNavBar = () => {
                   variant="h6"
                   component="a"
                   href="mailto:enquiries@drt-software.com"
+                  sx={{ textDecoration: "none", color: "white" }}
+                >
+                  Home
+                </Typography>
+              </Box>
+              <Box
+                component="div"
+                sx={{
+                  display: "flex",
+                  gap: "50px",
+                  flexGrow: 1,
+                  justifyContent: "flex-end",
+                  alignItems: "center",
+                }}
+              >
+                <Typography
+                  variant="h6"
+                  component="a"
+                  href="mailto:enquiries@drt-software.com"
                   sx={{ textDecoration: "none", color: "orange" }}
                 >
                   enquiries@drt-software.com
