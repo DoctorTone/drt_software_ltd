@@ -266,6 +266,25 @@ const Projects = () => {
       </Box>
       <Box sx={{ mt: 5, background: "#404040", borderRadius: "20px" }}>
         <Grid container spacing={2} sx={{ mt: 3, padding: "30px" }}>
+          <Grid
+            size={{ xs: 12, md: 6 }}
+            sx={{ display: "flex", alignItems: "center" }}
+          >
+            <div className="bordered">
+              <a
+                href="https://drt-software.com/Demos/Configurator/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <Img src="./images/configurator.jpg" alt="projects" />
+              </a>
+              {!isMobile && (
+                <Typography className="hoverText" variant="h4">
+                  3D Configurator
+                </Typography>
+              )}
+            </div>
+          </Grid>
           <Grid size={{ xs: 12, md: 6 }} sx={{ textAlign: "center" }}>
             <Typography variant="h5" color="#386fc7">
               Projects
@@ -297,48 +316,10 @@ const Projects = () => {
               </Button>
             </Box>
           </Grid>
-          <Grid
-            size={{ xs: 12, md: 6 }}
-            sx={{ display: "flex", alignItems: "center" }}
-          >
-            <div className="bordered">
-              <a
-                href="https://drt-software.com/Demos/Configurator/"
-                target="_blank"
-                rel="noreferrer noopener"
-              >
-                <Img src="./images/configurator.jpg" alt="projects" />
-              </a>
-              {!isMobile && (
-                <Typography className="hoverText" variant="h4">
-                  3D Configurator
-                </Typography>
-              )}
-            </div>
-          </Grid>
         </Grid>
       </Box>
       <Box sx={{ mt: 5, background: "#404040", borderRadius: "20px" }}>
         <Grid container spacing={2} sx={{ mt: 3, padding: "30px" }}>
-          <Grid
-            size={{ xs: 12, md: 6 }}
-            sx={{ display: "flex", alignItems: "center" }}
-          >
-            <div className="bordered">
-              <a
-                href="https://www.drt-software.com/Solar/"
-                target="_blank"
-                rel="noreferrer noopener"
-              >
-                <Img src="./images/space.jpg" alt="projects" />
-              </a>
-              {!isMobile && (
-                <Typography className="hoverText" variant="h4">
-                  Physics and Simulation
-                </Typography>
-              )}
-            </div>
-          </Grid>
           <Grid size={{ xs: 12, md: 6 }} sx={{ textAlign: "center" }}>
             <Typography variant="h5" color="#386fc7">
               Projects
@@ -373,10 +354,41 @@ const Projects = () => {
               </Button>
             </Box>
           </Grid>
+          <Grid
+            size={{ xs: 12, md: 6 }}
+            sx={{ display: "flex", alignItems: "center" }}
+          >
+            <div className="bordered">
+              <a
+                href="https://www.drt-software.com/Solar/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <Img src="./images/space.jpg" alt="projects" />
+              </a>
+              {!isMobile && (
+                <Typography className="hoverText" variant="h4">
+                  Physics and Simulation
+                </Typography>
+              )}
+            </div>
+          </Grid>
         </Grid>
       </Box>
       <Box sx={{ mt: 5, background: "#404040", borderRadius: "20px" }}>
         <Grid container spacing={2} sx={{ mt: 3, padding: "30px" }}>
+          <Grid size={{ xs: 12, md: 6 }}>
+            <div className="bordered">
+              <a href="/#spline">
+                <Img src="./images/spline.jpg" alt="projects" />
+              </a>
+              {!isMobile && (
+                <Typography className="hoverText" variant="h4">
+                  Spline Components
+                </Typography>
+              )}
+            </div>
+          </Grid>
           <Grid size={{ xs: 12, md: 6 }} sx={{ textAlign: "center" }}>
             <Typography variant="h5" color="#386fc7">
               Projects
@@ -400,41 +412,10 @@ const Projects = () => {
               </Button>
             </Box>
           </Grid>
-          <Grid size={{ xs: 12, md: 6 }}>
-            <div className="bordered">
-              <a href="/#spline">
-                <Img src="./images/spline.jpg" alt="projects" />
-              </a>
-              {!isMobile && (
-                <Typography className="hoverText" variant="h4">
-                  Spline Components
-                </Typography>
-              )}
-            </div>
-          </Grid>
         </Grid>
       </Box>
       <Box sx={{ mt: 5, background: "#404040", borderRadius: "20px" }}>
         <Grid container spacing={2} sx={{ mt: 3, padding: "30px" }}>
-          <Grid
-            size={{ xs: 12, md: 6 }}
-            sx={{ display: "flex", alignItems: "center" }}
-          >
-            <div className="bordered">
-              <a
-                href="https://www.drt-software.com/MedicalViz/"
-                target="_blank"
-                rel="noreferrer noopener"
-              >
-                <Img src="./images/medical.jpg" alt="projects" />
-              </a>
-              {!isMobile && (
-                <Typography className="hoverText" variant="h4">
-                  3D Medical Visualisation
-                </Typography>
-              )}
-            </div>
-          </Grid>
           <Grid size={{ xs: 12, md: 6 }} sx={{ textAlign: "center" }}>
             <Typography variant="h5" color="#386fc7">
               Projects
@@ -477,6 +458,25 @@ const Projects = () => {
                 Go to Demo
               </Button>
             </Box>
+          </Grid>
+          <Grid
+            size={{ xs: 12, md: 6 }}
+            sx={{ display: "flex", alignItems: "center" }}
+          >
+            <div className="bordered">
+              <a
+                href="https://www.drt-software.com/MedicalViz/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <Img src="./images/medical.jpg" alt="projects" />
+              </a>
+              {!isMobile && (
+                <Typography className="hoverText" variant="h4">
+                  3D Medical Visualisation
+                </Typography>
+              )}
+            </div>
           </Grid>
         </Grid>
       </Box>
