@@ -344,13 +344,8 @@ const Projects = () => {
               </p>
             </Typography>
             <Box sx={{ textAlign: "center" }}>
-              <Button
-                href="https://www.drt-software.com/Solar/"
-                target="_blank"
-                rel="noreferrer noopener"
-                variant="contained"
-              >
-                Go to Demo
+              <Button href="/#physics" variant="contained">
+                Go to Demos
               </Button>
             </Box>
           </Grid>
@@ -359,11 +354,7 @@ const Projects = () => {
             sx={{ display: "flex", alignItems: "center" }}
           >
             <div className="bordered">
-              <a
-                href="https://www.drt-software.com/Solar/"
-                target="_blank"
-                rel="noreferrer noopener"
-              >
+              <a href="/#physics">
                 <Img src="./images/space.jpg" alt="projects" />
               </a>
               {!isMobile && (

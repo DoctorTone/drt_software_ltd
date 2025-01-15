@@ -35,7 +35,7 @@ const SubNavBar = () => {
                 paddingBottom: "5px",
                 display: { xs: "flex", md: "flex" },
                 alignItems: "center",
-                gap: "50px",
+                gap: "30px",
               }}
             >
               <Img src="./images/drtLogo.png" />
@@ -43,8 +43,6 @@ const SubNavBar = () => {
                 component="div"
                 sx={{
                   display: "flex",
-                  gap: "50px",
-                  justifyContent: "flex-end",
                   alignItems: "center",
                 }}
               >
@@ -61,8 +59,6 @@ const SubNavBar = () => {
                 component="div"
                 sx={{
                   display: "flex",
-                  gap: "50px",
-                  justifyContent: "flex-end",
                   alignItems: "center",
                 }}
               >
