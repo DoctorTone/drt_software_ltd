@@ -29,19 +29,14 @@ const PhysicsProjects = () => {
               sx={{ textAlign: "justify" }}
             >
               <p>
-                This example depicts sleep patterns for a subject over a number
-                of months, illustrating all the associated attributes. The
-                application is fully interactive allowing individual attribute
-                selection, scaling and highlighting of any relevant trends.
-              </p>
-              <p>
-                The extra space allows all the attributes to be separated,
-                allowing for much more effective visualisation.
+                This demo was built for schools to help visualise the solar
+                system - to get a sense of how far away everything is and how
+                big the planets are, especially in relation to the Earth.
               </p>
             </Typography>
             <Box sx={{ textAlign: "center" }}>
               <Button
-                href="https://www.drt-software.com/SleepViz/"
+                href="https://www.drt-software.com/Solar/"
                 target="_blank"
                 rel="noreferrer noopener"
                 variant="contained"
@@ -56,11 +51,11 @@ const PhysicsProjects = () => {
           >
             <div className="bordered">
               <a
-                href="https://www.drt-software.com/SleepViz/"
+                href="https://www.drt-software.com/Solar/"
                 target="_blank"
                 rel="noreferrer noopener"
               >
-                <Img src="./images/dataViz.jpg" alt="projects" />
+                <Img src="./images/space.jpg" alt="projects" />
               </a>
               {!isMobile && (
                 <Typography className="hoverText" variant="h4">
@@ -79,11 +74,11 @@ const PhysicsProjects = () => {
           >
             <div className="bordered">
               <a
-                href="https://www.drt-software.com/FTSEViz/"
+                href="https://drt-software.com/Demos/Physics/"
                 target="_blank"
                 rel="noreferrer noopener"
               >
-                <Img src="./images/finance.jpg" alt="projects" />
+                <Img src="./images/physicsGame.jpg" alt="projects" />
               </a>
               {!isMobile && (
                 <Typography className="hoverText" variant="h4">
@@ -105,19 +100,14 @@ const PhysicsProjects = () => {
               sx={{ textAlign: "justify" }}
             >
               <p>
-                The application visualises the FTSE-100 index for the whole of a
-                year. It illustrates the share price trends on a daily, weekly
-                and monthly basis. The height of each bar also corresponds to
-                the share price trend throughout the year.
-              </p>
-              <p>
-                This amplifies how novel 3D data visualisation can be, showing
-                multiple aspects of the data at the same time.
+                Sophisticated physics simulations are now possible in the
+                browser. The following demo uses the rapier physics engine to
+                let you play a simple game level. Enjoy!
               </p>
             </Typography>
             <Box sx={{ textAlign: "center" }}>
               <Button
-                href="https://www.drt-software.com/FTSEViz/"
+                href="https://drt-software.com/Demos/Physics/"
                 target="_blank"
                 rel="noreferrer noopener"
                 variant="contained"

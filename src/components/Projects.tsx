@@ -337,11 +337,6 @@ const Projects = () => {
                 of the realistic simulation of many things from solar systems to
                 atomic structures.
               </p>
-              <p>
-                This demo was built for schools to help visualise the solar
-                system - to get a sense of how far away everything is and how
-                big the planets are, especially in relation to the Earth.
-              </p>
             </Typography>
             <Box sx={{ textAlign: "center" }}>
               <Button href="/#physics" variant="contained">
@@ -392,10 +387,11 @@ const Projects = () => {
               variant="body1"
               sx={{ textAlign: "justify" }}
             >
-              Whilst building several websites in the Spline application, I
-              created a set of reusable components ranging from physics
-              simulations to online games. This component shows a collection of
-              animated text effects and materials.
+              <p>
+                Whilst building several websites in the Spline application, I
+                created a set of reusable components ranging from physics
+                simulations to online games. Check them out here.
+              </p>
             </Typography>
             <Box sx={{ textAlign: "center" }}>
               <Button href="/#spline" variant="contained">
