@@ -24,9 +24,6 @@ const TopSection = () => {
         your business goals, your customers will love it and your competitors
         will be jealous!
       </Typography>
-      <Typography variant="h6" sx={{ mt: 3 }} id="projects_page">
-        Here are a collection of projects that showcase some of my work.
-      </Typography>
     </Container>
   );
 };

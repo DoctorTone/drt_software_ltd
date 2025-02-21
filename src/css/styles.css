@@ -56,6 +56,10 @@ body {
 .bordered:hover .hoverText {
   display: block;
 }
+a {
+  text-decoration: none;
+  color: orange;
+}
 @keyframes fadeOut {
   from {
     opacity: 1;
