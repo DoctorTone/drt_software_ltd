@@ -1,7 +1,6 @@
 import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
 import Divider from "@mui/material/Divider";
-import { Box } from "@mui/material";
 
 const Latest = () => {
   return (
