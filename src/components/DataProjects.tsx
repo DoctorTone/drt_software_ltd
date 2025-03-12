@@ -79,6 +79,63 @@ const DataProjects = () => {
           >
             <div className="bordered">
               <a
+                href="https://www.drt-software.com/PointsViz/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <Img src="./images/points.jpg" alt="projects" />
+              </a>
+              {!isMobile && (
+                <Typography className="hoverText" variant="h4">
+                  3D Data Visualisation
+                </Typography>
+              )}
+            </div>
+          </Grid>
+          <Grid size={{ xs: 12, md: 6 }} sx={{ textAlign: "center" }}>
+            <Typography variant="h5" color="#386fc7">
+              Data Visualisation
+            </Typography>
+            <Typography variant="h3" sx={{ mb: 3 }}>
+              Sports Data
+            </Typography>
+            <Typography
+              variant="body1"
+              className="paddingProjects"
+              sx={{ textAlign: "justify" }}
+            >
+              <p>
+                Here we are comparing cumulative points totals for a football
+                team over successive seasons. Showing this in 3D is a novel way
+                to compare the data and get a different feel for the patterns in
+                the data.
+              </p>
+              <p>
+                3D is great for showing multiple aspects of the data and an
+                interesting alternative to traditional 2D.
+              </p>
+            </Typography>
+            <Box sx={{ textAlign: "center" }}>
+              <Button
+                href="https://www.drt-software.com/PointsViz/"
+                target="_blank"
+                rel="noreferrer noopener"
+                variant="contained"
+              >
+                Go to Demo
+              </Button>
+            </Box>
+          </Grid>
+        </Grid>
+      </Box>
+      <Box sx={{ mt: 5, background: "#404040", borderRadius: "20px" }}>
+        <Grid container spacing={2} sx={{ mt: 3, padding: "30px" }}>
+          <Grid
+            size={{ xs: 12, md: 6 }}
+            sx={{ display: "flex", alignItems: "center" }}
+          >
+            <div className="bordered">
+              <a
                 href="https://www.drt-software.com/FTSEViz/"
                 target="_blank"
                 rel="noreferrer noopener"
