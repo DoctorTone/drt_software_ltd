@@ -107,8 +107,8 @@ const DataProjects = () => {
               <p>
                 Here we are comparing cumulative points totals for a football
                 team over successive seasons. Showing this in 3D is a novel way
-                to compare the data and get a different feel for the patterns in
-                the data.
+                to compare the different data strands and get a feel for the
+                underlying patterns.
               </p>
               <p>
                 3D is great for showing multiple aspects of the data and an
@@ -118,63 +118,6 @@ const DataProjects = () => {
             <Box sx={{ textAlign: "center" }}>
               <Button
                 href="https://www.drt-software.com/PointsViz/"
-                target="_blank"
-                rel="noreferrer noopener"
-                variant="contained"
-              >
-                Go to Demo
-              </Button>
-            </Box>
-          </Grid>
-        </Grid>
-      </Box>
-      <Box sx={{ mt: 5, background: "#404040", borderRadius: "20px" }}>
-        <Grid container spacing={2} sx={{ mt: 3, padding: "30px" }}>
-          <Grid
-            size={{ xs: 12, md: 6 }}
-            sx={{ display: "flex", alignItems: "center" }}
-          >
-            <div className="bordered">
-              <a
-                href="https://www.drt-software.com/FTSEViz/"
-                target="_blank"
-                rel="noreferrer noopener"
-              >
-                <Img src="./images/finance.jpg" alt="projects" />
-              </a>
-              {!isMobile && (
-                <Typography className="hoverText" variant="h4">
-                  3D Data Visualisation
-                </Typography>
-              )}
-            </div>
-          </Grid>
-          <Grid size={{ xs: 12, md: 6 }} sx={{ textAlign: "center" }}>
-            <Typography variant="h5" color="#386fc7">
-              Data Visualisation
-            </Typography>
-            <Typography variant="h3" sx={{ mb: 3 }}>
-              Financial Data
-            </Typography>
-            <Typography
-              variant="body1"
-              className="paddingProjects"
-              sx={{ textAlign: "justify" }}
-            >
-              <p>
-                The application visualises the FTSE-100 index for the whole of a
-                year. It illustrates the share price trends on a daily, weekly
-                and monthly basis. The height of each bar also corresponds to
-                the share price trend throughout the year.
-              </p>
-              <p>
-                This amplifies how novel 3D data visualisation can be, showing
-                multiple aspects of the data at the same time.
-              </p>
-            </Typography>
-            <Box sx={{ textAlign: "center" }}>
-              <Button
-                href="https://www.drt-software.com/FTSEViz/"
                 target="_blank"
                 rel="noreferrer noopener"
                 variant="contained"
@@ -254,11 +197,11 @@ const DataProjects = () => {
           >
             <div className="bordered">
               <a
-                href="https://www.drt-software.com/Horror/"
+                href="https://www.drt-software.com/FTSEViz/"
                 target="_blank"
                 rel="noreferrer noopener"
               >
-                <Img src="./images/horror.jpg" alt="projects" />
+                <Img src="./images/finance.jpg" alt="projects" />
               </a>
               {!isMobile && (
                 <Typography className="hoverText" variant="h4">
@@ -267,6 +210,44 @@ const DataProjects = () => {
               )}
             </div>
           </Grid>
+          <Grid size={{ xs: 12, md: 6 }} sx={{ textAlign: "center" }}>
+            <Typography variant="h5" color="#386fc7">
+              Data Visualisation
+            </Typography>
+            <Typography variant="h3" sx={{ mb: 3 }}>
+              Financial Data
+            </Typography>
+            <Typography
+              variant="body1"
+              className="paddingProjects"
+              sx={{ textAlign: "justify" }}
+            >
+              <p>
+                The application visualises the FTSE-100 index for the whole of a
+                year. It illustrates the share price trends on a daily, weekly
+                and monthly basis. The height of each bar also corresponds to
+                the share price trend throughout the year.
+              </p>
+              <p>
+                This amplifies how novel 3D data visualisation can be, showing
+                multiple aspects of the data at the same time.
+              </p>
+            </Typography>
+            <Box sx={{ textAlign: "center" }}>
+              <Button
+                href="https://www.drt-software.com/FTSEViz/"
+                target="_blank"
+                rel="noreferrer noopener"
+                variant="contained"
+              >
+                Go to Demo
+              </Button>
+            </Box>
+          </Grid>
+        </Grid>
+      </Box>
+      <Box sx={{ mt: 5, background: "#404040", borderRadius: "20px" }}>
+        <Grid container spacing={2} sx={{ mt: 3, padding: "30px" }}>
           <Grid size={{ xs: 12, md: 6 }} sx={{ textAlign: "center" }}>
             <Typography variant="h5" color="#386fc7">
               Data Visualisation
@@ -295,6 +276,25 @@ const DataProjects = () => {
                 Go to Demo
               </Button>
             </Box>
+          </Grid>
+          <Grid
+            size={{ xs: 12, md: 6 }}
+            sx={{ display: "flex", alignItems: "center" }}
+          >
+            <div className="bordered">
+              <a
+                href="https://www.drt-software.com/Horror/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <Img src="./images/horror.jpg" alt="projects" />
+              </a>
+              {!isMobile && (
+                <Typography className="hoverText" variant="h4">
+                  3D Data Visualisation
+                </Typography>
+              )}
+            </div>
           </Grid>
         </Grid>
       </Box>
