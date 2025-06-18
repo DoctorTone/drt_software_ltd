@@ -6,7 +6,6 @@ import Testimonials from "../components/Testimonials";
 import About from "../components/About";
 import Footer from "../components/Footer";
 import Social from "../components/Social";
-import Latest from "../components/Latest";
 import WorkIntro from "../components/WorkIntro";
 
 const MainPage = () => {
@@ -14,7 +13,6 @@ const MainPage = () => {
     <>
       <NavBar />
       <TopSection />
-      <Latest />
       <WorkIntro />
       <Projects />
       <Services />
