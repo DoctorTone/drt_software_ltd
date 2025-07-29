@@ -16,55 +16,6 @@ const Services = () => {
     <Container id="section2" sx={{ mt: 15 }}>
       <Box sx={{ mt: 5, background: "#404040", borderRadius: "20px" }}>
         <Grid container spacing={2} sx={{ mt: 3, padding: "30px" }}>
-          <Grid
-            size={{ xs: 12, md: 6 }}
-            sx={{ display: "flex", alignItems: "center" }}
-          >
-            <Img src="./images/portfolio2.jpg" alt="projects" />
-          </Grid>
-          <Grid
-            size={{ xs: 12, md: 6 }}
-            sx={{
-              textAlign: "center",
-            }}
-          >
-            <Typography variant="h5" color="orange">
-              Services
-            </Typography>
-            <Typography variant="h3" sx={{ mb: 2 }}>
-              3D Web Applications
-            </Typography>
-            <Typography
-              className="paddingProjects"
-              variant="body1"
-              sx={{ textAlign: "justify", mb: 2 }}
-            >
-              <p>
-                3D technology can create a website that looks amazing, or an
-                application that allows real-time interaction right in your
-                browser.
-              </p>{" "}
-              <p>
-                But it's not just about looking good. The increased interaction
-                makes the site more engaging and compelling, it will leave a
-                lasting impression. Your site can become more of an experience
-                or story as opposed to a collection of static images.
-              </p>{" "}
-              Think what this can do for your business. You now have a method
-              for accelerating your impact and recognition.
-            </Typography>
-            <Button
-              variant="contained"
-              color="primary"
-              href="mailto:enquiries@drt-software.com"
-            >
-              Contact me
-            </Button>
-          </Grid>
-        </Grid>
-      </Box>
-      <Box sx={{ mt: 5, background: "#404040", borderRadius: "20px" }}>
-        <Grid container spacing={2} sx={{ mt: 3, padding: "30px" }}>
           <Grid size={{ xs: 12, md: 6 }} sx={{ textAlign: "center" }}>
             <Typography variant="h5" color="orange">
               Services
@@ -151,46 +102,6 @@ const Services = () => {
             >
               Contact me
             </Button>
-          </Grid>
-        </Grid>
-      </Box>
-      <Box sx={{ mt: 5, background: "#404040", borderRadius: "20px" }}>
-        <Grid container spacing={2} sx={{ mt: 3, padding: "30px" }}>
-          <Grid size={{ xs: 12, md: 6 }} sx={{ textAlign: "center" }}>
-            <Typography variant="h5" color="orange">
-              Services
-            </Typography>
-            <Typography variant="h3" sx={{ mb: 2 }}>
-              3D Spline Websites
-            </Typography>
-            <Typography
-              className="paddingProjects"
-              variant="body1"
-              sx={{ textAlign: "justify" }}
-            >
-              <p>
-                Spline is a web application that allows you to create
-                interactive 3D content. It is great for making 3D scenes,
-                animations, effects and interactive 3D elements.
-              </p>
-              <p>
-                Through my development work in Spline I have created a number of
-                components that can be used to enhance your website.
-              </p>
-            </Typography>
-            <Button
-              variant="contained"
-              color="primary"
-              href="mailto:enquiries@drt-software.com"
-            >
-              Contact me
-            </Button>
-          </Grid>
-          <Grid
-            size={{ xs: 12, md: 6 }}
-            sx={{ display: "flex", alignItems: "center" }}
-          >
-            <Img src="./images/spline2.jpg" alt="projects" />
           </Grid>
         </Grid>
       </Box>
