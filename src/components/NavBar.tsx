@@ -99,7 +99,9 @@ const NavBar = () => {
                 >
                   enquiries@drt-software.com
                 </MenuItem>
-                <MenuItem onClick={() => handleClose(1)}>Projects</MenuItem>
+                <MenuItem onClick={() => handleClose(1)}>
+                  Visualisations
+                </MenuItem>
                 <MenuItem
                   className="sectionMobile"
                   onClick={() => handleClose(2)}
@@ -171,7 +173,7 @@ const NavBar = () => {
                     cursor: "pointer",
                   }}
                 >
-                  Projects
+                  Visualisations
                 </Typography>
                 <Typography
                   variant="h6"
