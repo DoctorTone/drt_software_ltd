@@ -28,7 +28,7 @@ const TopSection = () => {
       <Typography variant="h6" sx={{ mt: 2 }}>
         I specialise in turning complex data into interactive 3D experiences
         that people understand. Whether it's scientific data, real-time
-        performance metrics, or historical trends, I build highlly interactive
+        performance metrics, or historical trends, I build highly interactive
         visual interfaces.
       </Typography>
     </Container>

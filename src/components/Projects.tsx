@@ -3,11 +3,6 @@ import { styled } from "@mui/material/styles";
 import Grid from "@mui/material/Grid2";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
-import List from "@mui/material/List";
-import ListItem from "@mui/material/ListItem";
-import ListItemIcon from "@mui/material/ListItemIcon";
-import ListItemText from "@mui/material/ListItemText";
-import AutoAwesomeIcon from "@mui/icons-material/AutoAwesome";
 import { isMobileDevice } from "../utils/Utils";
 import { Button } from "@mui/material";
 
@@ -16,26 +11,6 @@ const Img = styled("img")({
   borderRadius: "20px",
   width: "100%",
 });
-
-const items = [
-  "Enhanced engagement - interact with 3D models, feel more involved.",
-  "Improved visualisation - see realistic products from any angle.",
-  "Innovative branding - 3D websites tell your story differently.",
-  "Increased visitors - engaging and interactive sites encourage visitors, who are more tempted to stay.",
-  "Compelling experiences - highly interactive sites provide increased depth and context.",
-  "Competitive edge - your site will have an edge over your competitors.",
-];
-
-const generateListItems = (items: string[]) => {
-  return items.map((item, index) => (
-    <ListItem disablePadding key={index}>
-      <ListItemIcon>
-        <AutoAwesomeIcon color="warning" />
-      </ListItemIcon>
-      <ListItemText primary={item} />
-    </ListItem>
-  ));
-};
 
 const Projects = () => {
   const isMobile = isMobileDevice();
@@ -67,8 +42,11 @@ const Projects = () => {
             <Typography variant="h5" color="#386fc7">
               Visualisations
             </Typography>
+            <Typography variant="h6" color="orange">
+              Sports
+            </Typography>
             <Typography variant="h3" sx={{ mb: 3 }}>
-              Sports Data
+              Results Analysis
             </Typography>
             <Typography
               variant="body1"
@@ -124,8 +102,11 @@ const Projects = () => {
             <Typography variant="h5" color="#386fc7">
               Visualisations
             </Typography>
+            <Typography variant="h6" color="orange">
+              Music
+            </Typography>
             <Typography variant="h3" sx={{ mb: 3 }}>
-              Music Data
+              Interactive Tuition
             </Typography>
             <Typography
               variant="body1"
