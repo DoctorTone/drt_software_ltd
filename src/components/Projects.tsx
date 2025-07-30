@@ -19,6 +19,194 @@ const Projects = () => {
     <Container id="section1">
       <Box sx={{ mt: 5, background: "#404040", borderRadius: "20px" }}>
         <Grid container spacing={2} sx={{ mt: 3, padding: "30px" }}>
+          <Grid size={{ xs: 12, md: 6 }} sx={{ textAlign: "center" }}>
+            <Typography variant="h5" color="#386fc7">
+              Visualisations
+            </Typography>
+            <Typography variant="h6" color="orange">
+              Medical
+            </Typography>
+            <Typography variant="h3" sx={{ mb: 3 }}>
+              Tumour Detection
+            </Typography>
+            <Typography
+              className="paddingProjects"
+              variant="body1"
+              sx={{ textAlign: "justify" }}
+            >
+              <p>
+                Medical imaging software can be very complex and expensive, with
+                a steep learning curve. We wanted to create an application that
+                could be used to measure and monitor tumour lesions that was
+                simple to use and gave accurate results.
+              </p>{" "}
+              <p>
+                In conjunction with a neurosurgeon, I built an application that
+                took a collection of 2D medical images and created a 3D volume.
+                This could then be used to visualise anatomic structures and
+                identify areas of interest.
+              </p>{" "}
+              <p>
+                The software allowed specified areas to be isolated, and the
+                corresponding data could then be analysed and any cancerous
+                lesions were identified and measured. This then allowed
+                monitoring of the tumour to determine the effectiveness of any
+                treatment.
+              </p>
+            </Typography>
+            <Box sx={{ textAlign: "center" }}>
+              <Button
+                href="https://www.drt-software.com/MedicalViz/"
+                target="_blank"
+                rel="noreferrer noopener"
+                variant="contained"
+              >
+                Go to Demo
+              </Button>
+            </Box>
+          </Grid>
+          <Grid
+            size={{ xs: 12, md: 6 }}
+            sx={{ display: "flex", alignItems: "center" }}
+          >
+            <div className="bordered">
+              <a
+                href="https://www.drt-software.com/MedicalViz/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <Img src="./images/medical.jpg" alt="projects" />
+              </a>
+              {!isMobile && (
+                <Typography className="hoverText" variant="h4">
+                  3D Medical Visualisation
+                </Typography>
+              )}
+            </div>
+          </Grid>
+        </Grid>
+      </Box>
+      <Box sx={{ mt: 5, background: "#404040", borderRadius: "20px" }}>
+        <Grid container spacing={2} sx={{ mt: 3, padding: "30px" }}>
+          <Grid
+            size={{ xs: 12, md: 6 }}
+            sx={{ display: "flex", alignItems: "center" }}
+          >
+            <div className="bordered">
+              <a
+                href="https://www.drt-software.com/PointsViz/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <Img src="./images/points.jpg" alt="projects" />
+              </a>
+              {!isMobile && (
+                <Typography className="hoverText" variant="h4">
+                  3D Data Visualisation
+                </Typography>
+              )}
+            </div>
+          </Grid>
+          <Grid size={{ xs: 12, md: 6 }} sx={{ textAlign: "center" }}>
+            <Typography variant="h5" color="#386fc7">
+              Visualisations
+            </Typography>
+            <Typography variant="h6" color="orange">
+              Music
+            </Typography>
+            <Typography variant="h3" sx={{ mb: 3 }}>
+              Interactive Tuition
+            </Typography>
+            <Typography
+              variant="body1"
+              className="paddingProjects"
+              sx={{ textAlign: "justify" }}
+            >
+              <p>
+                Learning an instrument can be difficult, but imagine having a
+                drumkit in front of you and being shown what drum to hit and
+                when!
+              </p>
+              <p>
+                This app lets you control the speed of the piece and visualises
+                the drum interactions.
+              </p>
+              <p>
+                This a novel use of 3D and showcases how effective 3D can be in
+                a learning environment.
+              </p>
+            </Typography>
+            <Box sx={{ textAlign: "center" }}>
+              <Button
+                href="https://www.drt-software.com/DrumViz/"
+                target="_blank"
+                rel="noreferrer noopener"
+                variant="contained"
+              >
+                Go to Demo
+              </Button>
+            </Box>
+          </Grid>
+        </Grid>
+      </Box>
+      <Box sx={{ mt: 5, background: "#404040", borderRadius: "20px" }}>
+        <Grid container spacing={2} sx={{ mt: 3, padding: "30px" }}>
+          <Grid size={{ xs: 12, md: 6 }} sx={{ textAlign: "center" }}>
+            <Typography variant="h5" color="#386fc7">
+              Visualisations
+            </Typography>
+            <Typography variant="h6" color="orange">
+              Multi Dimensional
+            </Typography>
+            <Typography variant="h3" sx={{ mb: 3 }}>
+              Sleep Analysis
+            </Typography>
+            <Typography
+              className="paddingProjects"
+              variant="body1"
+              sx={{ textAlign: "justify" }}
+            >
+              <p>
+                This example depicts sleep patterns for a subject over a number
+                of months, illustrating all the associated attributes. The
+                application is fully interactive allowing individual attribute
+                selection, scaling and highlighting of any relevant trends.
+              </p>{" "}
+              <p>
+                The extra space allows all the attributes to be separated,
+                allowing for much more effective visualisation.
+              </p>
+            </Typography>
+            <Box sx={{ textAlign: "center" }}>
+              <Button
+                href="https://www.drt-software.com/SleepViz/"
+                target="_blank"
+                rel="noreferrer noopener"
+                variant="contained"
+              >
+                Go to Demo
+              </Button>
+            </Box>
+          </Grid>
+          <Grid
+            size={{ xs: 12, md: 6 }}
+            sx={{ display: "flex", alignItems: "center" }}
+          >
+            <div className="bordered">
+              <a href="/#dataviz">
+                <Img src="./images/dataViz.jpg" alt="projects" />
+              </a>
+              {!isMobile && (
+                <Typography className="hoverText" variant="h4">
+                  3D Data Visualisation
+                </Typography>
+              )}
+            </div>
+          </Grid>
+        </Grid>
+      </Box>
+      <Box sx={{ mt: 5, background: "#404040", borderRadius: "20px" }}>
+        <Grid container spacing={2} sx={{ mt: 3, padding: "30px" }}>
           <Grid
             size={{ xs: 12, md: 6 }}
             sx={{ display: "flex", alignItems: "center" }}
@@ -79,54 +267,30 @@ const Projects = () => {
       </Box>
       <Box sx={{ mt: 5, background: "#404040", borderRadius: "20px" }}>
         <Grid container spacing={2} sx={{ mt: 3, padding: "30px" }}>
-          <Grid
-            size={{ xs: 12, md: 6 }}
-            sx={{ display: "flex", alignItems: "center" }}
-          >
-            <div className="bordered">
-              <a
-                href="https://www.drt-software.com/PointsViz/"
-                target="_blank"
-                rel="noreferrer noopener"
-              >
-                <Img src="./images/points.jpg" alt="projects" />
-              </a>
-              {!isMobile && (
-                <Typography className="hoverText" variant="h4">
-                  3D Data Visualisation
-                </Typography>
-              )}
-            </div>
-          </Grid>
           <Grid size={{ xs: 12, md: 6 }} sx={{ textAlign: "center" }}>
             <Typography variant="h5" color="#386fc7">
               Visualisations
             </Typography>
             <Typography variant="h6" color="orange">
-              Music
+              Space
             </Typography>
             <Typography variant="h3" sx={{ mb: 3 }}>
-              Interactive Tuition
+              Solar System
             </Typography>
             <Typography
-              variant="body1"
               className="paddingProjects"
+              variant="body1"
               sx={{ textAlign: "justify" }}
             >
               <p>
-                Here we are comparing cumulative points totals for a football
-                team over successive seasons. Showing this in 3D is a novel way
-                to compare the different data strands and get a feel for the
-                underlying patterns.
-              </p>
-              <p>
-                3D is great for showing multiple aspects of the data and an
-                interesting alternative to traditional 2D.
+                This demo was built for schools to help visualise the solar
+                system - to get a sense of how far away everything is and how
+                big the planets are, especially in relation to the Earth.
               </p>
             </Typography>
             <Box sx={{ textAlign: "center" }}>
               <Button
-                href="https://www.drt-software.com/DrumViz/"
+                href="https://www.drt-software.com/Solar/"
                 target="_blank"
                 rel="noreferrer noopener"
                 variant="contained"
@@ -134,6 +298,25 @@ const Projects = () => {
                 Go to Demo
               </Button>
             </Box>
+          </Grid>
+          <Grid
+            size={{ xs: 12, md: 6 }}
+            sx={{ display: "flex", alignItems: "center" }}
+          >
+            <div className="bordered">
+              <a
+                href="https://www.drt-software.com/Solar/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <Img src="./images/space.jpg" alt="projects" />
+              </a>
+              {!isMobile && (
+                <Typography className="hoverText" variant="h4">
+                  Physics & Simulation
+                </Typography>
+              )}
+            </div>
           </Grid>
         </Grid>
       </Box>
@@ -208,25 +391,25 @@ const Projects = () => {
               Visualisations
             </Typography>
             <Typography variant="h6" color="orange">
-              Space
+              Real-Time
             </Typography>
             <Typography variant="h3" sx={{ mb: 3 }}>
-              Solar System
+              Brain Activity
             </Typography>
             <Typography
-              className="paddingProjects"
               variant="body1"
+              className="paddingProjects"
               sx={{ textAlign: "justify" }}
             >
-              <p>
-                This demo was built for schools to help visualise the solar
-                system - to get a sense of how far away everything is and how
-                big the planets are, especially in relation to the Earth.
-              </p>
+              Processing data over the web makes it an ideal platform to be able
+              to visualise data in real-time. At the Mayhem Horror festival we
+              visualised the EEG activity of film fans as they watched the
+              horror! Made in conjunction with colleagues at Thrill Laboratory
+              and the Mixed Reality Lab.
             </Typography>
             <Box sx={{ textAlign: "center" }}>
               <Button
-                href="https://www.drt-software.com/Solar/"
+                href="https://www.drt-software.com/Horror/"
                 target="_blank"
                 rel="noreferrer noopener"
                 variant="contained"
@@ -241,15 +424,15 @@ const Projects = () => {
           >
             <div className="bordered">
               <a
-                href="https://www.drt-software.com/Solar/"
+                href="https://www.drt-software.com/Horror/"
                 target="_blank"
                 rel="noreferrer noopener"
               >
-                <Img src="./images/space.jpg" alt="projects" />
+                <Img src="./images/horror.jpg" alt="projects" />
               </a>
               {!isMobile && (
                 <Typography className="hoverText" variant="h4">
-                  Physics & Simulation
+                  3D Data Visualisation
                 </Typography>
               )}
             </div>
@@ -313,186 +496,6 @@ const Projects = () => {
                 Go to Demo
               </Button>
             </Box>
-          </Grid>
-        </Grid>
-      </Box>
-      <Box sx={{ mt: 5, background: "#404040", borderRadius: "20px" }}>
-        <Grid container spacing={2} sx={{ mt: 3, padding: "30px" }}>
-          <Grid size={{ xs: 12, md: 6 }} sx={{ textAlign: "center" }}>
-            <Typography variant="h5" color="#386fc7">
-              Visualisations
-            </Typography>
-            <Typography variant="h6" color="orange">
-              Real-Time
-            </Typography>
-            <Typography variant="h3" sx={{ mb: 3 }}>
-              Brain Activity
-            </Typography>
-            <Typography
-              variant="body1"
-              className="paddingProjects"
-              sx={{ textAlign: "justify" }}
-            >
-              Processing data over the web makes it an ideal platform to be able
-              to visualise data in real-time. At the Mayhem Horror festival we
-              visualised the EEG activity of film fans as they watched the
-              horror! Made in conjunction with colleagues at Thrill Laboratory
-              and the Mixed Reality Lab.
-            </Typography>
-            <Box sx={{ textAlign: "center" }}>
-              <Button
-                href="https://www.drt-software.com/Horror/"
-                target="_blank"
-                rel="noreferrer noopener"
-                variant="contained"
-              >
-                Go to Demo
-              </Button>
-            </Box>
-          </Grid>
-          <Grid
-            size={{ xs: 12, md: 6 }}
-            sx={{ display: "flex", alignItems: "center" }}
-          >
-            <div className="bordered">
-              <a
-                href="https://www.drt-software.com/Horror/"
-                target="_blank"
-                rel="noreferrer noopener"
-              >
-                <Img src="./images/horror.jpg" alt="projects" />
-              </a>
-              {!isMobile && (
-                <Typography className="hoverText" variant="h4">
-                  3D Data Visualisation
-                </Typography>
-              )}
-            </div>
-          </Grid>
-        </Grid>
-      </Box>
-      <Box sx={{ mt: 5, background: "#404040", borderRadius: "20px" }}>
-        <Grid container spacing={2} sx={{ mt: 3, padding: "30px" }}>
-          <Grid size={{ xs: 12, md: 6 }} sx={{ textAlign: "center" }}>
-            <Typography variant="h5" color="#386fc7">
-              Visualisations
-            </Typography>
-            <Typography variant="h6" color="orange">
-              Multi Dimensional
-            </Typography>
-            <Typography variant="h3" sx={{ mb: 3 }}>
-              Sleep
-            </Typography>
-            <Typography
-              className="paddingProjects"
-              variant="body1"
-              sx={{ textAlign: "justify" }}
-            >
-              <p>
-                This example depicts sleep patterns for a subject over a number
-                of months, illustrating all the associated attributes. The
-                application is fully interactive allowing individual attribute
-                selection, scaling and highlighting of any relevant trends.
-              </p>{" "}
-              <p>
-                The extra space allows all the attributes to be separated,
-                allowing for much more effective visualisation.
-              </p>
-            </Typography>
-            <Box sx={{ textAlign: "center" }}>
-              <Button
-                href="https://www.drt-software.com/SleepViz/"
-                target="_blank"
-                rel="noreferrer noopener"
-                variant="contained"
-              >
-                Go to Demo
-              </Button>
-            </Box>
-          </Grid>
-          <Grid
-            size={{ xs: 12, md: 6 }}
-            sx={{ display: "flex", alignItems: "center" }}
-          >
-            <div className="bordered">
-              <a href="/#dataviz">
-                <Img src="./images/dataViz.jpg" alt="projects" />
-              </a>
-              {!isMobile && (
-                <Typography className="hoverText" variant="h4">
-                  3D Data Visualisation
-                </Typography>
-              )}
-            </div>
-          </Grid>
-        </Grid>
-      </Box>
-      <Box sx={{ mt: 5, background: "#404040", borderRadius: "20px" }}>
-        <Grid container spacing={2} sx={{ mt: 3, padding: "30px" }}>
-          <Grid size={{ xs: 12, md: 6 }} sx={{ textAlign: "center" }}>
-            <Typography variant="h5" color="#386fc7">
-              Visualisations
-            </Typography>
-            <Typography variant="h6" color="orange">
-              Medical
-            </Typography>
-            <Typography variant="h3" sx={{ mb: 3 }}>
-              Tumour Detection
-            </Typography>
-            <Typography
-              className="paddingProjects"
-              variant="body1"
-              sx={{ textAlign: "justify" }}
-            >
-              <p>
-                Medical imaging software can be very complex and expensive, with
-                a steep learning curve. We wanted to create an application that
-                could be used to measure and monitor tumour lesions that was
-                simple to use and gave accurate results.
-              </p>{" "}
-              <p>
-                In conjunction with a neurosurgeon, I built an application that
-                took a collection of 2D medical images and created a 3D volume.
-                This could then be used to visualise anatomic structures and
-                identify areas of interest.
-              </p>{" "}
-              <p>
-                The software allowed specified areas to be isolated, and the
-                corresponding data could then be analysed and any cancerous
-                lesions were identified and measured. This then allowed
-                monitoring of the tumour to determine the effectiveness of any
-                treatment.
-              </p>
-            </Typography>
-            <Box sx={{ textAlign: "center" }}>
-              <Button
-                href="https://www.drt-software.com/MedicalViz/"
-                target="_blank"
-                rel="noreferrer noopener"
-                variant="contained"
-              >
-                Go to Demo
-              </Button>
-            </Box>
-          </Grid>
-          <Grid
-            size={{ xs: 12, md: 6 }}
-            sx={{ display: "flex", alignItems: "center" }}
-          >
-            <div className="bordered">
-              <a
-                href="https://www.drt-software.com/MedicalViz/"
-                target="_blank"
-                rel="noreferrer noopener"
-              >
-                <Img src="./images/medical.jpg" alt="projects" />
-              </a>
-              {!isMobile && (
-                <Typography className="hoverText" variant="h4">
-                  3D Medical Visualisation
-                </Typography>
-              )}
-            </div>
           </Grid>
         </Grid>
       </Box>
