@@ -16,6 +16,50 @@ const Services = () => {
     <Container id="section2" sx={{ mt: 15 }}>
       <Box sx={{ mt: 5, background: "#404040", borderRadius: "20px" }}>
         <Grid container spacing={2} sx={{ mt: 3, padding: "30px" }}>
+          <Grid
+            size={{ xs: 12, md: 6 }}
+            sx={{ display: "flex", alignItems: "center" }}
+          >
+            <Img src="./images/covid.jpg" alt="projects" />
+          </Grid>
+          <Grid size={{ xs: 12, md: 6 }} sx={{ textAlign: "center" }}>
+            <Typography variant="h5" color="orange">
+              Services
+            </Typography>
+            <Typography variant="h3" sx={{ mb: 2 }}>
+              3D Data Visualisation
+            </Typography>
+            <Typography
+              className="paddingProjects"
+              variant="body1"
+              sx={{ textAlign: "justify" }}
+            >
+              <p>
+                Visualising data in three dimensions can make it a lot easier to
+                understand. The extra space allows the associated attributes to
+                be configured and arranged more effectively than a 2D design.
+              </p>{" "}
+              <p>
+                Having the data inside a web application also makes it highly
+                interactive and easier to spot trends and patterns.
+              </p>{" "}
+              <p>
+                I have visualised data from lots of fields including financial,
+                medical, health, architecture, sports and many more.
+              </p>
+            </Typography>
+            <Button
+              variant="contained"
+              color="primary"
+              href="mailto:enquiries@drt-software.com"
+            >
+              Contact me
+            </Button>
+          </Grid>
+        </Grid>
+      </Box>
+      <Box sx={{ mt: 5, background: "#404040", borderRadius: "20px" }}>
+        <Grid container spacing={2} sx={{ mt: 3, padding: "30px" }}>
           <Grid size={{ xs: 12, md: 6 }} sx={{ textAlign: "center" }}>
             <Typography variant="h5" color="orange">
               Services
@@ -58,50 +102,6 @@ const Services = () => {
             sx={{ display: "flex", alignItems: "center" }}
           >
             <Img src="./images/VRDev.jpg" alt="projects" />
-          </Grid>
-        </Grid>
-      </Box>
-      <Box sx={{ mt: 5, background: "#404040", borderRadius: "20px" }}>
-        <Grid container spacing={2} sx={{ mt: 3, padding: "30px" }}>
-          <Grid
-            size={{ xs: 12, md: 6 }}
-            sx={{ display: "flex", alignItems: "center" }}
-          >
-            <Img src="./images/covid.jpg" alt="projects" />
-          </Grid>
-          <Grid size={{ xs: 12, md: 6 }} sx={{ textAlign: "center" }}>
-            <Typography variant="h5" color="orange">
-              Services
-            </Typography>
-            <Typography variant="h3" sx={{ mb: 2 }}>
-              3D Data Visualisation
-            </Typography>
-            <Typography
-              className="paddingProjects"
-              variant="body1"
-              sx={{ textAlign: "justify" }}
-            >
-              <p>
-                Visualising data in three dimensions can make it a lot easier to
-                understand. The extra space allows the associated attributes to
-                be configured and arranged more effectively than a 2D design.
-              </p>{" "}
-              <p>
-                Having the data inside a web application also makes it highly
-                interactive and easier to spot trends and patterns.
-              </p>{" "}
-              <p>
-                I have visualised data from lots of fields including financial,
-                medical, health, architecture, sports and many more.
-              </p>
-            </Typography>
-            <Button
-              variant="contained"
-              color="primary"
-              href="mailto:enquiries@drt-software.com"
-            >
-              Contact me
-            </Button>
           </Grid>
         </Grid>
       </Box>
