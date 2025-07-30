@@ -141,10 +141,13 @@ const Projects = () => {
         <Grid container spacing={2} sx={{ mt: 3, padding: "30px" }}>
           <Grid size={{ xs: 12, md: 6 }} sx={{ textAlign: "center" }}>
             <Typography variant="h5" color="#386fc7">
-              Data Visualisation
+              Visualisations
+            </Typography>
+            <Typography variant="h6" color="orange">
+              Multi Dimensional
             </Typography>
             <Typography variant="h3" sx={{ mb: 3 }}>
-              Pandemic Data
+              Pandemic
             </Typography>
             <Typography
               className="paddingProjects"
@@ -200,6 +203,61 @@ const Projects = () => {
       </Box>
       <Box sx={{ mt: 5, background: "#404040", borderRadius: "20px" }}>
         <Grid container spacing={2} sx={{ mt: 3, padding: "30px" }}>
+          <Grid size={{ xs: 12, md: 6 }} sx={{ textAlign: "center" }}>
+            <Typography variant="h5" color="#386fc7">
+              Visualisations
+            </Typography>
+            <Typography variant="h6" color="orange">
+              Space
+            </Typography>
+            <Typography variant="h3" sx={{ mb: 3 }}>
+              Solar System
+            </Typography>
+            <Typography
+              className="paddingProjects"
+              variant="body1"
+              sx={{ textAlign: "justify" }}
+            >
+              <p>
+                This demo was built for schools to help visualise the solar
+                system - to get a sense of how far away everything is and how
+                big the planets are, especially in relation to the Earth.
+              </p>
+            </Typography>
+            <Box sx={{ textAlign: "center" }}>
+              <Button
+                href="https://www.drt-software.com/Solar/"
+                target="_blank"
+                rel="noreferrer noopener"
+                variant="contained"
+              >
+                Go to Demo
+              </Button>
+            </Box>
+          </Grid>
+          <Grid
+            size={{ xs: 12, md: 6 }}
+            sx={{ display: "flex", alignItems: "center" }}
+          >
+            <div className="bordered">
+              <a
+                href="https://www.drt-software.com/Solar/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <Img src="./images/space.jpg" alt="projects" />
+              </a>
+              {!isMobile && (
+                <Typography className="hoverText" variant="h4">
+                  Physics & Simulation
+                </Typography>
+              )}
+            </div>
+          </Grid>
+        </Grid>
+      </Box>
+      <Box sx={{ mt: 5, background: "#404040", borderRadius: "20px" }}>
+        <Grid container spacing={2} sx={{ mt: 3, padding: "30px" }}>
           <Grid
             size={{ xs: 12, md: 6 }}
             sx={{ display: "flex", alignItems: "center" }}
@@ -221,10 +279,13 @@ const Projects = () => {
           </Grid>
           <Grid size={{ xs: 12, md: 6 }} sx={{ textAlign: "center" }}>
             <Typography variant="h5" color="#386fc7">
-              Data Visualisation
+              Visualisations
+            </Typography>
+            <Typography variant="h6" color="orange">
+              Finance
             </Typography>
             <Typography variant="h3" sx={{ mb: 3 }}>
-              Financial Data
+              FTSE Tracking
             </Typography>
             <Typography
               variant="body1"
@@ -259,10 +320,13 @@ const Projects = () => {
         <Grid container spacing={2} sx={{ mt: 3, padding: "30px" }}>
           <Grid size={{ xs: 12, md: 6 }} sx={{ textAlign: "center" }}>
             <Typography variant="h5" color="#386fc7">
-              Data Visualisation
+              Visualisations
+            </Typography>
+            <Typography variant="h6" color="orange">
+              Real-Time
             </Typography>
             <Typography variant="h3" sx={{ mb: 3 }}>
-              Real Time
+              Brain Activity
             </Typography>
             <Typography
               variant="body1"
@@ -313,8 +377,11 @@ const Projects = () => {
             <Typography variant="h5" color="#386fc7">
               Visualisations
             </Typography>
+            <Typography variant="h6" color="orange">
+              Multi Dimensional
+            </Typography>
             <Typography variant="h3" sx={{ mb: 3 }}>
-              Sleep Data
+              Sleep
             </Typography>
             <Typography
               className="paddingProjects"
@@ -366,8 +433,11 @@ const Projects = () => {
             <Typography variant="h5" color="#386fc7">
               Visualisations
             </Typography>
-            <Typography variant="h3" sx={{ mb: 3 }}>
+            <Typography variant="h6" color="orange">
               Medical
+            </Typography>
+            <Typography variant="h3" sx={{ mb: 3 }}>
+              Tumour Detection
             </Typography>
             <Typography
               className="paddingProjects"
