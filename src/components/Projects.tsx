@@ -5,6 +5,7 @@ import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import { isMobileDevice } from "../utils/Utils";
 import { Button } from "@mui/material";
+import ReactPlayer from "react-player";
 
 const Img = styled("img")({
   display: "block",
@@ -75,13 +76,10 @@ const Projects = () => {
                 target="_blank"
                 rel="noreferrer noopener"
               >
-                <Img src="./images/medical.jpg" alt="projects" />
+                <video width="100%" autoPlay muted loop>
+                  <source src="./videos/Medical.mp4" type="video/mp4" />
+                </video>
               </a>
-              {!isMobile && (
-                <Typography className="hoverText" variant="h4">
-                  3D Medical Visualisation
-                </Typography>
-              )}
             </div>
           </Grid>
         </Grid>
