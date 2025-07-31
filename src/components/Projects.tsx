@@ -192,13 +192,10 @@ const Projects = () => {
           >
             <div className="bordered">
               <a href="/#dataviz">
-                <Img src="./images/dataViz.jpg" alt="projects" />
+                <Video autoPlay muted loop>
+                  <source src="./videos/Sleep.mp4" type="video/mp4" />
+                </Video>
               </a>
-              {!isMobile && (
-                <Typography className="hoverText" variant="h4">
-                  3D Data Visualisation
-                </Typography>
-              )}
             </div>
           </Grid>
         </Grid>
