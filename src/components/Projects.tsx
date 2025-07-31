@@ -5,11 +5,14 @@ import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import { isMobileDevice } from "../utils/Utils";
 import { Button } from "@mui/material";
-import ReactPlayer from "react-player";
 
 const Img = styled("img")({
   display: "block",
   borderRadius: "20px",
+  width: "100%",
+});
+
+const Video = styled("video")({
   width: "100%",
 });
 
@@ -76,9 +79,9 @@ const Projects = () => {
                 target="_blank"
                 rel="noreferrer noopener"
               >
-                <video width="100%" autoPlay muted loop>
+                <Video autoPlay muted loop>
                   <source src="./videos/Medical.mp4" type="video/mp4" />
-                </video>
+                </Video>
               </a>
             </div>
           </Grid>
@@ -92,17 +95,14 @@ const Projects = () => {
           >
             <div className="bordered">
               <a
-                href="https://www.drt-software.com/PointsViz/"
+                href="https://www.drt-software.com/DrumViz/"
                 target="_blank"
                 rel="noreferrer noopener"
               >
-                <Img src="./images/points.jpg" alt="projects" />
+                <Video autoPlay muted loop>
+                  <source src="./videos/Drums.mp4" type="video/mp4" />
+                </Video>
               </a>
-              {!isMobile && (
-                <Typography className="hoverText" variant="h4">
-                  3D Data Visualisation
-                </Typography>
-              )}
             </div>
           </Grid>
           <Grid size={{ xs: 12, md: 6 }} sx={{ textAlign: "center" }}>
