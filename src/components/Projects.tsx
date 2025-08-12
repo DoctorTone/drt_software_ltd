@@ -212,13 +212,10 @@ const Projects = () => {
                 target="_blank"
                 rel="noreferrer noopener"
               >
-                <Img src="./images/points.jpg" alt="projects" />
+                <Video autoPlay muted loop>
+                  <source src="./videos/Points.mp4" type="video/mp4" />
+                </Video>
               </a>
-              {!isMobile && (
-                <Typography className="hoverText" variant="h4">
-                  3D Data Visualisation
-                </Typography>
-              )}
             </div>
           </Grid>
           <Grid size={{ xs: 12, md: 6 }} sx={{ textAlign: "center" }}>
@@ -257,6 +254,63 @@ const Projects = () => {
                 Go to Demo
               </Button>
             </Box>
+          </Grid>
+        </Grid>
+      </Box>
+      <Box sx={{ mt: 5, background: "#404040", borderRadius: "20px" }}>
+        <Grid container spacing={2} sx={{ mt: 3, padding: "30px" }}>
+          <Grid size={{ xs: 12, md: 6 }} sx={{ textAlign: "center" }}>
+            <Typography variant="h5" color="#386fc7">
+              Visualisations
+            </Typography>
+            <Typography variant="h6" color="orange">
+              Point cloud
+            </Typography>
+            <Typography variant="h3" sx={{ mb: 3 }}>
+              City Landmarks
+            </Typography>
+            <Typography
+              variant="body1"
+              className="paddingProjects"
+              sx={{ textAlign: "justify" }}
+            >
+              <p>
+                The web is also capable of showing large quantities of data in
+                real-time. Here we can see a point cloud representing a city
+                centre with over 1 million points!
+              </p>
+              <p>
+                You can explore the city and see the relevant landmarks. The
+                potential here is huge, everything from real-time traffic
+                reports to local information updates.
+              </p>
+            </Typography>
+            <Box sx={{ textAlign: "center" }}>
+              <Button
+                href="https://drt-software.com/PointCloud/"
+                target="_blank"
+                rel="noreferrer noopener"
+                variant="contained"
+              >
+                Go to Demo
+              </Button>
+            </Box>
+          </Grid>
+          <Grid
+            size={{ xs: 12, md: 6 }}
+            sx={{ display: "flex", alignItems: "center" }}
+          >
+            <div className="bordered">
+              <a
+                href="https://www.drt-software.com/PointsViz/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <Video autoPlay muted loop>
+                  <source src="./videos/PointCloud.mp4" type="video/mp4" />
+                </Video>
+              </a>
+            </div>
           </Grid>
         </Grid>
       </Box>
