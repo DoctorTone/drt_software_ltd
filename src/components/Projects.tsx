@@ -358,13 +358,10 @@ const Projects = () => {
                 target="_blank"
                 rel="noreferrer noopener"
               >
-                <Img src="./images/space.jpg" alt="projects" />
+                <Video autoPlay muted loop>
+                  <source src="./videos/Solar.mp4" type="video/mp4" />
+                </Video>
               </a>
-              {!isMobile && (
-                <Typography className="hoverText" variant="h4">
-                  Physics & Simulation
-                </Typography>
-              )}
             </div>
           </Grid>
         </Grid>
@@ -422,13 +419,10 @@ const Projects = () => {
                 target="_blank"
                 rel="noreferrer noopener"
               >
-                <Img src="./images/covid.jpg" alt="projects" />
+                <Video autoPlay muted loop>
+                  <source src="./videos/Pandemic.mp4" type="video/mp4" />
+                </Video>
               </a>
-              {!isMobile && (
-                <Typography className="hoverText" variant="h4">
-                  3D Data Visualisation
-                </Typography>
-              )}
             </div>
           </Grid>
         </Grid>
