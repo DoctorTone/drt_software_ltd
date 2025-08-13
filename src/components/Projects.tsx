@@ -471,13 +471,10 @@ const Projects = () => {
                 target="_blank"
                 rel="noreferrer noopener"
               >
-                <Img src="./images/horror.jpg" alt="projects" />
+                <Video autoPlay muted loop>
+                  <source src="./videos/Horror.mp4" type="video/mp4" />
+                </Video>
               </a>
-              {!isMobile && (
-                <Typography className="hoverText" variant="h4">
-                  3D Data Visualisation
-                </Typography>
-              )}
             </div>
           </Grid>
         </Grid>
