@@ -20,7 +20,7 @@ const Services = () => {
             size={{ xs: 12, md: 6 }}
             sx={{ display: "flex", alignItems: "center" }}
           >
-            <Img src="./images/covid.jpg" alt="projects" />
+            <Img src="./images/dataViz.jpg" alt="projects" />
           </Grid>
           <Grid size={{ xs: 12, md: 6 }} sx={{ textAlign: "center" }}>
             <Typography variant="h5" color="orange">
