@@ -2,7 +2,7 @@ import Grid from "@mui/material/Grid2";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
-import { VideoRecord } from "../state/Config";
+import { VideoRecord } from "../state/VideoData";
 
 interface VideoProps {
   vidRecord: VideoRecord;

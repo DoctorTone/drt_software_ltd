@@ -1,5 +1,5 @@
 import Container from "@mui/material/Container";
-import { VIDEOS } from "../state/Config";
+import { VIDEOS } from "../state/VideoData";
 import VideoDemo from "./VideoDemo";
 
 const Projects = () => {
