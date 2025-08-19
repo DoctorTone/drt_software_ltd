@@ -49,7 +49,7 @@ const VIDEOS: VideoRecord[] = [
     url: "https://www.drt-software.com/SleepViz/",
     text1: `This visualisation explores a subject's sleep patterns over several months,
 		showing multiple attributes and trends. The interactive design allows you to select specific
-		metrics, adjust scaling and highlight trends.`,
+		metrics, adjust scaling and highlight patterns.`,
     text2: `By utilising the 3D space, the app creates a clearer, more effective view of the complex
 		data.`,
     text3: undefined,
@@ -61,14 +61,11 @@ const VIDEOS: VideoRecord[] = [
     category: "Sport",
     title: "Results Analysis",
     url: "https://www.drt-software.com/PointsViz/",
-    text1: `Medical imaging software can be very complex and expensive, with 
-		a steep learning curve. We wanted to create an application that
-                could be used to measure and monitor tumour lesions that was
-                simple to use and gave accura`,
-    text2: `             In conjunction with a neurosurgeon, I built an application that
-                took a collection of 2D medical images and created a 3D volume.
-                This could then be used to visualise anatomic structures and
-                identify areas.`,
+    text1: `Here you can see a football team's cumulative points across multiple seasons, 
+		brought to life by 3D. Layering the data in space, it becomes easier to spot patterns,
+		trends and difference in performance.`,
+    text2: `It's an alternative to traditinal 2D charts, showing how 3D can be more interactive 
+		and reveal new insights in your data.`,
     text3: undefined,
   },
   {
