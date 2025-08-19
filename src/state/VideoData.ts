@@ -71,18 +71,13 @@ const VIDEOS: VideoRecord[] = [
   {
     id: "cloud",
     source: "./videos/PointCloud.mp4",
-    left: true,
+    left: false,
     category: "Point cloud",
     title: "City Landmarks",
     url: "https://drt-software.com/PointCloud/",
-    text1: `Medical imaging software can be very complex and expensive, with 
-		a steep learning curve. We wanted to create an application that
-                could be used to measure and monitor tumour lesions that was
-                simple to use and gave accura`,
-    text2: `             In conjunction with a neurosurgeon, I built an application that
-                took a collection of 2D medical images and created a 3D volume.
-                This could then be used to visualise anatomic structures and
-                identify areas.`,
+    text1: `If you think the web cannot handle massive amounts of data in real-time, then watch
+		this demo. Here, a point cloud of over one million points recreates a city centre in 3D.`,
+    text2: `Imagine all the possibilities, from live traffic updates to real-time local insights.`,
     text3: undefined,
   },
   {
@@ -92,31 +87,25 @@ const VIDEOS: VideoRecord[] = [
     category: "Space",
     title: "Solar System",
     url: "https://www.drt-software.com/Solar/",
-    text1: `Medical imaging software can be very complex and expensive, with 
-		a steep learning curve. We wanted to create an application that
-                could be used to measure and monitor tumour lesions that was
-                simple to use and gave accura`,
-    text2: `             In conjunction with a neurosurgeon, I built an application that
-                took a collection of 2D medical images and created a 3D volume.
-                This could then be used to visualise anatomic structures and
-                identify areas.`,
+    text1: `This interactive 3D simulation was created for schools to bring the solar system to
+		life. It helps students grasp the immense distances and scales between the planets, 
+		especially in comparison to the Earth.`,
+    text2: `This is a really powerful way that 3D can help educate, making the subject feel real
+		and memorable.`,
     text3: undefined,
   },
   {
     id: "covid",
     source: "./videos/Pandemic.mp4",
-    left: true,
+    left: false,
     category: "Multi Dimensional",
     title: "Pandemic",
     url: "https://www.drt-software.com/Covid/",
-    text1: `Medical imaging software can be very complex and expensive, with 
-		a steep learning curve. We wanted to create an application that
-                could be used to measure and monitor tumour lesions that was
-                simple to use and gave accura`,
-    text2: `             In conjunction with a neurosurgeon, I built an application that
-                took a collection of 2D medical images and created a 3D volume.
-                This could then be used to visualise anatomic structures and
-                identify areas.`,
+    text1: `During the pandemic, data visualisation was vital for understanding the spread 
+		of the virus. This 3D app breaks down the UK data into clear strands, allowing patterns and
+		comparisons to be made more easily.`,
+    text2: `This highlights how 3D visualisations can help scientists and governments make 
+		sense of complex information to better inform the public.`,
     text3: undefined,
   },
   {
@@ -126,14 +115,12 @@ const VIDEOS: VideoRecord[] = [
     category: "Real-Time",
     title: "Brain Activity",
     url: "https://www.drt-software.com/Horror/",
-    text1: `Medical imaging software can be very complex and expensive, with 
-		a steep learning curve. We wanted to create an application that
-                could be used to measure and monitor tumour lesions that was
-                simple to use and gave accura`,
-    text2: `             In conjunction with a neurosurgeon, I built an application that
-                took a collection of 2D medical images and created a 3D volume.
-                This could then be used to visualise anatomic structures and
-                identify areas.`,
+    text1: `The web is an ideal platform for real-time data visualisation. At the Mayhem 
+		Horror Festival, we captured and visualised the EEG brain activity of film fans as they 
+		experienced the scares, live and as they all happened.`,
+    text2: `Built in collaboration with Thrill Laboratory and the Mixed Reality Lab, it's a 
+		great example of turning raw data into an immersive experience, both for cinema-goers and
+		an online audience.`,
     text3: undefined,
   },
   {
