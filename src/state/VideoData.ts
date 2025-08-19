@@ -43,18 +43,15 @@ const VIDEOS: VideoRecord[] = [
   {
     id: "sleep",
     source: "./videos/Sleep.mp4",
-    left: true,
+    left: false,
     category: "Multi Dimensional",
     title: "Sleep Analysis",
     url: "https://www.drt-software.com/SleepViz/",
-    text1: `Medical imaging software can be very complex and expensive, with 
-		a steep learning curve. We wanted to create an application that
-                could be used to measure and monitor tumour lesions that was
-                simple to use and gave accura`,
-    text2: `             In conjunction with a neurosurgeon, I built an application that
-                took a collection of 2D medical images and created a 3D volume.
-                This could then be used to visualise anatomic structures and
-                identify areas.`,
+    text1: `This visualisation explores a subject's sleep patterns over several months,
+		showing multiple attributes and trends. The interactive design allows you to select specific
+		metrics, adjust scaling and highlight trends.`,
+    text2: `By utilising the 3D space, the app creates a clearer, more effective view of the complex
+		data.`,
     text3: undefined,
   },
   {
