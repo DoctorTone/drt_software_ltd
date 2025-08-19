@@ -126,18 +126,15 @@ const VIDEOS: VideoRecord[] = [
   {
     id: "ftse",
     source: "./videos/FTSE.mp4",
-    left: true,
+    left: false,
     category: "Finance",
     title: "FTSE Tracking",
     url: "https://www.drt-software.com/FTSEViz/",
-    text1: `Medical imaging software can be very complex and expensive, with 
-		a steep learning curve. We wanted to create an application that
-                could be used to measure and monitor tumour lesions that was
-                simple to use and gave accura`,
-    text2: `             In conjunction with a neurosurgeon, I built an application that
-                took a collection of 2D medical images and created a 3D volume.
-                This could then be used to visualise anatomic structures and
-                identify areas.`,
+    text1: `This application visualises the FTSE-100 over an entire year, revealing daily, 
+		weekly, and monthly share price trends. The 3D bars also give an indcation of pricing
+		fluctuations across time.`,
+    text2: `This amplifies how a novel 3D visualisation can present multiple layers in a single,
+		powerful view.`,
     text3: undefined,
   },
 ];
