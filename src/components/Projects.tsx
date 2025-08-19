@@ -4,6 +4,7 @@ import { VIDEOS } from "../state/VideoData";
 import VideoDemo from "./VideoDemo";
 
 const minVisible = 0.5;
+const numSteps = 20;
 
 const centerDistance = (el: Element) => {
   const r = el.getBoundingClientRect();
@@ -39,9 +40,6 @@ const Projects = () => {
       }
     });
 
-    // DEBUG
-    console.log("Best = ", bestId);
-
     setPlayingId(bestId);
   };
 
@@ -54,7 +52,9 @@ const Projects = () => {
         }
         pickMostVisible();
       },
-      { threshold: Array.from({ length: 21 }, (_, i) => i / 20) } // 0,0.1,...1
+      {
+        threshold: Array.from({ length: numSteps + 1 }, (_, i) => i / numSteps),
+      }
     );
 
     ioRef.current = observer;

@@ -18,14 +18,12 @@ const VIDEOS: VideoRecord[] = [
     category: "Medical",
     title: "Tumour Detection",
     url: "https://www.drt-software.com/MedicalViz/",
-    text1: `Medical imaging software can be very complex and expensive, with 
-		a steep learning curve. We wanted to create an application that
+    text1: `Medical imaging software is typically very complex and expensive. We wanted to create an application that
                 could be used to measure and monitor tumour lesions that was
-                simple to use and gave accura`,
+                simple to use and gave accurate results.`,
     text2: `             In conjunction with a neurosurgeon, I built an application that
                 took a collection of 2D medical images and created a 3D volume.
-                This could then be used to visualise anatomic structures and
-                identify areas.`,
+                This could then be used to visualise and identify anatomic structures.`,
     text3: undefined,
   },
   {
@@ -35,14 +33,11 @@ const VIDEOS: VideoRecord[] = [
     category: "Music",
     title: "Interactive Tuition",
     url: "https://www.drt-software.com/DrumViz/",
-    text1: `Medical imaging software can be very complex and expensive, with 
-		a steep learning curve. We wanted to create an application that
-                could be used to measure and monitor tumour lesions that was
-                simple to use and gave accura`,
-    text2: `             In conjunction with a neurosurgeon, I built an application that
-                took a collection of 2D medical images and created a 3D volume.
-                This could then be used to visualise anatomic structures and
-                identify areas.`,
+    text1: `Learning to play the drums can be difficult, but what if you coud see exactly what 
+		to play? This app puts a 3D drumkit in front of you, showing which drum to hit and when. You
+		can slow down or speed the piece up, making practice easier.`,
+    text2: `This is a fresh, innovative use of 3D showing how powerful visualisation can be in
+		a learning environment.`,
     text3: undefined,
   },
   {
