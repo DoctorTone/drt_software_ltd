@@ -14,7 +14,7 @@ const VIDEOS: VideoRecord[] = [
   {
     id: "medical",
     source: "./videos/Medical.mp4",
-    left: false,
+    left: true,
     category: "Medical",
     title: "Tumour Detection",
     url: "https://www.drt-software.com/MedicalViz/",
@@ -48,7 +48,7 @@ const VIDEOS: VideoRecord[] = [
   {
     id: "sleep",
     source: "./videos/Sleep.mp4",
-    left: false,
+    left: true,
     category: "Multi Dimensional",
     title: "Sleep Analysis",
     url: "https://www.drt-software.com/SleepViz/",
@@ -82,7 +82,7 @@ const VIDEOS: VideoRecord[] = [
   {
     id: "cloud",
     source: "./videos/PointCloud.mp4",
-    left: false,
+    left: true,
     category: "Point cloud",
     title: "City Landmarks",
     url: "https://drt-software.com/PointCloud/",
@@ -116,7 +116,7 @@ const VIDEOS: VideoRecord[] = [
   {
     id: "covid",
     source: "./videos/Pandemic.mp4",
-    left: false,
+    left: true,
     category: "Multi Dimensional",
     title: "Pandemic",
     url: "https://www.drt-software.com/Covid/",
@@ -150,7 +150,7 @@ const VIDEOS: VideoRecord[] = [
   {
     id: "ftse",
     source: "./videos/FTSE.mp4",
-    left: false,
+    left: true,
     category: "Finance",
     title: "FTSE Tracking",
     url: "https://www.drt-software.com/FTSEViz/",
