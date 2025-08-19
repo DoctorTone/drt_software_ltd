@@ -16,20 +16,21 @@ const TopSection = () => {
         </Grid>
       </Grid>
       <Typography variant="h6" sx={{ mt: 3 }}>
-        I'm passionate about all things 3D, especially how 3D data visualisation
-        can unlock new insights, engagement and value for your business. Data is
-        everywhere, but too often we experience it in two dimensions -
-        spreadsheets, dashboards, reports - yet we live in a three-dimensional
-        world.
-      </Typography>
-      <Typography variant="h6" sx={{ mt: 2, fontStyle: "italic" }}>
-        That's where I come in.
+        I'm passionate about all things 3D. I help businesses unlock the full
+        potential of their data through 3D visualisations.
       </Typography>
       <Typography variant="h6" sx={{ mt: 2 }}>
-        I specialise in turning complex data into interactive 3D experiences
-        that people understand. Whether it's scientific data, real-time
-        performance metrics, or historical trends, I build highly interactive
-        visual interfaces.
+        Instead of flat spreadsheets and dashboards, I create interactive 3D
+        experiences that make complex information easy to understand, explore,
+        and act on.
+      </Typography>
+      <Typography variant="h6" sx={{ mt: 2 }}>
+        Whether you need to reveal hidden insights, engage your audience, or
+        communicate performance in real time, I can make your data impossible to
+        ignore.
+      </Typography>
+      <Typography variant="h6" sx={{ mt: 2, fontStyle: "italic" }}>
+        Data doesn’t have to be flat — let's make it 3D.
       </Typography>
     </Container>
   );
