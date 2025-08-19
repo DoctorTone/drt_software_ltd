@@ -17,7 +17,7 @@ const VideoDemo = forwardRef<HTMLVideoElement, VideoProps>(
           <Box sx={{ mt: 5, background: "#404040", borderRadius: "20px" }}>
             <Grid container spacing={2} sx={{ mt: 3, padding: "30px" }}>
               <Grid
-                size={{ xs: 12, md: 6 }}
+                size={{ xs: 12, md: 7 }}
                 sx={{ display: "flex", alignItems: "center" }}
               >
                 <div className="bordered">
@@ -40,7 +40,7 @@ const VideoDemo = forwardRef<HTMLVideoElement, VideoProps>(
                   </a>
                 </div>
               </Grid>
-              <Grid size={{ xs: 12, md: 6 }} sx={{ textAlign: "center" }}>
+              <Grid size={{ xs: 12, md: 5 }} sx={{ textAlign: "center" }}>
                 <Typography variant="h5" color="#386fc7">
                   Visualisations
                 </Typography>
@@ -75,7 +75,7 @@ const VideoDemo = forwardRef<HTMLVideoElement, VideoProps>(
         ) : (
           <Box sx={{ mt: 5, background: "#404040", borderRadius: "20px" }}>
             <Grid container spacing={2} sx={{ mt: 3, padding: "30px" }}>
-              <Grid size={{ xs: 12, md: 6 }} sx={{ textAlign: "center" }}>
+              <Grid size={{ xs: 12, md: 5 }} sx={{ textAlign: "center" }}>
                 <Typography variant="h5" color="#386fc7">
                   Visualisations
                 </Typography>
@@ -106,7 +106,7 @@ const VideoDemo = forwardRef<HTMLVideoElement, VideoProps>(
                 </Box>
               </Grid>
               <Grid
-                size={{ xs: 12, md: 6 }}
+                size={{ xs: 12, md: 7 }}
                 sx={{ display: "flex", alignItems: "center" }}
               >
                 <div className="bordered">

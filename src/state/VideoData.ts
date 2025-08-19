@@ -14,7 +14,7 @@ const VIDEOS: VideoRecord[] = [
   {
     id: "medical",
     source: "./videos/Medical.mp4",
-    left: true,
+    left: false,
     category: "Medical",
     title: "Tumour Detection",
     url: "https://www.drt-software.com/MedicalViz/",
