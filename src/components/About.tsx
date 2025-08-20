@@ -25,12 +25,12 @@ const About = () => {
         <Grid container sx={{ textAlign: "center" }}>
           <Grid size={10} offset={1}>
             <Typography variant="h6">
-              I'm a software developer with more than 25 years' experience
-              building interactive 3D applications, specialising in data
-              visualisation and virtual reality. I help teams turn complex
-              datasets and ideas into immersive, engaging experiences. I've
-              partnered with start-ups, enterprises, and universities to deliver
-              real and robust outcomes.
+              I'm a software developer with over 25 years of experience building
+              interactive 3D applications, specialising in data visualisation
+              and virtual reality. I help teams turn complex datasets and ideas
+              into immersive, engaging experiences. I've partnered with
+              start-ups, enterprises, and universities to deliver real and
+              robust outcomes.
             </Typography>
           </Grid>
         </Grid>

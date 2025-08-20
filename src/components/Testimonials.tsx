@@ -60,7 +60,7 @@ const Testimonials = () => {
           <ArrowBackIosIcon onClick={previousTestimonial} />
         </Grid>
         <Grid size={10} sx={{ textAlign: "center" }}>
-          <Typography variant="h5" color="#386fc7" sx={{ mb: 3 }}>
+          <Typography variant="h5" color="#0d18de" sx={{ mb: 3 }}>
             Testimonials
           </Typography>
           <Typography variant="h5" id="testimonial-text" sx={{ mb: 2 }}>
