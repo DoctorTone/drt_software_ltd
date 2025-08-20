@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
 import Grid from "@mui/material/Grid2";
@@ -8,6 +8,7 @@ import testimonials from "../data/testimonials";
 
 const Testimonials = () => {
   const [currentTestimonial, setCurrentTestimonial] = useState(0);
+  const [hovered, setHovered] = useState(false);
 
   const fadeOutNextTestimonial = () => {
     const elem = document.getElementById("testimonial-text");
@@ -49,6 +50,10 @@ const Testimonials = () => {
     fadeOutNextTestimonial();
   };
 
+  useEffect(() => {
+    document.body.style.cursor = hovered ? "pointer" : "auto";
+  }, [hovered]);
+
   return (
     <Container
       className="testimonialsHeight"
@@ -57,7 +62,11 @@ const Testimonials = () => {
     >
       <Grid container>
         <Grid size={1} sx={{ textAlign: "center" }}>
-          <ArrowBackIosIcon onClick={previousTestimonial} />
+          <ArrowBackIosIcon
+            onClick={previousTestimonial}
+            onPointerOver={() => setHovered(true)}
+            onPointerOut={() => setHovered(false)}
+          />
         </Grid>
         <Grid size={10} sx={{ textAlign: "center" }}>
           <Typography variant="h5" color="#0d18de" sx={{ mb: 3 }}>
@@ -71,7 +80,11 @@ const Testimonials = () => {
           </Typography>
         </Grid>
         <Grid size={1} sx={{ textAlign: "center" }}>
-          <ArrowForwardIosIcon onClick={nextTestimonial} />
+          <ArrowForwardIosIcon
+            onClick={nextTestimonial}
+            onPointerOver={() => setHovered(true)}
+            onPointerOut={() => setHovered(false)}
+          />
         </Grid>
       </Grid>
     </Container>
