@@ -35,17 +35,21 @@ const Services = () => {
               sx={{ textAlign: "justify" }}
             >
               <p>
-                Visualising data in three dimensions can make it a lot easier to
-                understand. The extra space allows the associated attributes to
-                be configured and arranged more effectively than a 2D design.
-              </p>{" "}
+                I help organisations turn complex, multi-dimensional data into
+                interactive 3D experiences people can explore and understand.
+              </p>
               <p>
-                Having the data inside a web application also makes it highly
-                interactive and easier to spot trends and patterns.
-              </p>{" "}
+                Whether it's live operational metrics, scientific results,
+                geospatial models, or historical trends, I build visualisations
+                that reveal patterns, support decisions, and elevate
+                communication.
+              </p>
               <p>
-                I have visualised data from lots of fields including financial,
-                medical, health, architecture, sports and many more.
+                Experience includes finance, healthcare, medical research,
+                architecture, sports, and lots more.
+              </p>
+              <p>
+                <em>Your data doesn't have to be flat.</em>
               </p>
             </Typography>
             <Button
@@ -73,20 +77,16 @@ const Services = () => {
               sx={{ textAlign: "justify" }}
             >
               <p>
-                Imagine being able to guide your visitors through a virtual
-                experience of your business, or being able to showcase your
-                products as if they were right in front of you.
-              </p>{" "}
-              <p>
-                Experiencing a world in virtual reality takes the feeling of
-                immersion to another level. Once you have walked around a
-                virtual space or interacted with objects by reaching out and
-                touching them, you will not believe the level of engagement.
+                I design and build immersive VR applications that create
+                memorable experiences. This can be extending data visualisations
+                to enhance spatial relationships and hands-on interaction.
+                Visualisations don't have to stop at the browser, you can truly
+                step into your data.
               </p>
+
               <p>
-                {" "}
-                Our virtual art gallery is a great example - you can see and
-                experience beautiful art in a way that you never could before.
+                Broader experiences include interactive training, product demos,
+                architectural walkthroughs, and interactive educational content.
               </p>
             </Typography>
             <Button
@@ -126,13 +126,16 @@ const Services = () => {
               sx={{ textAlign: "justify" }}
             >
               <p>
-                If you are stuck on what direction to take with your project, or
-                need help with all the technical details surrounding 3D graphics
-                at the moment, then please get in touch.
+                Stuck on direction, tools, or technical details? I provide
+                independent guidance on architecture, tooling, and delivery for
+                interactive 3D.
               </p>
+
               <p>
-                You can book a free 30 minute call below, completely free and
-                with no pressure to hire me or work with me.
+                I can help you make the right choices across 3D data
+                visualisation and general 3D/VR. We'll clarify goals, pick the
+                right tech, and map a practical path to a working prototype or
+                production app.
               </p>
             </Typography>
             <Button
