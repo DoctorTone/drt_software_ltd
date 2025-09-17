@@ -121,6 +121,12 @@ const NavBar = () => {
                   About
                 </MenuItem>
                 <MenuItem
+                  className="sectionMobile"
+                  onClick={() => handleClose(4)}
+                >
+                  FAQ
+                </MenuItem>
+                <MenuItem
                   component="button"
                   onClick={handleOpenModal}
                   sx={{
@@ -207,6 +213,17 @@ const NavBar = () => {
                   }}
                 >
                   About
+                </Typography>
+                <Typography
+                  variant="h6"
+                  className="section"
+                  sx={{
+                    textDecoration: "none",
+                    color: "white",
+                    cursor: "pointer",
+                  }}
+                >
+                  FAQ
                 </Typography>
                 <Typography
                   variant="h6"

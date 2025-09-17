@@ -15,22 +15,11 @@ const TopSection = () => {
           </Typography>
         </Grid>
       </Grid>
+      <Typography variant="h5" sx={{ mt: 3, color: "orange" }}>
+        Would you like to see your data in a whole new dimension?
+      </Typography>
       <Typography variant="h6" sx={{ mt: 3 }}>
-        I'm passionate about all things 3D. I help businesses unlock the full
-        potential of their data through 3D visualisations.
-      </Typography>
-      <Typography variant="h6" sx={{ mt: 2 }}>
-        Instead of flat spreadsheets and dashboards, I create interactive 3D
-        experiences that make complex information easy to understand, explore,
-        and act on.
-      </Typography>
-      <Typography variant="h6" sx={{ mt: 2 }}>
-        Whether you need to reveal hidden insights, engage your audience, or
-        communicate performance in real time, I can make your data impossible to
-        ignore.
-      </Typography>
-      <Typography variant="h6" sx={{ mt: 2, fontStyle: "italic" }}>
-        Data doesn’t have to be flat — let's make it 3D.
+        I'm passionate about 3D and how it can transform your data.
       </Typography>
     </Container>
   );

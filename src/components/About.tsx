@@ -30,7 +30,7 @@ const About = () => {
               and virtual reality. I help teams turn complex datasets and ideas
               into immersive, engaging experiences. I've partnered with
               industry, academia, startups, solopreneurs and organisations to
-              create real-world applications.
+              create stunning real-world applications.
             </Typography>
           </Grid>
         </Grid>
