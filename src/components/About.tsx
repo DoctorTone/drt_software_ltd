@@ -29,8 +29,8 @@ const About = () => {
               interactive 3D applications, specialising in data visualisation
               and virtual reality. I help teams turn complex datasets and ideas
               into immersive, engaging experiences. I've partnered with
-              start-ups, enterprises, and universities to deliver real and
-              robust outcomes.
+              industry, academia, startups, solopreneurs and organisations to
+              create real-world applications.
             </Typography>
           </Grid>
         </Grid>

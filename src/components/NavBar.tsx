@@ -130,7 +130,7 @@ const NavBar = () => {
                     padding: "5px 7px",
                   }}
                 >
-                  Message
+                  Contact
                 </MenuItem>
               </Menu>
             </Box>
@@ -221,7 +221,7 @@ const NavBar = () => {
                     cursor: "pointer",
                   }}
                 >
-                  Message
+                  Contact
                 </Typography>
               </Box>
             </Box>
