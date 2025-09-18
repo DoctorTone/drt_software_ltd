@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import AppBar from "@mui/material/AppBar";
 import { styled } from "@mui/material/styles";
 import Toolbar from "@mui/material/Toolbar";
@@ -12,6 +12,7 @@ import ContactModal from "../modals/ContactModal";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import ScrollToPlugin from "gsap/ScrollToPlugin";
+import useStore from "../state/store";
 
 const Img = styled("img")({
   display: "block",
@@ -23,6 +24,8 @@ const NavBar = () => {
   gsap.registerPlugin(ScrollToPlugin);
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
   const [openModal, setOpenModal] = useState(false);
+  const showContactModal = useStore((state) => state.showContactModal);
+  const setShowContactModal = useStore((state) => state.setShowContactModal);
 
   const handleOpenNavMenu = (event: React.MouseEvent<HTMLButtonElement>) => {
     setAnchorEl(event.currentTarget);
@@ -43,6 +46,7 @@ const NavBar = () => {
 
   const handleCloseModal = () => {
     setOpenModal(false);
+    setShowContactModal(false);
   };
 
   useGSAP(() => {
@@ -55,6 +59,12 @@ const NavBar = () => {
       });
     });
   }, []);
+
+  useEffect(() => {
+    if (showContactModal) {
+      handleOpenModal();
+    }
+  }, [showContactModal]);
 
   return (
     <Container>

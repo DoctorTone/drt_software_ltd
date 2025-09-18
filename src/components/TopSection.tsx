@@ -2,8 +2,15 @@ import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
 import Grid from "@mui/material/Grid2";
 import Button from "@mui/material/Button";
+import useStore from "../state/store";
 
 const TopSection = () => {
+  const setShowContactModal = useStore((state) => state.setShowContactModal);
+
+  const openContactModal = () => {
+    setShowContactModal(true);
+  };
+
   return (
     <Container className="plus-jakarta-sans-main" sx={{ mt: 15, mb: 5 }}>
       <Grid container spacing={2}>
@@ -33,8 +40,10 @@ const TopSection = () => {
       </Typography>
       <Typography variant="h6" sx={{ mt: 3 }}>
         Need more convincing? Check out the FAQ or feel free to get in touch 👉{" "}
-        <Button variant="contained">Contact</Button> 👉{" "}
-        <Button variant="contained">Book a call</Button>
+        <Button onClick={openContactModal} variant="contained">
+          Contact
+        </Button>{" "}
+        👉 <Button variant="contained">Book a call</Button>
       </Typography>
     </Container>
   );
