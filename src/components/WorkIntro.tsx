@@ -7,8 +7,8 @@ const WorkIntro = () => {
     <Container>
       <Divider sx={{ backgroundColor: "orange" }} variant="middle" />
       <Typography variant="h6" sx={{ mt: 3 }} id="projects_page">
-        Don't just take my word for it, here are some examples of 3D
-        transformations.
+        Don't just take my word for it, here are some examples of 3D data
+        visualisation in action.
       </Typography>
     </Container>
   );

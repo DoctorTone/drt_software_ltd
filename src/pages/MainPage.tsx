@@ -7,6 +7,7 @@ import About from "../components/About";
 import Footer from "../components/Footer";
 import Social from "../components/Social";
 import WorkIntro from "../components/WorkIntro";
+import FAQ from "../components/FAQ";
 
 const MainPage = () => {
   return (
@@ -17,6 +18,7 @@ const MainPage = () => {
       <Projects />
       <Services />
       <Testimonials />
+      <FAQ />
       <About />
       <Social />
       <Footer />
