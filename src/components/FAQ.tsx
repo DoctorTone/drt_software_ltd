@@ -4,10 +4,18 @@ import ListItem from "@mui/material/ListItem";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import PlayArrowIcon from "@mui/icons-material/PlayArrow";
+import Button from "@mui/material/Button";
+import useStore from "../state/store";
 
 const FAQ = () => {
+  const setShowContactModal = useStore((state) => state.setShowContactModal);
+
+  const openContactModal = () => {
+    setShowContactModal(true);
+  };
+
   return (
-    <Container>
+    <Container id="section4">
       <Box
         sx={{
           mt: 5,
@@ -112,6 +120,32 @@ const FAQ = () => {
                 I'm definitely working on that, but you may still need a custom
                 data visualisation service that can display your data in exactly
                 the way that you want to fit your particular context.
+              </Typography>
+            </ListItemText>
+          </ListItem>
+          <ListItem alignItems="flex-start">
+            <ListItemIcon>
+              <PlayArrowIcon color="warning" />
+            </ListItemIcon>
+            <ListItemText>
+              <Typography variant="h6" sx={{ fontStyle: "italic" }}>
+                OK I'm convinced, what do I do now?
+              </Typography>
+              <Typography variant="body1" sx={{ color: "#cdcdcd" }}>
+                Great! Get in touch and we can discuss your data and how you
+                want to see it in 3D! Either email, send me a message 👉{" "}
+                <Button onClick={openContactModal} variant="contained">
+                  Contact
+                </Button>{" "}
+                or call 👉{" "}
+                <Button
+                  href="https://calendly.com/tony-mdjh/30min"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  variant="contained"
+                >
+                  Book a call
+                </Button>
               </Typography>
             </ListItemText>
           </ListItem>

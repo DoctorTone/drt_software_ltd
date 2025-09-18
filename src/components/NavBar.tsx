@@ -132,7 +132,7 @@ const NavBar = () => {
                 </MenuItem>
                 <MenuItem
                   className="sectionMobile"
-                  onClick={() => handleClose(4)}
+                  onClick={() => handleClose(5)}
                 >
                   About
                 </MenuItem>
