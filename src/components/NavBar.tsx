@@ -118,13 +118,13 @@ const NavBar = () => {
                   className="sectionMobile"
                   onClick={() => handleClose(4)}
                 >
-                  About
+                  FAQ
                 </MenuItem>
                 <MenuItem
                   className="sectionMobile"
                   onClick={() => handleClose(4)}
                 >
-                  FAQ
+                  About
                 </MenuItem>
                 <MenuItem
                   component="button"
@@ -212,7 +212,7 @@ const NavBar = () => {
                     cursor: "pointer",
                   }}
                 >
-                  About
+                  FAQ
                 </Typography>
                 <Typography
                   variant="h6"
@@ -223,7 +223,7 @@ const NavBar = () => {
                     cursor: "pointer",
                   }}
                 >
-                  FAQ
+                  About
                 </Typography>
                 <Typography
                   variant="h6"

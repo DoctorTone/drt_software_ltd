@@ -1,6 +1,7 @@
 import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
 import Grid from "@mui/material/Grid2";
+import Button from "@mui/material/Button";
 
 const TopSection = () => {
   return (
@@ -20,6 +21,20 @@ const TopSection = () => {
       </Typography>
       <Typography variant="h6" sx={{ mt: 3 }}>
         I'm passionate about 3D and how it can transform your data.
+      </Typography>
+      <Typography variant="h6" sx={{ mt: 3 }}>
+        3D can make complex data simple, the extra dimension can show much more
+        information, revealing trends and insights that otherwise wouldn't be
+        seen.
+      </Typography>
+      <Typography variant="h6" sx={{ mt: 1 }}>
+        We live in a three-dimensional world, flat reports aren't enough
+        anymore. You need to get a deeper understanding.
+      </Typography>
+      <Typography variant="h6" sx={{ mt: 3 }}>
+        Need more convincing? Check out the FAQ or feel free to get in touch 👉{" "}
+        <Button variant="contained">Contact</Button> 👉{" "}
+        <Button variant="contained">Book a call</Button>
       </Typography>
     </Container>
   );
