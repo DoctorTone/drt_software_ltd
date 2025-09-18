@@ -43,7 +43,15 @@ const TopSection = () => {
         <Button onClick={openContactModal} variant="contained">
           Contact
         </Button>{" "}
-        👉 <Button variant="contained">Book a call</Button>
+        👉{" "}
+        <Button
+          href="https://calendly.com/tony-mdjh/30min"
+          target="_blank"
+          rel="noreferrer noopener"
+          variant="contained"
+        >
+          Book a call
+        </Button>
       </Typography>
     </Container>
   );
