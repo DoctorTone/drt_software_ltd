@@ -2,13 +2,27 @@ import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
 import Grid from "@mui/material/Grid2";
 import Button from "@mui/material/Button";
+import gsap from "gsap";
+import ScrollToPlugin from "gsap/ScrollToPlugin";
 import useStore from "../state/store";
 
 const TopSection = () => {
+  gsap.registerPlugin(ScrollToPlugin);
   const setShowContactModal = useStore((state) => state.setShowContactModal);
+  const linkStyle = {
+    color: "orange",
+    cursor: "pointer",
+  };
 
   const openContactModal = () => {
     setShowContactModal(true);
+  };
+
+  const animate = () => {
+    gsap.to(window, {
+      duration: 2,
+      scrollTo: { y: "#section4", offsetY: 100 },
+    });
   };
 
   return (
@@ -39,7 +53,11 @@ const TopSection = () => {
         anymore. You need to get a deeper understanding.
       </Typography>
       <Typography variant="h6" sx={{ mt: 3 }}>
-        Need more convincing? Check out the FAQ or feel free to get in touch 👉{" "}
+        Need more convincing? Check out the{" "}
+        <span style={linkStyle} onClick={animate}>
+          FAQ
+        </span>{" "}
+        or feel free to get in touch 👉{" "}
         <Button onClick={openContactModal} variant="contained">
           Contact
         </Button>{" "}

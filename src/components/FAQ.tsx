@@ -39,8 +39,10 @@ const FAQ = () => {
               <Typography variant="body1" sx={{ color: "#cdcdcd" }}>
                 Due to all the additional space, you can see the patterns and
                 trends in the data more clearly and it's easier to explore and
-                interrogate. For multi-dimensional data, or data with lots of
-                attributes, this will be the most efficient way to see it.
+                interact. For multi-dimensional data, or data with lots of
+                attributes, this will be the most efficient way to see it. You
+                also have the benefits of stunning 3D graphics to showcase your
+                visualisations in a whole new light.
               </Typography>
             </ListItemText>
           </ListItem>
@@ -133,7 +135,10 @@ const FAQ = () => {
               </Typography>
               <Typography variant="body1" sx={{ color: "#cdcdcd" }}>
                 Great! Get in touch and we can discuss your data and how you
-                want to see it in 3D! Either email, send me a message 👉{" "}
+                want to see it in glorious 3D!
+              </Typography>
+              <Typography variant="body1" sx={{ color: "#cdcdcd", mt: 1 }}>
+                Either email, send me a message 👉{" "}
                 <Button onClick={openContactModal} variant="contained">
                   Contact
                 </Button>{" "}
