@@ -21,7 +21,10 @@ const FAQ = () => {
           mt: 5,
           background: "#404040",
           borderRadius: "20px",
-          padding: "30px",
+          padding: {
+            xs: "10px",
+            md: "30px",
+          },
         }}
       >
         <Typography variant="h5" color="orange" textAlign="center">
@@ -29,7 +32,14 @@ const FAQ = () => {
         </Typography>
         <List>
           <ListItem alignItems="flex-start">
-            <ListItemIcon>
+            <ListItemIcon
+              sx={{
+                minWidth: {
+                  xs: "15px",
+                  md: "40px",
+                },
+              }}
+            >
               <PlayArrowIcon color="warning" />
             </ListItemIcon>
             <ListItemText>
@@ -47,7 +57,14 @@ const FAQ = () => {
             </ListItemText>
           </ListItem>
           <ListItem alignItems="flex-start">
-            <ListItemIcon>
+            <ListItemIcon
+              sx={{
+                minWidth: {
+                  xs: "15px",
+                  md: "40px",
+                },
+              }}
+            >
               <PlayArrowIcon color="warning" />
             </ListItemIcon>
             <ListItemText>
@@ -62,7 +79,14 @@ const FAQ = () => {
             </ListItemText>
           </ListItem>
           <ListItem alignItems="flex-start">
-            <ListItemIcon>
+            <ListItemIcon
+              sx={{
+                minWidth: {
+                  xs: "15px",
+                  md: "40px",
+                },
+              }}
+            >
               <PlayArrowIcon color="warning" />
             </ListItemIcon>
             <ListItemText>
@@ -78,7 +102,14 @@ const FAQ = () => {
             </ListItemText>
           </ListItem>
           <ListItem alignItems="flex-start">
-            <ListItemIcon>
+            <ListItemIcon
+              sx={{
+                minWidth: {
+                  xs: "15px",
+                  md: "40px",
+                },
+              }}
+            >
               <PlayArrowIcon color="warning" />
             </ListItemIcon>
             <ListItemText>
@@ -95,7 +126,14 @@ const FAQ = () => {
             </ListItemText>
           </ListItem>
           <ListItem alignItems="flex-start">
-            <ListItemIcon>
+            <ListItemIcon
+              sx={{
+                minWidth: {
+                  xs: "15px",
+                  md: "40px",
+                },
+              }}
+            >
               <PlayArrowIcon color="warning" />
             </ListItemIcon>
             <ListItemText>
@@ -111,7 +149,14 @@ const FAQ = () => {
             </ListItemText>
           </ListItem>
           <ListItem alignItems="flex-start">
-            <ListItemIcon>
+            <ListItemIcon
+              sx={{
+                minWidth: {
+                  xs: "15px",
+                  md: "40px",
+                },
+              }}
+            >
               <PlayArrowIcon color="warning" />
             </ListItemIcon>
             <ListItemText>
@@ -126,7 +171,14 @@ const FAQ = () => {
             </ListItemText>
           </ListItem>
           <ListItem alignItems="flex-start">
-            <ListItemIcon>
+            <ListItemIcon
+              sx={{
+                minWidth: {
+                  xs: "15px",
+                  md: "40px",
+                },
+              }}
+            >
               <PlayArrowIcon color="warning" />
             </ListItemIcon>
             <ListItemText>
@@ -139,7 +191,11 @@ const FAQ = () => {
               </Typography>
               <Typography variant="body1" sx={{ color: "#cdcdcd", mt: 1 }}>
                 Either email, send me a message 👉{" "}
-                <Button onClick={openContactModal} variant="contained">
+                <Button
+                  onClick={openContactModal}
+                  variant="contained"
+                  sx={{ mb: 1 }}
+                >
                   Contact
                 </Button>{" "}
                 or call 👉{" "}
