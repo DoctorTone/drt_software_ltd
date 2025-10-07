@@ -69,9 +69,20 @@ const VIDEOS: VideoRecord[] = [
     text3: undefined,
   },
   {
+    id: "exhibit",
+    source: "./videos/Exhibit.mp4",
+    left: false,
+    category: "Exhibition",
+    title: "Natural History",
+    url: "https://www.drt-software.com/Exhibit/",
+    text1: `We can make a display or exhibition space more engaging by adding interesting facts directly into the visualisation.`,
+    text2: `This example shows how even animated scenes can use information points to draw attention to key details that visitors can select.`,
+    text3: undefined,
+  },
+  {
     id: "cloud",
     source: "./videos/PointCloud.mp4",
-    left: false,
+    left: true,
     category: "Point cloud",
     title: "City Landmarks",
     url: "https://drt-software.com/PointCloud/",
@@ -83,7 +94,7 @@ const VIDEOS: VideoRecord[] = [
   {
     id: "space",
     source: "./videos/Solar.mp4",
-    left: true,
+    left: false,
     category: "Space",
     title: "Solar System",
     url: "https://www.drt-software.com/Solar/",
@@ -97,7 +108,7 @@ const VIDEOS: VideoRecord[] = [
   {
     id: "covid",
     source: "./videos/Pandemic.mp4",
-    left: false,
+    left: true,
     category: "Multi Dimensional",
     title: "Pandemic",
     url: "https://www.drt-software.com/Covid/",
@@ -111,7 +122,7 @@ const VIDEOS: VideoRecord[] = [
   {
     id: "horror",
     source: "./videos/Horror.mp4",
-    left: true,
+    left: false,
     category: "Real-Time",
     title: "Brain Activity",
     url: "https://www.drt-software.com/Horror/",
@@ -126,7 +137,7 @@ const VIDEOS: VideoRecord[] = [
   {
     id: "ftse",
     source: "./videos/FTSE.mp4",
-    left: false,
+    left: true,
     category: "Finance",
     title: "FTSE Tracking",
     url: "https://www.drt-software.com/FTSEViz/",
