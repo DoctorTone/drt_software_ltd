@@ -12,9 +12,22 @@ export type VideoRecord = {
 
 const VIDEOS: VideoRecord[] = [
   {
+    id: "hallowen",
+    source: "./videos/Halloween.mp4",
+    left: false,
+    category: "Seasonal",
+    title: "Halloween",
+    url: "https://drt-software.com/Halloween/",
+    text1: `There are lots of infographics around events like Halloween, but these are usually 
+		static and often lacking a sense of atmosphere.`,
+    text2: ` This demo takes the infographic theme a bit further, adding ambient effects and animation
+		to tell the story, but still showing interesting facts and data.`,
+    text3: undefined,
+  },
+  {
     id: "medical",
     source: "./videos/Medical.mp4",
-    left: false,
+    left: true,
     category: "Medical",
     title: "Tumour Detection",
     url: "https://www.drt-software.com/MedicalViz/",
@@ -29,7 +42,7 @@ const VIDEOS: VideoRecord[] = [
   {
     id: "music",
     source: "./videos/Drums.mp4",
-    left: true,
+    left: false,
     category: "Music",
     title: "Interactive Tuition",
     url: "https://www.drt-software.com/DrumViz/",
@@ -43,7 +56,7 @@ const VIDEOS: VideoRecord[] = [
   {
     id: "sleep",
     source: "./videos/Sleep.mp4",
-    left: false,
+    left: true,
     category: "Multi Dimensional",
     title: "Sleep Analysis",
     url: "https://www.drt-software.com/SleepViz/",
@@ -57,7 +70,7 @@ const VIDEOS: VideoRecord[] = [
   {
     id: "points",
     source: "./videos/Points.mp4",
-    left: true,
+    left: false,
     category: "Sport",
     title: "Results Analysis",
     url: "https://www.drt-software.com/PointsViz/",
@@ -71,7 +84,7 @@ const VIDEOS: VideoRecord[] = [
   {
     id: "exhibit",
     source: "./videos/Exhibit.mp4",
-    left: false,
+    left: true,
     category: "Exhibition",
     title: "Natural History",
     url: "https://www.drt-software.com/Exhibit/",
@@ -82,7 +95,7 @@ const VIDEOS: VideoRecord[] = [
   {
     id: "cloud",
     source: "./videos/PointCloud.mp4",
-    left: true,
+    left: false,
     category: "Point cloud",
     title: "City Landmarks",
     url: "https://drt-software.com/PointCloud/",
@@ -94,7 +107,7 @@ const VIDEOS: VideoRecord[] = [
   {
     id: "space",
     source: "./videos/Solar.mp4",
-    left: false,
+    left: true,
     category: "Space",
     title: "Solar System",
     url: "https://www.drt-software.com/Solar/",
@@ -108,7 +121,7 @@ const VIDEOS: VideoRecord[] = [
   {
     id: "covid",
     source: "./videos/Pandemic.mp4",
-    left: true,
+    left: false,
     category: "Multi Dimensional",
     title: "Pandemic",
     url: "https://www.drt-software.com/Covid/",
@@ -122,7 +135,7 @@ const VIDEOS: VideoRecord[] = [
   {
     id: "horror",
     source: "./videos/Horror.mp4",
-    left: false,
+    left: true,
     category: "Real-Time",
     title: "Brain Activity",
     url: "https://www.drt-software.com/Horror/",
@@ -137,7 +150,7 @@ const VIDEOS: VideoRecord[] = [
   {
     id: "ftse",
     source: "./videos/FTSE.mp4",
-    left: true,
+    left: false,
     category: "Finance",
     title: "FTSE Tracking",
     url: "https://www.drt-software.com/FTSEViz/",
