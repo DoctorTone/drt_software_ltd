@@ -9,14 +9,12 @@ import Social from "../components/Social";
 import WorkIntro from "../components/WorkIntro";
 import FAQ from "../components/FAQ";
 import Photo from "../components/Photo";
-import Latest from "../components/Latest";
 
 const MainPage = () => {
   return (
     <>
       <NavBar />
       <Photo />
-      <Latest />
       <TopSection />
       <WorkIntro />
       <Projects />
